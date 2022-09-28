@@ -42,7 +42,7 @@ class AlertLang {
   // account error
   static title_account_error: SystemLang = {
     jp: "アカウントエラー",
-    en: "",
+    en: "Account error",
     es: "",
     it: "",
     ko: "",
@@ -51,7 +51,7 @@ class AlertLang {
   };
   static message_account_error: SystemLang = {
     jp: "アカウントの作成に失敗しました。やり直してください。",
-    en: "",
+    en: "Account creation failure. Please try again.",
     es: "",
     it: "",
     ko: "",
@@ -61,7 +61,7 @@ class AlertLang {
   // transaction error
   static title_transaction_error: SystemLang = {
     jp: "トランザクションエラー",
-    en: "",
+    en: "Transaction error",
     es: "",
     it: "",
     ko: "",
@@ -70,7 +70,7 @@ class AlertLang {
   };
   static message_transaction_error: SystemLang = {
     "jp": "トランザクション形式が正しくありません",
-    en: "",
+    en: "Malformed transaction",
     es: "",
     it: "",
     ko: "",
