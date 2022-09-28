@@ -3,7 +3,7 @@ import { SystemLang } from "../models/SystemStructure";
 class HistoryLang {
   static confirmed: SystemLang = {
     jp: "承認済",
-    en: "",
+    en: "Confirmed",
     es: "",
     it: "",
     ko: "",
@@ -12,7 +12,7 @@ class HistoryLang {
   };
   static unconfirmed: SystemLang = {
     jp: "未承認",
-    en: "",
+    en: "Unconfirmed",
     es: "",
     it: "",
     ko: "",
@@ -21,7 +21,7 @@ class HistoryLang {
   };
   static partial: SystemLang = {
     jp: "署名待ち",
-    en: "",
+    en: "Awaiting signature",
     es: "",
     it: "",
     ko: "",
@@ -30,7 +30,7 @@ class HistoryLang {
   };
   static get_history_error: SystemLang = {
     jp: "履歴を取得できませんでした",
-    en: "",
+    en: "Failed retrieving history.",
     es: "",
     it: "",
     ko: "",
@@ -39,7 +39,7 @@ class HistoryLang {
   };
   static copied: SystemLang = {
     jp: "コピーしました",
-    en: "",
+    en: "Copied",
     es: "",
     it: "",
     ko: "",
@@ -48,7 +48,7 @@ class HistoryLang {
   };
   static receive: SystemLang = {
     jp: "受信",
-    en: "",
+    en: "Received",
     es: "",
     it: "",
     ko: "",
@@ -57,7 +57,7 @@ class HistoryLang {
   };
   static send: SystemLang = {
     jp: "送信",
-    en: "",
+    en: "Send",
     es: "",
     it: "",
     ko: "",
@@ -75,7 +75,7 @@ class HistoryLang {
   };
   static tx_type_TRANSFER: SystemLang = {
     jp: "転送",
-    en: "",
+    en: "Transfer",
     es: "",
     it: "",
     ko: "",
@@ -84,7 +84,7 @@ class HistoryLang {
   };
   static tx_type_NAMESPACE_REGISTRATION: SystemLang = {
     jp: "ネームスペース登録",
-    en: "",
+    en: "Namespace registration",
     es: "",
     it: "",
     ko: "",
@@ -93,7 +93,7 @@ class HistoryLang {
   };
   static tx_type_ADDRESS_ALIAS: SystemLang = {
     jp: "ネームスペースに紐づくアドレスを編集",
-    en: "",
+    en: "Link namespace to an address",
     es: "",
     it: "",
     ko: "",
@@ -102,7 +102,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_ALIAS: SystemLang = {
     jp: "ネームスペースに紐づくモザイクを編集",
-    en: "",
+    en: "Linking a namespace to mosaic",
     es: "",
     it: "",
     ko: "",
@@ -111,7 +111,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_DEFINITION: SystemLang = {
     jp: "新しいモザイクの作成",
-    en: "",
+    en: "Create new mosaics",
     es: "",
     it: "",
     ko: "",
@@ -120,7 +120,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_SUPPLY_CHANGE: SystemLang = {
     jp: "モザイクの供給量を変更",
-    en: "",
+    en: "Mosaic supply change",
     es: "",
     it: "",
     ko: "",
@@ -129,7 +129,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_SUPPLY_REVOCATION: SystemLang = {
     jp: "モザイクを回収",
-    en: "",
+    en: "Revoke mosaic",
     es: "",
     it: "",
     ko: "",
@@ -138,7 +138,7 @@ class HistoryLang {
   };
   static tx_type_MULTISIG_ACCOUNT_MODIFICATION: SystemLang = {
     jp: "マルチシグアカウントの変更",
-    en: "",
+    en: "Modifying a multisig account",
     es: "",
     it: "",
     ko: "",
