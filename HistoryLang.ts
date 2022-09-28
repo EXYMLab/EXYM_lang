@@ -65,8 +65,8 @@ class HistoryLang {
     ru: "",
   };
   static tx_type_RESERVED: SystemLang = {
-    jp: "",
-    en: "",
+    jp: "その他",
+    en: "Other",
     es: "",
     it: "",
     ko: "",
@@ -147,7 +147,7 @@ class HistoryLang {
   };
   static tx_type_AGGREGATE_COMPLETE: SystemLang = {
     jp: "署名不要なアグリゲートトランザクション",
-    en: "",
+    en: "Aggregate transactions that do not require signatures",
     es: "",
     it: "",
     ko: "",
@@ -156,7 +156,7 @@ class HistoryLang {
   };
   static tx_type_AGGREGATE_BONDED: SystemLang = {
     jp: "署名待ちのアグリゲートトランザクション",
-    en: "",
+    en: "Aggregate transactions awaiting signature",
     es: "",
     it: "",
     ko: "",
@@ -165,7 +165,7 @@ class HistoryLang {
   };
   static tx_type_HASH_LOCK: SystemLang = {
     jp: "署名待ちアグリゲートトランザクション用資金をロック",
-    en: "",
+    en: "Funds Lock for aggregate transactions awaiting signature",
     es: "",
     it: "",
     ko: "",
@@ -174,7 +174,7 @@ class HistoryLang {
   };
   static tx_type_SECRET_LOCK: SystemLang = {
     jp: "シークレットロックトランザクションの作成",
-    en: "",
+    en: "Create secret lock transaction",
     es: "",
     it: "",
     ko: "",
@@ -183,7 +183,7 @@ class HistoryLang {
   };
   static tx_type_SECRET_PROOF: SystemLang = {
     jp: "シークレットロックトランザクションのロックを解除",
-    en: "",
+    en: "Unlock secret lock transaction",
     es: "",
     it: "",
     ko: "",
@@ -192,7 +192,7 @@ class HistoryLang {
   };
   static tx_type_ACCOUNT_ADDRESS_RESTRICTION: SystemLang = {
     jp: "送受信するアドレスの制限設定",
-    en: "",
+    en: "Account address restriction",
     es: "",
     it: "",
     ko: "",
@@ -201,7 +201,7 @@ class HistoryLang {
   };
   static tx_type_ACCOUNT_MOSAIC_RESTRICTION: SystemLang = {
     jp: "送受信するモザイクの制限設定",
-    en: "",
+    en: "Mosaics restriction",
     es: "",
     it: "",
     ko: "",
@@ -210,7 +210,7 @@ class HistoryLang {
   };
   static tx_type_ACCOUNT_OPERATION_RESTRICTION: SystemLang = {
     jp: "送信可能なトランザクション種別の変更",
-    en: "",
+    en: "Change transaction types that can be sent",
     es: "",
     it: "",
     ko: "",
@@ -219,7 +219,7 @@ class HistoryLang {
   };
   static tx_type_ACCOUNT_KEY_LINK: SystemLang = {
     jp: "アカウントの重要度をリモートアカウントにリンク(ハーベスト用)",
-    en: "",
+    en: "Link importance to remote account (for harvesting)",
     es: "",
     it: "",
     ko: "",
@@ -228,7 +228,7 @@ class HistoryLang {
   };
   static tx_type_VRF_KEY_LINK: SystemLang = {
     jp: "アカウントをVRFアカウントにリンク(ハーベスト用)",
-    en: "",
+    en: "Link account to VRF account (for harvesting)",
     es: "",
     it: "",
     ko: "",
@@ -237,7 +237,7 @@ class HistoryLang {
   };
   static tx_type_VOTING_KEY_LINK: SystemLang = {
     jp: "投票キーをアカウントにリンク(ハーベスト用)",
-    en: "",
+    en: "Link voting key to account (for harvesting)",
     es: "",
     it: "",
     ko: "",
@@ -246,7 +246,7 @@ class HistoryLang {
   };
   static tx_type_NODE_KEY_LINK: SystemLang = {
     jp: "アカウントを委任先ノードにリンク(ハーベスト用)",
-    en: "",
+    en: "Link account to delegating Node (for harvesting)",
     es: "",
     it: "",
     ko: "",
@@ -255,7 +255,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_ADDRESS_RESTRICTION: SystemLang = {
     jp: "モザイクのアドレス制限設定",
-    en: "",
+    en: "Settings for mosaics address restriction",
     es: "",
     it: "",
     ko: "",
@@ -264,7 +264,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_GLOBAL_RESTRICTION: SystemLang = {
     jp: "モザイクのグローバル制限設定",
-    en: "",
+    en: "Settings for mosaics global restriction",
     es: "",
     it: "",
     ko: "",
@@ -273,7 +273,7 @@ class HistoryLang {
   };
   static tx_type_ACCOUNT_METADATA: SystemLang = {
     jp: "アカウントへメタデータを付与",
-    en: "",
+    en: "Attach metadata to account",
     es: "",
     it: "",
     ko: "",
@@ -282,7 +282,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_METADATA: SystemLang = {
     jp: "モザイクへメタデータを付与",
-    en: "",
+    en: "Attach metadata to mosaic",
     es: "",
     it: "",
     ko: "",
@@ -291,7 +291,7 @@ class HistoryLang {
   };
   static tx_type_NAMESPACE_METADATA: SystemLang = {
     jp: "ネームスペースへメタデータを付与",
-    en: "",
+    en: "Attach metadata to namespace",
     es: "",
     it: "",
     ko: "",
