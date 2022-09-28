@@ -4,7 +4,7 @@ class AlertLang {
   // connection error
   static title_connection_error: SystemLang = {
     jp: "接続エラー",
-    en: "",
+    en: "connection error",
     es: "",
     it: "",
     ko: "",
@@ -13,7 +13,7 @@ class AlertLang {
   };
   static message_connection_error: SystemLang = {
     jp: "ネットワークとの接続に失敗しました。最初からやり直してください。",
-    en: "",
+    en: "Network connection failure. Please try again.",
     es: "",
     it: "",
     ko: "",
@@ -23,7 +23,7 @@ class AlertLang {
   // unknown error
   static title_unknown_error: SystemLang = {
     jp: "エラー",
-    en: "",
+    en: "error",
     es: "",
     it: "",
     ko: "",
