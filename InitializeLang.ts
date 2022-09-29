@@ -3,7 +3,7 @@ import { SystemLang } from "../models/SystemStructure";
 export class MissAuthLang {
   static miss_auth_message: SystemLang = {
     jp: "認証してください。",
-    en: "",
+    en: "Authentication required",
     es: "",
     it: "",
     ko: "",
@@ -16,7 +16,7 @@ export class MissAuthLang {
 export class StartPageLang {
   static startpage_welcome: SystemLang = {
     jp: "EXYMへようこそ！",
-    en: "",
+    en: "Welcome to EXYM!",
     es: "",
     it: "",
     ko: "",
@@ -25,7 +25,7 @@ export class StartPageLang {
   };
   static startpage_startbutton: SystemLang = {
     jp: "ウォレットを作成",
-    en: "",
+    en: "Create wallet",
     es: "",
     it: "",
     ko: "",
@@ -37,7 +37,7 @@ export class StartPageLang {
 export class SetAccountNameLang {
   static top_message1: SystemLang = {
     jp: "ウォレットの名前を決めましょう",
-    en: "",
+    en: "Name your wallet",
     es: "",
     it: "",
     ko: "",
@@ -46,7 +46,7 @@ export class SetAccountNameLang {
   };
   static top_message2: SystemLang = {
     jp: "例：個人用ウォレット",
-    en: "",
+    en: "E.g. personal wallet",
     es: "",
     it: "",
     ko: "",
@@ -55,7 +55,7 @@ export class SetAccountNameLang {
   };
   static next_button: SystemLang = {
     jp: "次へ",
-    en: "",
+    en: "Next",
     es: "",
     it: "",
     ko: "",
@@ -64,7 +64,7 @@ export class SetAccountNameLang {
   };
   static back_button: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
@@ -73,7 +73,7 @@ export class SetAccountNameLang {
   };
   static network_connect_error_title: SystemLang = {
     jp: "ネットワークに接続エラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -82,7 +82,7 @@ export class SetAccountNameLang {
   };
   static network_connect_error_message: SystemLang = {
     jp: "ネットワークへ接続出来ませんでした。時間を置いてお試し頂くか、電波の良い所で改めてご利用ください",
-    en: "",
+    en: "Unable to connect to the network. Please check your network connection or try again later.",
     es: "",
     it: "",
     ko: "",
@@ -94,7 +94,7 @@ export class SetAccountNameLang {
 export class SetNetworkTypeLang {
   static top_message1: SystemLang = {
     "jp": "接続するネットワークを\n選択しましょう",
-    en: "",
+    en: "Select the network \n to connect with",
     es: "",
     it: "",
     ko: "",
@@ -103,7 +103,7 @@ export class SetNetworkTypeLang {
   };
   static mainnet: SystemLang = {
     "jp": "メインネット",
-    en: "",
+    en: "Mainnet",
     es: "",
     it: "",
     ko: "",
@@ -112,7 +112,7 @@ export class SetNetworkTypeLang {
   };
   static testnet: SystemLang = {
     "jp": "テストネット",
-    en: "",
+    en: "Testnet",
     es: "",
     it: "",
     ko: "",
@@ -121,7 +121,7 @@ export class SetNetworkTypeLang {
   };
   static description: SystemLang = {
     jp: "通常はメインネットを選択",
-    en: "",
+    en: "Usually select mainnet",
     es: "",
     it: "",
     ko: "",
@@ -130,7 +130,7 @@ export class SetNetworkTypeLang {
   };
   static next_button: SystemLang = {
     jp: "次へ",
-    en: "",
+    en: "Next",
     es: "",
     it: "",
     ko: "",
@@ -139,7 +139,7 @@ export class SetNetworkTypeLang {
   };
   static back_button: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
@@ -151,7 +151,7 @@ export class SetNetworkTypeLang {
 export class SelectCreateModeLang {
   static description: SystemLang = {
     jp: "既にウォレットをお持ちの方は復元を、それ以外の方は新規を選択ください",
-    en: "",
+    en: "If you already have a wallet, recover it with secret keys, otherwise select create wallet.",
     es: "",
     it: "",
     ko: "",
@@ -160,7 +160,7 @@ export class SelectCreateModeLang {
   };
   static import_privatekey: SystemLang = {
     jp: "秘密鍵から復元",
-    en: "",
+    en: "Recover with secret keys",
     es: "",
     it: "",
     ko: "",
@@ -169,7 +169,7 @@ export class SelectCreateModeLang {
   };
   static import_mnemonic: SystemLang = {
     jp: "ニーモニックから復元",
-    en: "",
+    en: "Recover with mnemonic",
     es: "",
     it: "",
     ko: "",
@@ -178,7 +178,7 @@ export class SelectCreateModeLang {
   };
   static import_button: SystemLang = {
     jp: "復元",
-    en: "",
+    en: "Recovering",
     es: "",
     it: "",
     ko: "",
@@ -187,7 +187,7 @@ export class SelectCreateModeLang {
   };
   static new_button: SystemLang = {
     jp: "新規ウォレットの作成",
-    en: "",
+    en: "Create new wallet",
     es: "",
     it: "",
     ko: "",
@@ -196,7 +196,7 @@ export class SelectCreateModeLang {
   };
   static back_button: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
@@ -217,7 +217,7 @@ export class SignUpIssueAccountLang {
   };
   static top_message: SystemLang = {
     jp: "ニーモニックフレーズを保存しましょう。",
-    en: "",
+    en: "Save mnemonic phrases safely.",
     es: "",
     it: "",
     ko: "",
@@ -226,7 +226,7 @@ export class SignUpIssueAccountLang {
   };
   static generating: SystemLang = {
     jp: "生成中...",
-    en: "",
+    en: "Processing...",
     es: "",
     it: "",
     ko: "",
@@ -235,7 +235,7 @@ export class SignUpIssueAccountLang {
   };
   static input_password_message: SystemLang = {
     jp: "EXYM内でニーモニックを暗号化するパスワードを設定してください。",
-    en: "",
+    en: "Set a password to encrypt the mnemonic within EXYM.",
     es: "",
     it: "",
     ko: "",
@@ -244,7 +244,7 @@ export class SignUpIssueAccountLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "",
+    en: "Numbers and letters more than 8 characters",
     es: "",
     it: "",
     ko: "",
@@ -253,7 +253,7 @@ export class SignUpIssueAccountLang {
   };
   static input_password_placeholder: SystemLang = {
     jp: "パスワードを入力",
-    en: "",
+    en: "Enter password",
     es: "",
     it: "",
     ko: "",
@@ -262,7 +262,7 @@ export class SignUpIssueAccountLang {
   }
   static do_copy: SystemLang = {
     jp: "コピーする",
-    en: "",
+    en: "Copy",
     es: "",
     it: "",
     ko: "",
@@ -271,7 +271,7 @@ export class SignUpIssueAccountLang {
   };
   static precautions: SystemLang = {
     jp: "・この情報は絶対に秘密にしてください。他人に教えた場合、資産が失われる可能性があります。\n・必ず別の場所に保存してください。端末の機種変更やアプリの再インストール等、アカウントを復元する際に必要となります。",
-    en: "",
+    en: "・This information must be saved completely confidential. \n If you share this information with others, you would possibly lose your assets \n・Be sure to keep it in a separate safety location. \n This information is required when recovering your account, \n e.g. when changing the device or reinstalling the EXYM app.",
     es: "",
     it: "",
     ko: "",
@@ -280,7 +280,7 @@ export class SignUpIssueAccountLang {
   };
   static save_check: SystemLang = {
     jp: "保存しましたか？",
-    en: "",
+    en: "Have you saved it?",
     es: "",
     it: "",
     ko: "",
@@ -289,7 +289,7 @@ export class SignUpIssueAccountLang {
   };
   static new_button: SystemLang = {
     jp: "次へ",
-    en: "",
+    en: "Next",
     es: "",
     it: "",
     ko: "",
@@ -298,7 +298,7 @@ export class SignUpIssueAccountLang {
   };
   static back_button: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
@@ -307,7 +307,7 @@ export class SignUpIssueAccountLang {
   };
   static network_connect_error_title: SystemLang = {
     jp: "ネットワーク接続エラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -316,7 +316,7 @@ export class SignUpIssueAccountLang {
   };
   static network_connect_error_message: SystemLang = {
     jp: "ネットワークへの接続設定が正しく行われませんでした。ネットワーク種別選択画面に戻り、やり直してください。",
-    en: "",
+    en: "The connection to the network failed. Back to the network type selection and try again.",
     es: "",
     it: "",
     ko: "",
@@ -325,7 +325,7 @@ export class SignUpIssueAccountLang {
   };
   static wallet_create_error_title: SystemLang = {
     jp: "ウォレット作成エラー",
-    en: "",
+    en: "Wallet creation error",
     es: "",
     it: "",
     ko: "",
@@ -334,7 +334,7 @@ export class SignUpIssueAccountLang {
   };
   static wallet_create_error_message: SystemLang = {
     jp: "ウォレットの作成に失敗しました。アプリを再起動しやり直してください。",
-    en: "",
+    en: "Wallet creation failed. Reboot the app and try again.",
     es: "",
     it: "",
     ko: "",
@@ -343,7 +343,7 @@ export class SignUpIssueAccountLang {
   };
   static mnemonic_copy: SystemLang = {
     jp: "コピーしました",
-    en: "",
+    en: "Copied",
     es: "",
     it: "",
     ko: "",
@@ -352,7 +352,7 @@ export class SignUpIssueAccountLang {
   };
   static warning_title: SystemLang = {
     jp: "必ずお読みください",
-    en: "",
+    en: "Please read carefully",
     es: "",
     it: "",
     ko: "",
@@ -373,7 +373,7 @@ export class SignInSetPrivateKeyLang {
   };
   static input_privatekey_message: SystemLang = {
     jp: "所有しているウォレットの秘密鍵を入力してください",
-    en: "",
+    en: "Enter the private key of your wallet",
     es: "",
     it: "",
     ko: "",
@@ -382,7 +382,7 @@ export class SignInSetPrivateKeyLang {
   };
   static input_privatekey_placeholder: SystemLang = {
     jp: "秘密鍵を入力",
-    en: "",
+    en: "Enter the private key",
     es: "",
     it: "",
     ko: "",
@@ -391,7 +391,7 @@ export class SignInSetPrivateKeyLang {
   };
   static input_password_message: SystemLang = {
     jp: "EXYM内で秘密鍵を暗号化するパスワードを設定してください。",
-    en: "",
+    en: "Set a password to encrypt the secret key within EXYM.",
     es: "",
     it: "",
     ko: "",
@@ -400,7 +400,7 @@ export class SignInSetPrivateKeyLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "",
+    en: "Numbers and letters more than 8 characters",
     es: "",
     it: "",
     ko: "",
@@ -418,7 +418,7 @@ export class SignInSetPrivateKeyLang {
   }
   static network_connect_error_title: SystemLang = {
     jp: "ネットワーク接続エラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -427,7 +427,7 @@ export class SignInSetPrivateKeyLang {
   };
   static network_connect_error_message: SystemLang = {
     jp: "ネットワークへ接続出来ませんでした。\n時間を置いてお試し頂くか、電波の良い所で改めてご利用ください。",
-    en: "",
+    en: "Unable to connect to the network. Please check your network connection or try again later.",
     es: "",
     it: "",
     ko: "",
@@ -436,7 +436,7 @@ export class SignInSetPrivateKeyLang {
   };
   static network_defferenct_type_error_title: SystemLang = {
     jp: "ネットワークエラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -445,7 +445,7 @@ export class SignInSetPrivateKeyLang {
   };
   static network_defferenct_type_error_message: SystemLang = {
     jp: "取込んだ秘密鍵のネットワーク種別と選択されたネットワーク種別が異なります。正しいネットワーク種別を選択してください。",
-    en: "",
+    en: "The network type of the imported secret key and the selected network type are different. Select the correct network type.",
     es: "",
     it: "",
     ko: "",
@@ -454,7 +454,7 @@ export class SignInSetPrivateKeyLang {
   };
   static account_already_exists_error_title: SystemLang = {
     jp: "アカウント読込エラー",
-    en: "",
+    en: "Account read error",
     es: "",
     it: "",
     ko: "",
@@ -463,7 +463,7 @@ export class SignInSetPrivateKeyLang {
   };
   static account_already_exists_error_message: SystemLang = {
     jp: "読み込んだアカウントは既に端末内に存在します。別のQRコードを読み取ってください。",
-    en: "",
+    en: "The account you have read already exists in the device. Scan another QR code.",
     es: "",
     it: "",
     ko: "",
@@ -472,7 +472,7 @@ export class SignInSetPrivateKeyLang {
   };
   static qrcode_filed_load_error_title: SystemLang = {
     jp: "QRコード読取失敗エラー",
-    en: "",
+    en: "QR code reading failure error",
     es: "",
     it: "",
     ko: "",
@@ -490,7 +490,7 @@ export class SignInSetPrivateKeyLang {
   };
   static avator_create_error_title: SystemLang = {
     jp: "エラー",
-    en: "",
+    en: "Error",
     es: "",
     it: "",
     ko: "",
@@ -499,7 +499,7 @@ export class SignInSetPrivateKeyLang {
   };
   static avator_create_error_message: SystemLang = {
     jp: "アカウントの生成に失敗しました。操作をやり直してください。",
-    en: "",
+    en: "Account generation failed. Please try the operation again.",
     es: "",
     it: "",
     ko: "",
@@ -508,7 +508,7 @@ export class SignInSetPrivateKeyLang {
   };
   static next_button: SystemLang = {
     jp: "次へ",
-    en: "",
+    en: "Next",
     es: "",
     it: "",
     ko: "",
@@ -517,7 +517,7 @@ export class SignInSetPrivateKeyLang {
   };
   static back_button: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
@@ -529,16 +529,16 @@ export class SignInSetPrivateKeyLang {
 export class SignInSetMnemonicLang {
   static ok: SystemLang = {
     jp: "OK",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "OK",
+    es: "OK",
+    it: "OK",
+    ko: "OK",
+    pl: "OK",
+    ru: "OK",
   };
   static input_mnemonic_message: SystemLang = {
     jp: "復元したいアカウントのニーモニックを入力してください。",
-    en: "",
+    en: "Enter the mnemonic of the account you wish to restore.",
     es: "",
     it: "",
     ko: "",
@@ -547,7 +547,7 @@ export class SignInSetMnemonicLang {
   };
   static input_mnemonic_placeholder: SystemLang = {
     jp: "ニーモニックを入力",
-    en: "",
+    en: "Enter the mnemonic",
     es: "",
     it: "",
     ko: "",
@@ -556,7 +556,7 @@ export class SignInSetMnemonicLang {
   };
   static input_password_message: SystemLang = {
     jp: "EXYM内でニーモニックを暗号化するパスワードを設定してください。",
-    en: "",
+    en: "Set a password to encrypt the mnemonic within EXYM.",
     es: "",
     it: "",
     ko: "",
@@ -565,7 +565,7 @@ export class SignInSetMnemonicLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "",
+    en: "Numbers and letters more than 8 characters",
     es: "",
     it: "",
     ko: "",
@@ -583,7 +583,7 @@ export class SignInSetMnemonicLang {
   }
   static network_connect_error_title: SystemLang = {
     jp: "ネットワーク接続エラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -592,7 +592,7 @@ export class SignInSetMnemonicLang {
   };
   static network_connect_error_message: SystemLang = {
     jp: "ネットワークへ接続出来ませんでした。\n時間を置いてお試し頂くか、電波の良い所で改めてご利用ください。",
-    en: "",
+    en: "Unable to connect to the network. \n Please check your network connection or try again later",
     es: "",
     it: "",
     ko: "",
@@ -601,7 +601,7 @@ export class SignInSetMnemonicLang {
   };
   static network_defferenct_type_error_title: SystemLang = {
     jp: "ネットワークエラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -610,7 +610,7 @@ export class SignInSetMnemonicLang {
   };
   static network_defferenct_type_error_message: SystemLang = {
     jp: "取込んだ秘密鍵のネットワーク種別と選択されたネットワーク種別が異なります。正しいネットワーク種別を選択してください。",
-    en: "",
+    en: "The network type of the imported secret key and the selected network type are different. Select the correct network type.",
     es: "",
     it: "",
     ko: "",
@@ -619,7 +619,7 @@ export class SignInSetMnemonicLang {
   };
   static account_already_exists_error_title: SystemLang = {
     jp: "アカウント読込エラー",
-    en: "",
+    en: "Account read error",
     es: "",
     it: "",
     ko: "",
@@ -628,7 +628,7 @@ export class SignInSetMnemonicLang {
   };
   static account_already_exists_error_message: SystemLang = {
     jp: "読み込んだアカウントは既に端末内に存在します。別のQRコードを読み取ってください。",
-    en: "",
+    en: "The account you have read already exists in the device. Scan another QR code.",
     es: "",
     it: "",
     ko: "",
@@ -637,7 +637,7 @@ export class SignInSetMnemonicLang {
   };
   static qrcode_filed_load_error_title: SystemLang = {
     jp: "QRコード読取失敗エラー",
-    en: "",
+    en: "QR code reading failure error",
     es: "",
     it: "",
     ko: "",
@@ -655,7 +655,7 @@ export class SignInSetMnemonicLang {
   };
   static avator_create_error_title: SystemLang = {
     jp: "エラー",
-    en: "",
+    en: "Error",
     es: "",
     it: "",
     ko: "",
@@ -664,7 +664,7 @@ export class SignInSetMnemonicLang {
   };
   static avator_create_error_message: SystemLang = {
     jp: "アカウントの生成に失敗しました。操作をやり直してください。",
-    en: "",
+    en: "Account generation failed. Please try the operation again.",
     es: "",
     it: "",
     ko: "",
@@ -673,7 +673,7 @@ export class SignInSetMnemonicLang {
   };
   static next_button: SystemLang = {
     jp: "次へ",
-    en: "",
+    en: "Next",
     es: "",
     it: "",
     ko: "",
@@ -682,7 +682,7 @@ export class SignInSetMnemonicLang {
   };
   static back_button: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
