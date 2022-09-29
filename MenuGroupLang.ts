@@ -3,7 +3,7 @@ import { SystemLang } from "../models/SystemStructure";
 export class CommunityModalLang {
   static get_failed: SystemLang = {
     jp: "取得に失敗しました。",
-    en: "",
+    en: "Failed to get",
     es: "",
     it: "",
     ko: "",
@@ -12,7 +12,7 @@ export class CommunityModalLang {
   };
   static all_readed: SystemLang = {
     jp: "全て読み込みました。",
-    en: "",
+    en: "All loaded",
     es: "",
     it: "",
     ko: "",
@@ -30,7 +30,7 @@ export class CommunityModalLang {
   };
   static dc_exymlab_description: SystemLang = {
     jp: "自分の作品を紹介しよう！参加者限定のお得な情報もお届け",
-    en: "",
+    en: "Show your works! Special offers for participants are available as well.",
     es: "",
     it: "",
     ko: "",
@@ -48,7 +48,7 @@ export class CommunityModalLang {
   };
   static dc_xymcity_description: SystemLang = {
     jp: "NEM & Symbolに関する最新情報はこちらから",
-    en: "",
+    en: "Latest news on NEM & Symbol",
     es: "",
     it: "",
     ko: "",
@@ -66,7 +66,7 @@ export class CommunityModalLang {
   };
   static dc_njug_description: SystemLang = {
     jp: "分からない事が出たときに質問ができます",
-    en: "",
+    en: "Questions can be asked",
     es: "",
     it: "",
     ko: "",
@@ -84,7 +84,7 @@ export class CommunityModalLang {
   };
   static dc_symbol_nem_mkt_description: SystemLang = {
     jp: "NEM & Symbolについての議論、雑談、愚痴吐き",
-    en: "",
+    en: "Discussions and chats on NEM & Symbol",
     es: "",
     it: "",
     ko: "",
@@ -102,7 +102,7 @@ export class CommunityModalLang {
   };
   static cluster_ss_description: SystemLang = {
     jp: "トークライブ「週刊しんぼる」\nメタバースプラットフォーム Cluster にて定期開催中！",
-    en: "",
+    en: "Talk live 'Weekly Symbol'regularly held on the meta-verse platform Cluster!",
     es: "",
     it: "",
     ko: "",
@@ -120,7 +120,7 @@ export class CommunityModalLang {
   };
   static line_oc_description: SystemLang = {
     jp: "新規の方歓迎！質問雑談◎",
-    en: "",
+    en: "Newcomers welcome! Questions and chats◎",
     es: "",
     it: "",
     ko: "",
@@ -133,7 +133,7 @@ export class CommunityModalLang {
 export class PaymentServiceModalLang {
   static keywork_placeholder: SystemLang = {
     jp: "キーワードを入力",
-    en: "",
+    en: "Enter keyword",
     es: "",
     it: "",
     ko: "",
@@ -143,7 +143,7 @@ export class PaymentServiceModalLang {
 
   static payment_service_list_get_error_title: SystemLang = {
     jp: "情報取得エラー",
-    en: "",
+    en: "Error. Information could not be retrieved",
     es: "",
     it: "",
     ko: "",
@@ -153,7 +153,7 @@ export class PaymentServiceModalLang {
 
   static payment_service_list_get_error_message: SystemLang = {
     jp: "情報を取得出来ませんでした。",
-    en: "",
+    en: "Information could not be retrieved.",
     es: "",
     it: "",
     ko: "",
@@ -163,7 +163,7 @@ export class PaymentServiceModalLang {
 
   static get_failed: SystemLang = {
     jp: "取得に失敗しました。",
-    en: "",
+    en: "Information could not be retrieved.",
     es: "",
     it: "",
     ko: "",
@@ -173,7 +173,7 @@ export class PaymentServiceModalLang {
 
   static all_readed: SystemLang = {
     jp: "全て読み込みました。",
-    en: "",
+    en: "All loaded",
     es: "",
     it: "",
     ko: "",
