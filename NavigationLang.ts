@@ -3,7 +3,7 @@ import { SystemLang } from "../models/SystemStructure";
 export class NavigationLang {
   static community_modal_title: SystemLang = {
     jp: "コミュニティ",
-    en: "",
+    en: "Community",
     es: "",
     it: "",
     ko: "",
@@ -12,7 +12,7 @@ export class NavigationLang {
   };
   static payment_service_modal_title: SystemLang = {
     jp: "Symbol支払対応サービス",
-    en: "",
+    en: "Symbol payment accepted service",
     es: "",
     it: "",
     ko: "",
@@ -21,7 +21,7 @@ export class NavigationLang {
   };
   static news_modal_title: SystemLang = {
     jp: "ニュース",
-    en: "",
+    en: "News",
     es: "",
     it: "",
     ko: "",
@@ -30,7 +30,7 @@ export class NavigationLang {
   };
   static wallet_change_modal_title: SystemLang = {
     jp: "ウォレット切替",
-    en: "",
+    en: "Wallet switching",
     es: "",
     it: "",
     ko: "",
@@ -39,7 +39,7 @@ export class NavigationLang {
   };
   static network_select_modal_title: SystemLang = {
     jp: "ネットワーク切替",
-    en: "",
+    en: "Change network",
     es: "",
     it: "",
     ko: "",
@@ -48,7 +48,7 @@ export class NavigationLang {
   };
   static language_select_modal_title: SystemLang = {
     jp: "言語切替",
-    en: "",
+    en: "Language selection",
     es: "",
     it: "",
     ko: "",
@@ -57,7 +57,7 @@ export class NavigationLang {
   };
   static about_exym_modal_title: SystemLang = {
     jp: "EXYMについて",
-    en: "",
+    en: "About EXYM",
     es: "",
     it: "",
     ko: "",
@@ -66,7 +66,7 @@ export class NavigationLang {
   };
   static wallet_info_change_modal_title: SystemLang = {
     jp: "プロフィール変更",
-    en: "",
+    en: "Change profile",
     es: "",
     it: "",
     ko: "",
@@ -75,7 +75,7 @@ export class NavigationLang {
   };
   static set_mosaic_tag_modal_title: SystemLang = {
     jp: "モザイクタグ設定",
-    en: "",
+    en: "Mosaic tag settings",
     es: "",
     it: "",
     ko: "",
@@ -84,7 +84,7 @@ export class NavigationLang {
   };
   static add_wallet_modal_title: SystemLang = {
     jp: "ウォレット追加",
-    en: "",
+    en: "Add Wallet",
     es: "",
     it: "",
     ko: "",
@@ -93,7 +93,7 @@ export class NavigationLang {
   };
   static contracts_list_modal_title: SystemLang = {
     jp: "アドレス帳",
-    en: "",
+    en: "Address book",
     es: "",
     it: "",
     ko: "",
@@ -102,7 +102,7 @@ export class NavigationLang {
   };
   static contracts_edit_modal_title: SystemLang = {
     jp: "編集",
-    en: "",
+    en: "Edit",
     es: "",
     it: "",
     ko: "",
@@ -120,7 +120,7 @@ export class NavigationLang {
   };
   static send_modal_title: SystemLang = {
     jp: "送信",
-    en: "",
+    en: "Send",
     es: "",
     it: "",
     ko: "",
@@ -129,7 +129,7 @@ export class NavigationLang {
   };
   static wallettab_design_modal_title: SystemLang = {
     jp: "自分でデザイン",
-    en: "",
+    en: "Design your own",
     es: "",
     it: "",
     ko: "",
@@ -138,7 +138,7 @@ export class NavigationLang {
   };
   static overall_design_modal_title: SystemLang = {
     jp: "カラーパレット編集",
-    en: "",
+    en: "Edit colour palette",
     es: "",
     it: "",
     ko: "",
@@ -147,7 +147,7 @@ export class NavigationLang {
   };
   static wallettab_size_calc_modal_title: SystemLang = {
     jp: "サイズ確認",
-    en: "",
+    en: "Check size",
     es: "",
     it: "",
     ko: "",
@@ -156,7 +156,7 @@ export class NavigationLang {
   };
   static nft_theme_modal_title: SystemLang = {
     jp: "着せ替えNFT",
-    en: "",
+    en: "Change screen background NFT",
     es: "",
     it: "",
     ko: "",
@@ -165,25 +165,25 @@ export class NavigationLang {
   };
   static nft_list_from_nftdrive_modal_title: SystemLang = {
     jp: "NFT-Drive",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT-Drive",
+    es: "NFT-Drive",
+    it: "NFT-Drive",
+    ko: "NFT-Drive",
+    pl: "NFT-Drive",
+    ru: "NFT-Drive",
   };
   static nft_list_from_comsa_modal_title: SystemLang = {
     jp: "COMSA",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "COMSA",
+    es: "COMSA",
+    it: "COMSA",
+    ko: "COMSA",
+    pl: "COMSA",
+    ru: "COMSA",
   };
   static nft_detail_screen_title: SystemLang = {
     jp: "NFT詳細",
-    en: "",
+    en: "NFT Details",
     es: "",
     it: "",
     ko: "",
@@ -192,7 +192,7 @@ export class NavigationLang {
   };
   static favorite_design_title: SystemLang = {
     jp: "お気に入りデザイン",
-    en: "",
+    en: "Favourite designs",
     es: "",
     it: "",
     ko: "",
@@ -201,7 +201,7 @@ export class NavigationLang {
   };
   static navigation_auth: SystemLang = {
     jp: "EXYMへアクセスします",
-    en: "",
+    en: "Access to EXYM",
     es: "",
     it: "",
     ko: "",

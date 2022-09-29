@@ -4,7 +4,7 @@ class AlertLang {
   // connection error
   static title_connection_error: SystemLang = {
     jp: "接続エラー",
-    en: "connection error",
+    en: "Connection error",
     es: "",
     it: "",
     ko: "",
@@ -23,7 +23,7 @@ class AlertLang {
   // unknown error
   static title_unknown_error: SystemLang = {
     jp: "エラー",
-    en: "error",
+    en: "Error",
     es: "",
     it: "",
     ko: "",
@@ -32,7 +32,7 @@ class AlertLang {
   };
   static message_unknown_error: SystemLang = {
     jp: "予期しないエラーが発生しました。アプリを再起動してください。",
-    en: "An unexpected error has occurred. Reboot your app",
+    en: "An unexpected error has occurred. Reboot your app.",
     es: "",
     it: "",
     ko: "",
