@@ -3,7 +3,7 @@ import { SystemLang } from "../models/SystemStructure";
 export class CommonNftListLang {
   static loading_title: SystemLang = {
     jp: "読み込み中...",
-    en: "",
+    en: "Loading...",
     es: "",
     it: "",
     ko: "",
@@ -12,7 +12,7 @@ export class CommonNftListLang {
   };
   static loading_message: SystemLang = {
     jp: "※保有数によって読み込みに時間がかかる場合があります。",
-    en: "",
+    en: "*It may take time to load depending on the number of holdings.",
     es: "",
     it: "",
     ko: "",
@@ -21,7 +21,7 @@ export class CommonNftListLang {
   };
   static zero_target_title: SystemLang = {
     jp: "対象モザイクが存在しませんでした。",
-    en: "",
+    en: "The target mosaic did not exist.",
     es: "",
     it: "",
     ko: "",
@@ -30,7 +30,7 @@ export class CommonNftListLang {
   };
   static zero_target_message: SystemLang = {
     jp: "・接続先ノードの変更はお試しいただけましたか？",
-    en: "",
+    en: "Have you tried changing the node to connect?",
     es: "",
     it: "",
     ko: "",
@@ -39,7 +39,7 @@ export class CommonNftListLang {
   };
   static get_size_error_title: SystemLang = {
     jp: "読み込みエラー",
-    en: "",
+    en: "Reading error",
     es: "",
     it: "",
     ko: "",
@@ -57,7 +57,7 @@ export class CommonNftListLang {
   };
   static edit_mosaic_tag_btn: SystemLang = {
     jp: "モザイクタグを編集する",
-    en: "",
+    en: "Edit mosaic tag",
     es: "",
     it: "",
     ko: "",
@@ -66,7 +66,7 @@ export class CommonNftListLang {
   };
   static pass_to_screen1_btn: SystemLang = {
     jp: "画面上部へ設定する",
-    en: "",
+    en: "Set to top of screen",
     es: "",
     it: "",
     ko: "",
@@ -75,7 +75,7 @@ export class CommonNftListLang {
   };
   static pass_to_screen2_btn: SystemLang = {
     jp: "画面下部へ設定する",
-    en: "",
+    en: "Set to bottom of screen",
     es: "",
     it: "",
     ko: "",
@@ -84,7 +84,7 @@ export class CommonNftListLang {
   };
   static pass_to_datacard_btn: SystemLang = {
     jp: "残高エリアへ設定する",
-    en: "",
+    en: "Set to balance area.",
     es: "",
     it: "",
     ko: "",
@@ -97,7 +97,7 @@ export class CommonNftListLang {
 export class NftListFromNFTDriveLang {
   static creater_address: SystemLang = {
     jp: "作成者アドレス",
-    en: "",
+    en: "Author's address",
     es: "",
     it: "",
     ko: "",
@@ -106,7 +106,7 @@ export class NftListFromNFTDriveLang {
   };
   static mosaic_id: SystemLang = {
     jp: "モザイクID",
-    en: "",
+    en: "Mosaic ID",
     es: "",
     it: "",
     ko: "",
@@ -115,7 +115,7 @@ export class NftListFromNFTDriveLang {
   };
   static serial_number: SystemLang = {
     jp: "シリアルナンバー",
-    en: "",
+    en: "Serial number",
     es: "",
     it: "",
     ko: "",
@@ -124,7 +124,7 @@ export class NftListFromNFTDriveLang {
   };
   static message: SystemLang = {
     jp: "メッセージ",
-    en: "",
+    en: "Message",
     es: "",
     it: "",
     ko: "",
@@ -133,7 +133,7 @@ export class NftListFromNFTDriveLang {
   };
   static zero_target_message1: SystemLang = {
     jp: "・現在のアドレスでNFT-Drive発行モザイクを保有していますか？",
-    en: "",
+    en: "・Do you have an NFT-Drive-issued mosaic at this address?",
     es: "",
     it: "",
     ko: "",
@@ -142,7 +142,7 @@ export class NftListFromNFTDriveLang {
   };
   static zero_target_message2: SystemLang = {
     jp: "・対象モザイクに「NFT-Drive」タグが設定されていますか？",
-    en: "",
+    en: "・Is the 'NFT-Drive' tag set on the target mosaic?",
     es: "",
     it: "",
     ko: "",
@@ -154,7 +154,7 @@ export class NftListFromNFTDriveLang {
 export class NftListFromComsaLang {
   static creater_name: SystemLang = {
     jp: "作成者名",
-    en: "",
+    en: "Author",
     es: "",
     it: "",
     ko: "",
@@ -163,7 +163,7 @@ export class NftListFromComsaLang {
   };
   static creater_address: SystemLang = {
     jp: "作成者アドレス",
-    en: "",
+    en: "Author's address",
     es: "",
     it: "",
     ko: "",
@@ -172,7 +172,7 @@ export class NftListFromComsaLang {
   };
   static mosaic_id: SystemLang = {
     jp: "モザイクID",
-    en: "",
+    en: "Mosaic ID",
     es: "",
     it: "",
     ko: "",
@@ -181,7 +181,7 @@ export class NftListFromComsaLang {
   };
   static description: SystemLang = {
     jp: "説明",
-    en: "",
+    en: "Explanation",
     es: "",
     it: "",
     ko: "",
@@ -190,7 +190,7 @@ export class NftListFromComsaLang {
   };
   static endorser_name: SystemLang = {
     jp: "エンドーサー名",
-    en: "",
+    en: "Endorser",
     es: "",
     it: "",
     ko: "",
@@ -199,7 +199,7 @@ export class NftListFromComsaLang {
   };
   static zero_target_message1: SystemLang = {
     jp: "・現在のアドレスでCOMSA発行モザイクを保有していますか？",
-    en: "",
+    en: "・Do you have a COMSA-issued mosaic at this address?",
     es: "",
     it: "",
     ko: "",
@@ -208,7 +208,7 @@ export class NftListFromComsaLang {
   };
   static zero_target_message2: SystemLang = {
     jp: "・対象モザイクに「COMSA」タグが設定されていますか？",
-    en: "",
+    en: "・Is the 'Comsa' tag set on the target mosaic?",
     es: "",
     it: "",
     ko: "",
@@ -220,7 +220,7 @@ export class NftListFromComsaLang {
 export class createThemeSetLang {
   static creater_name: SystemLang = {
     jp: "作成者名",
-    en: "",
+    en: "Author",
     es: "",
     it: "",
     ko: "",
