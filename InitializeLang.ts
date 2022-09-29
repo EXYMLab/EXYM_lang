@@ -409,7 +409,7 @@ export class SignInSetPrivateKeyLang {
   };
   static input_password_placeholder: SystemLang = {
     jp: "パスワードを入力",
-    en: "Enter the password",
+    en: "Enter password",
     es: "",
     it: "",
     ko: "",
@@ -481,7 +481,7 @@ export class SignInSetPrivateKeyLang {
   };
   static qrcode_filed_load_error_message: SystemLang = {
     jp: "QRコードの読取に失敗しました。再度読み込みをお試し頂くか、読み込んだQRコードの形式が正しいことをご確認ください。",
-    en: "Failed to read the QR code. Try reading again or check that the QR code you have read is in the correct format.",
+    en: "Failed to read the QR code. Try again or check the scanned QR code is in correct format.",
     es: "",
     it: "",
     ko: "",
@@ -574,7 +574,7 @@ export class SignInSetMnemonicLang {
   };
   static input_password_placeholder: SystemLang = {
     jp: "パスワードを入力",
-    en: "Enter the password",
+    en: "Enter password",
     es: "",
     it: "",
     ko: "",
@@ -646,7 +646,7 @@ export class SignInSetMnemonicLang {
   };
   static qrcode_filed_load_error_message: SystemLang = {
     jp: "QRコードの読取に失敗しました。再度読み込みをお試し頂くか、読み込んだQRコードの形式が正しいことをご確認ください。",
-    en: "Failed to read the QR code. Try reading again or check that the QR code you have read is in the correct format.",
+    en: "Failed to read the QR code. Try again or check the scanned QR code is in correct format.",
     es: "",
     it: "",
     ko: "",
