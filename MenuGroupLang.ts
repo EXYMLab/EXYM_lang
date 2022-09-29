@@ -66,7 +66,7 @@ export class CommunityModalLang {
   };
   static dc_njug_description: SystemLang = {
     jp: "分からない事が出たときに質問ができます",
-    en: "",
+    en: "Visit Discord nem japan users groupe",
     es: "",
     it: "",
     ko: "",
@@ -84,7 +84,7 @@ export class CommunityModalLang {
   };
   static dc_symbol_nem_mkt_description: SystemLang = {
     jp: "NEM & Symbolについての議論、雑談、愚痴吐き",
-    en: "",
+    en: "Visit Discord nem japan users groupe grumble channel",
     es: "",
     it: "",
     ko: "",
