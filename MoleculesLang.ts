@@ -14,7 +14,7 @@ export class DataCardLang {
 
   static datacard_currencybalance: SystemLang = {
     jp: "残 高",
-    en: "",
+    en: "Balance",
     es: "",
     it: "",
     ko: "",
@@ -24,7 +24,7 @@ export class DataCardLang {
 
   static common_currencyUnit: SystemLang = {
     jp: "円",
-    en: "",
+    en: "JPY",
     es: "",
     it: "",
     ko: "",
@@ -34,7 +34,7 @@ export class DataCardLang {
 
   static datacard_walletvisibletext: SystemLang = {
     jp: "非表示",
-    en: "",
+    en: "Hidden",
     es: "",
     it: "",
     ko: "",
