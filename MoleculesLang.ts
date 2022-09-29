@@ -24,12 +24,12 @@ export class DataCardLang {
 
   static common_currencyUnit: SystemLang = {
     jp: "円",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "USD",
+    es: "EUR",
+    it: "EUR",
+    ko: "KRW",
+    pl: "PLN",
+    ru: "RUB",
   };
 
   static datacard_walletvisibletext: SystemLang = {
