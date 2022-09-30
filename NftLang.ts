@@ -84,7 +84,7 @@ export class CommonNftListLang {
   };
   static pass_to_datacard_btn: SystemLang = {
     jp: "残高エリアへ設定する",
-    en: "Set to balance area.",
+    en: "Set to balance area",
     es: "",
     it: "",
     ko: "",
@@ -97,7 +97,7 @@ export class CommonNftListLang {
 export class NftListFromNFTDriveLang {
   static creater_address: SystemLang = {
     jp: "作成者アドレス",
-    en: "Author's address",
+    en: "Creator's address",
     es: "",
     it: "",
     ko: "",
@@ -154,7 +154,7 @@ export class NftListFromNFTDriveLang {
 export class NftListFromComsaLang {
   static creater_name: SystemLang = {
     jp: "作成者名",
-    en: "Author",
+    en: "Creator",
     es: "",
     it: "",
     ko: "",
@@ -163,7 +163,7 @@ export class NftListFromComsaLang {
   };
   static creater_address: SystemLang = {
     jp: "作成者アドレス",
-    en: "Author's address",
+    en: "Creator's address",
     es: "",
     it: "",
     ko: "",
@@ -220,7 +220,7 @@ export class NftListFromComsaLang {
 export class createThemeSetLang {
   static creater_name: SystemLang = {
     jp: "作成者名",
-    en: "Author",
+    en: "Creator",
     es: "",
     it: "",
     ko: "",
