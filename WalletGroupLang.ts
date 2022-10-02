@@ -12,7 +12,7 @@ export class WalletTabLang {
   };
   static receive: SystemLang = {
     jp: "受 取",
-    en: "",
+    en: "Received",
     es: "",
     it: "",
     ko: "",
@@ -21,7 +21,7 @@ export class WalletTabLang {
   };
   static send: SystemLang = {
     jp: "送 信",
-    en: "",
+    en: "Send",
     es: "",
     it: "",
     ko: "",
@@ -30,7 +30,7 @@ export class WalletTabLang {
   };
   static send_by_qr: SystemLang = {
     jp: "QRスキャンで送信",
-    en: "",
+    en: "Send via QR scan",
     es: "",
     it: "",
     ko: "",
@@ -43,7 +43,7 @@ export class WalletTabLang {
 export class NewsModalLang {
   static news_list_get_error_title: SystemLang = {
     jp: "ニュース取得エラー",
-    en: "",
+    en: "News retrieval error",
     es: "",
     it: "",
     ko: "",
@@ -52,7 +52,7 @@ export class NewsModalLang {
   };
   static news_list_get_error_message: SystemLang = {
     jp: "ニュースを取得出来ませんでした。",
-    en: "",
+    en: "Could not retrieve news.",
     es: "",
     it: "",
     ko: "",
@@ -65,7 +65,7 @@ export class NewsModalLang {
 export class HomeBottomTabNavigationLang {
   static home_bottomtab_wallettab: SystemLang = {
     jp: "ウォレット",
-    en: "",
+    en: "Wallet",
     es: "",
     it: "",
     ko: "",
@@ -74,7 +74,7 @@ export class HomeBottomTabNavigationLang {
   };
   static navigation_history_tab_title: SystemLang = {
     jp: "履 歴",
-    en: "",
+    en: "History",
     es: "",
     it: "",
     ko: "",
@@ -83,7 +83,7 @@ export class HomeBottomTabNavigationLang {
   };
   static navigation_wallet_design_tab_title: SystemLang = {
     jp: "着せ替え",
-    en: "",
+    en: "Change screen background ",
     es: "",
     it: "",
     ko: "",
@@ -92,7 +92,7 @@ export class HomeBottomTabNavigationLang {
   };
   static navigation_menu_tab_title: SystemLang = {
     jp: "メニュー",
-    en: "",
+    en: "Menu",
     es: "",
     it: "",
     ko: "",
@@ -101,7 +101,7 @@ export class HomeBottomTabNavigationLang {
   };
   static navigation_settings_tab_title: SystemLang = {
     jp: "設定",
-    en: "",
+    en: "Settings",
     es: "",
     it: "",
     ko: "",
@@ -111,7 +111,7 @@ export class HomeBottomTabNavigationLang {
 
   static current_account_null_error_title: SystemLang = {
     jp: "アカウントエラー",
-    en: "",
+    en: "Account error",
     es: "",
     it: "",
     ko: "",
@@ -120,7 +120,7 @@ export class HomeBottomTabNavigationLang {
   };
   static current_account_null_error_message: SystemLang = {
     jp: "現在接続中のネットワークタイプで登録されているウォレットがありません。ウォレットを追加してください。",
-    en: "",
+    en: "No registered wallets for the network type being connected to. Please add a wallet.",
     es: "",
     it: "",
     ko: "",
@@ -133,7 +133,7 @@ export class HomeBottomTabNavigationLang {
 export class MenuTabLang {
   static community_title: SystemLang = {
     jp: "コミュニティ",
-    en: "",
+    en: "Community",
     es: "",
     it: "",
     ko: "",
@@ -142,7 +142,7 @@ export class MenuTabLang {
   };
   static community_subTitle: SystemLang = {
     jp: "コミュニティ一覧を表示",
-    en: "",
+    en: "See community lists",
     es: "",
     it: "",
     ko: "",
@@ -152,7 +152,7 @@ export class MenuTabLang {
 
   static paymentservice_title: SystemLang = {
     jp: "決済サービス一覧",
-    en: "",
+    en: "List of payment services",
     es: "",
     it: "",
     ko: "",
@@ -161,7 +161,7 @@ export class MenuTabLang {
   };
   static paymentservice_subTitle: SystemLang = {
     jp: "Symbolが使えるサービスを表示",
-    en: "",
+    en: "See symbol payment accepted service",
     es: "",
     it: "",
     ko: "",
@@ -170,7 +170,7 @@ export class MenuTabLang {
   };
   static contracts_title: SystemLang = {
     jp: "アドレス帳",
-    en: "",
+    en: "Address book",
     es: "",
     it: "",
     ko: "",
@@ -179,7 +179,7 @@ export class MenuTabLang {
   };
   static contracts_subTitle: SystemLang = {
     jp: "登録済みの連絡先を表示",
-    en: "",
+    en: "Show registered address",
     es: "",
     it: "",
     ko: "",
@@ -188,7 +188,7 @@ export class MenuTabLang {
   };
   static news_title: SystemLang = {
     jp: "ニュース",
-    en: "",
+    en: "News",
     es: "",
     it: "",
     ko: "",
@@ -197,7 +197,7 @@ export class MenuTabLang {
   };
   static news_subTitle: SystemLang = {
     jp: "EXYMやSymbolの最新情報",
-    en: "",
+    en: "Latest news on EXYM and Symbol",
     es: "",
     it: "",
     ko: "",
@@ -209,7 +209,7 @@ export class MenuTabLang {
 export class DataCardComponentLang {
   static wallet_info_hidden: SystemLang = {
     jp: "非表示",
-    en: "",
+    en: "Hidden",
     es: "",
     it: "",
     ko: "",
@@ -218,7 +218,7 @@ export class DataCardComponentLang {
   };
   static wallet_info_visible: SystemLang = {
     jp: "表示",
-    en: "",
+    en: "Shown",
     es: "",
     it: "",
     ko: "",
@@ -227,7 +227,7 @@ export class DataCardComponentLang {
   };
   static copy_address_notification: SystemLang = {
     jp: "コピーしました",
-    en: "",
+    en: "Copied",
     es: "",
     it: "",
     ko: "",
@@ -240,7 +240,7 @@ export class DataCardComponentLang {
 export class ContractsModalLang {
   static address_format_error_title: SystemLang = {
     jp: "入力エラー",
-    en: "",
+    en: "Input error",
     es: "",
     it: "",
     ko: "",
@@ -249,7 +249,7 @@ export class ContractsModalLang {
   };
   static address_format_error_message: SystemLang = {
     jp: "アドレスの形式が正しくありません。",
-    en: "",
+    en: "Incorrect address format",
     es: "",
     it: "",
     ko: "",
@@ -258,7 +258,7 @@ export class ContractsModalLang {
   };
   static notmatch_qr_networktype_error_title: SystemLang = {
     jp: "QR読込エラー",
-    en: "",
+    en: "QR code reading error",
     es: "",
     it: "",
     ko: "",
@@ -267,7 +267,7 @@ export class ContractsModalLang {
   };
   static notmatch_qr_networktype_error_message: SystemLang = {
     jp: "現在の接続中のネットワーク種別と読み込んだQRコードに登録されたウォレットのネットワーク種別が異なる為、登録できません。",
-    en: "",
+    en: "Cannot register due to the network type being connected to. Network type of the wallet registered in the read QR code are different.",
     es: "",
     it: "",
     ko: "",
@@ -276,7 +276,7 @@ export class ContractsModalLang {
   };
   static qrcode_read_error_title: SystemLang = {
     jp: "QR読込エラー",
-    en: "",
+    en: "QR code reading error",
     es: "",
     it: "",
     ko: "",
@@ -285,7 +285,7 @@ export class ContractsModalLang {
   };
   static qrcode_read_error_message: SystemLang = {
     jp: "QRコードの読み込みに失敗しました。再度お試しください。",
-    en: "",
+    en: "Failed to read the QR code. Try again.",
     es: "",
     it: "",
     ko: "",
@@ -294,7 +294,7 @@ export class ContractsModalLang {
   };
   static fab_title_main: SystemLang = {
     jp: "追加",
-    en: "",
+    en: "Add",
     es: "",
     it: "",
     ko: "",
@@ -303,7 +303,7 @@ export class ContractsModalLang {
   };
   static fab_title_by_qrcode: SystemLang = {
     jp: "QRコードから登録",
-    en: "",
+    en: "Register via QR code",
     es: "",
     it: "",
     ko: "",
@@ -312,7 +312,7 @@ export class ContractsModalLang {
   };
   static fab_title_by_manual: SystemLang = {
     jp: "手動で登録",
-    en: "",
+    en: "Register manually",
     es: "",
     it: "",
     ko: "",
@@ -321,7 +321,7 @@ export class ContractsModalLang {
   };
   static flatlist_no_data: SystemLang = {
     jp: "登録がありません",
-    en: "",
+    en: "No registration",
     es: "",
     it: "",
     ko: "",
@@ -330,7 +330,7 @@ export class ContractsModalLang {
   };
   static do_search: SystemLang = {
     jp: "検索する",
-    en: "",
+    en: "Search",
     es: "",
     it: "",
     ko: "",
@@ -339,7 +339,7 @@ export class ContractsModalLang {
   };
   static edit_modal_name: SystemLang = {
     jp: "名前",
-    en: "",
+    en: "Name",
     es: "",
     it: "",
     ko: "",
@@ -348,7 +348,7 @@ export class ContractsModalLang {
   };
   static edit_modal_address: SystemLang = {
     jp: "Symbolアドレス",
-    en: "",
+    en: "Symbol address",
     es: "",
     it: "",
     ko: "",
@@ -357,7 +357,7 @@ export class ContractsModalLang {
   };
   static edit_modal_publickey: SystemLang = {
     jp: "Symbol公開鍵",
-    en: "",
+    en: "Symbol public key",
     es: "",
     it: "",
     ko: "",
@@ -366,7 +366,7 @@ export class ContractsModalLang {
   };
   static edit_modal_note: SystemLang = {
     jp: "メモ",
-    en: "",
+    en: "Memo",
     es: "",
     it: "",
     ko: "",
@@ -375,7 +375,7 @@ export class ContractsModalLang {
   };
   static edit_modal_save: SystemLang = {
     jp: "保存する",
-    en: "",
+    en: "Save",
     es: "",
     it: "",
     ko: "",
@@ -384,7 +384,7 @@ export class ContractsModalLang {
   };
   static edit_modal_update: SystemLang = {
     jp: "更新する",
-    en: "",
+    en: "Update",
     es: "",
     it: "",
     ko: "",
@@ -393,7 +393,7 @@ export class ContractsModalLang {
   };
   static eidt_modal_delete: SystemLang = {
     jp: "削除する",
-    en: "",
+    en: "Delete",
     es: "",
     it: "",
     ko: "",
@@ -414,7 +414,7 @@ export class SendByQRModalLang {
   };
   static network_connection_error_title: SystemLang = {
     jp: "ネットワーク接続エラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -423,7 +423,7 @@ export class SendByQRModalLang {
   };
   static network_connection_error_message: SystemLang = {
     jp: "ネットワークへの接続に失敗しました。再度お試しいただくか、時間を開けてお試しください",
-    en: "",
+    en: "Unable to connect to the network. Try again or take a moment.",
     es: "",
     it: "",
     ko: "",
@@ -432,7 +432,7 @@ export class SendByQRModalLang {
   };
   static get_privatekey_error_title: SystemLang = {
     jp: "メッセージ暗号化エラー",
-    en: "",
+    en: "Message encryption error",
     es: "",
     it: "",
     ko: "",
@@ -440,8 +440,8 @@ export class SendByQRModalLang {
     ru: "",
   };
   static get_privatekey_error_message: SystemLang = {
-    jp: "メッセージの暗号化を行う為、端末内の秘密鍵の取得を試みましたが失敗しました。再度お試し頂くか、アカウント設定を再度行ってください",
-    en: "",
+    jp: "メッセージの暗号化を行う為、端末内の秘密鍵の取得を試みましたが失敗しました。再度お試し頂くか、アカウント設定を再度行ってください。",
+    en: "Attempts to retrieve the private key in your device to encrypt messages have failed. Try again or set up your account once more.",
     es: "",
     it: "",
     ko: "",
@@ -450,7 +450,7 @@ export class SendByQRModalLang {
   };
   static get_publickey_error_title: SystemLang = {
     jp: "メッセージ暗号化エラー",
-    en: "",
+    en: "Message encryption error",
     es: "",
     it: "",
     ko: "",
@@ -459,7 +459,7 @@ export class SendByQRModalLang {
   };
   static get_publickey_error_message: SystemLang = {
     jp: "送信先アドレスの公開鍵がネットワーク上に存在しませんでした。ウォレット生成直後のアドレスには暗号化メッセージは送信出来ません。",
-    en: "",
+    en: "The public key for the destination address does not exist on the network. Encrypted messages cannot be sent to the address immediately after the wallet was generated.",
     es: "",
     it: "",
     ko: "",
@@ -468,7 +468,7 @@ export class SendByQRModalLang {
   };
   static create_transaction_error_title: SystemLang = {
     jp: "トランザクション生成エラー",
-    en: "",
+    en: "Transaction error",
     es: "",
     it: "",
     ko: "",
@@ -477,7 +477,7 @@ export class SendByQRModalLang {
   };
   static create_transaction_error_message: SystemLang = {
     jp: "手数料の計算中、もしくはトランザクションの生成中に予期せぬエラーが発生しました。再度お試し頂くか、アカウント設定を再度行ってください",
-    en: "",
+    en: "An unexpected error occurred during the fees calculation or transaction process. Try again or set up your account once more.",
     es: "",
     it: "",
     ko: "",
@@ -486,7 +486,7 @@ export class SendByQRModalLang {
   };
   static address_format_error_title: SystemLang = {
     jp: "入力エラー",
-    en: "",
+    en: "Input error",
     es: "",
     it: "",
     ko: "",
@@ -495,7 +495,7 @@ export class SendByQRModalLang {
   };
   static address_format_error_message: SystemLang = {
     jp: "入力されたアドレスの形式が正しくありません",
-    en: "",
+    en: "Incorrect address format",
     es: "",
     it: "",
     ko: "",
@@ -504,7 +504,7 @@ export class SendByQRModalLang {
   };
   static minus_balance_error_title: SystemLang = {
     jp: "残高エラー",
-    en: "",
+    en: "Balance error",
     es: "",
     it: "",
     ko: "",
@@ -513,7 +513,7 @@ export class SendByQRModalLang {
   };
   static minus_balance_error_message: SystemLang = {
     jp: "保有量を上回っています。送信量を確認してください。",
-    en: "",
+    en: "Insufficient balance. Check transaction volume.",
     es: "",
     it: "",
     ko: "",
@@ -522,7 +522,7 @@ export class SendByQRModalLang {
   };
   static mosaic_duplicated_error_title: SystemLang = {
     jp: "モザイク重複エラー",
-    en: "",
+    en: "Error mosaic duplication",
     es: "",
     it: "",
     ko: "",
@@ -531,7 +531,7 @@ export class SendByQRModalLang {
   };
   static mosaic_duplicated_error_message: SystemLang = {
     jp: "送信するモザイクが重複しています。モザイク名を確認してください。",
-    en: "",
+    en: "Mosaics about to be sent are duplicated. Check the mosaics name.",
     es: "",
     it: "",
     ko: "",
@@ -540,7 +540,7 @@ export class SendByQRModalLang {
   };
   static mosaic_is_null_error_title: SystemLang = {
     jp: "モザイク名入力エラー",
-    en: "",
+    en: "Mosaic name input error",
     es: "",
     it: "",
     ko: "",
@@ -549,7 +549,7 @@ export class SendByQRModalLang {
   };
   static mosaic_is_null_error_message: SystemLang = {
     jp: "モザイク名が入力されていません。モザイク名を確認してください。",
-    en: "",
+    en: "The mosaic name has not been input. Check the name.",
     es: "",
     it: "",
     ko: "",
@@ -558,7 +558,7 @@ export class SendByQRModalLang {
   };
   static amount_is_null_error_title: SystemLang = {
     jp: "送信量入力エラー",
-    en: "",
+    en: "Transmission amount input error",
     es: "",
     it: "",
     ko: "",
@@ -567,7 +567,7 @@ export class SendByQRModalLang {
   };
   static amount_is_null_error_message: SystemLang = {
     jp: "送信量が入力されていません。送信量を確認してください。",
-    en: "",
+    en: "The transmission amount has not been input. Check the amount.",
     es: "",
     it: "",
     ko: "",
@@ -576,7 +576,7 @@ export class SendByQRModalLang {
   };
   static qrcode_read_error_title: SystemLang = {
     jp: "QRコード読み取りエラー",
-    en: "",
+    en: "QR code reading error",
     es: "",
     it: "",
     ko: "",
@@ -585,7 +585,7 @@ export class SendByQRModalLang {
   };
   static qrcode_read_error_message: SystemLang = {
     jp: "読み込んだQRコードの形式が正しくありません。送信先アドレスQRコードであることを確認してください。",
-    en: "",
+    en: "Scanned QR code is an incorrect format. Check destination address QR code.",
     es: "",
     it: "",
     ko: "",
@@ -594,7 +594,7 @@ export class SendByQRModalLang {
   };
   static point_excess_error_title: SystemLang = {
     jp: "ポイント超過エラー",
-    en: "",
+    en: "Excess point error",
     es: "",
     it: "",
     ko: "",
@@ -603,7 +603,7 @@ export class SendByQRModalLang {
   };
   static point_excess_error_message: SystemLang = {
     jp: "ポイントモザイクがsymbol.xymの送信量を超過しました。再度入力し直してください。",
-    en: "",
+    en: "The point mosaic has exceeded the amount of sending symbol.xym. Enter the amount again.",
     es: "",
     it: "",
     ko: "",
@@ -612,7 +612,7 @@ export class SendByQRModalLang {
   };
   static total_value_mismatch_error_title: SystemLang = {
     jp: "レート換算エラー",
-    en: "",
+    en: "Rate conversion error",
     es: "",
     it: "",
     ko: "",
@@ -621,7 +621,7 @@ export class SendByQRModalLang {
   };
   static total_value_mismatch_error_message: SystemLang = {
     jp: "レート換算したsymbol.xymの数量と一致しません。再度レート換算を実行するか、symbol.xymおよびポイントモザイクの送信量を入力し直してください。",
-    en: "",
+    en: "The converted  rate and symbol.xym amount are not matched. Try rate conversion again, or enter the symbol.xym and point mosaics transmission amounts once more.",
     es: "",
     it: "",
     ko: "",
