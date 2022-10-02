@@ -207,24 +207,6 @@ export class MenuTabLang {
 }
 
 export class DataCardComponentLang {
-  static wallet_info_hidden: SystemLang = {
-    jp: "非表示",
-    en: "Hidden",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
-  };
-  static wallet_info_visible: SystemLang = {
-    jp: "表示",
-    en: "Shown",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
-  };
   static copy_address_notification: SystemLang = {
     jp: "コピーしました",
     en: "Copied",
