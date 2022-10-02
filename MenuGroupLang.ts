@@ -143,7 +143,7 @@ export class PaymentServiceModalLang {
 
   static payment_service_list_get_error_title: SystemLang = {
     jp: "情報取得エラー",
-    en: "Error.",
+    en: "Error",
     es: "",
     it: "",
     ko: "",
