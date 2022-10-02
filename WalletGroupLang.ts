@@ -882,7 +882,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_crypted_do: SystemLang = {
     jp: "する",
-    en: "Yes",
+    en: "Encrypted",
     es: "",
     it: "",
     ko: "",
@@ -891,7 +891,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_crypted_not_do: SystemLang = {
     jp: "しない",
-    en: "No",
+    en: "Not encrypted",
     es: "",
     it: "",
     ko: "",
