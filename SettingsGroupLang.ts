@@ -552,6 +552,15 @@ export class WalletInfoChangeLang {
     pl: "",
     ru: "",
   };
+  static change_method_from_select_from_comsa_ncft: SystemLang = {
+    jp: "NFT(COMSA-NCFT)",
+    en: "",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
   static submit_btn_title: SystemLang = {
     jp: "変更内容を確定する",
     en: "",
@@ -888,6 +897,24 @@ export class WalletDesignLang {
     pl: "",
     ru: "",
   };
+  static ncft_list_from_comsa_title: SystemLang = {
+    jp: "COMSA-NCFT",
+    en: "",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
+  static ncft_list_from_comsa_message: SystemLang = {
+    jp: "COMSAの保有NCFT一覧を表示",
+    en: "",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
   static favorite_design_title: SystemLang = {
     jp: "お気に入り",
     en: "",
@@ -980,6 +1007,15 @@ export class WalletDesignLang {
   };
   static select_background_type_comsa: SystemLang = {
     jp: "NFT(COMSA)",
+    en: "",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
+  static select_background_type_comsa_ncft: SystemLang = {
+    jp: "NFT(COMSA-NCFT)",
     en: "",
     es: "",
     it: "",
@@ -1124,6 +1160,42 @@ export class WalletDesignLang {
   };
   static select_position_lower: SystemLang = {
     jp: "下",
+    en: "",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
+  static select_resize_mode_title: SystemLang = {
+    jp: "拡大/縮小",
+    en: "",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
+  static select_resize_mode_cover: SystemLang = {
+    jp: "画面いっぱいに拡大する",
+    en: "",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
+  static select_resize_mode_contain: SystemLang = {
+    jp: "縮小して全体を表示する",
+    en: "",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
+  static border_type_note: SystemLang = {
+    jp: "※画像/NFT選択時は枠の設定ができません。",
     en: "",
     es: "",
     it: "",
