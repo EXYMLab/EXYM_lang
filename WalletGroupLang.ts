@@ -12,7 +12,7 @@ export class WalletTabLang {
   };
   static receive: SystemLang = {
     jp: "受 取",
-    en: "Received",
+    en: "Receive",
     es: "",
     it: "",
     ko: "",
