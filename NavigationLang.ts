@@ -111,7 +111,7 @@ export class NavigationLang {
   };
   static receive_modal_title: SystemLang = {
     jp: "受取",
-    en: "Received",
+    en: "Receive",
     es: "",
     it: "",
     ko: "",
