@@ -181,9 +181,27 @@ export class NavigationLang {
     pl: "COMSA",
     ru: "COMSA",
   };
+  static ncft_list_from_comsa_modal_title: SystemLang = {
+    jp: "COMSA-NCFT",
+    en: "COMSA-NCFT",
+    es: "COMSA-NCFT",
+    it: "COMSA-NCFT",
+    ko: "COMSA-NCFT",
+    pl: "COMSA-NCFT",
+    ru: "COMSA-NCFT",
+  };
   static nft_detail_screen_title: SystemLang = {
     jp: "NFT詳細",
     en: "NFT Details",
+    es: "",
+    it: "",
+    ko: "",
+    pl: "",
+    ru: "",
+  };
+  static ncft_detail_screen_title: SystemLang = {
+    jp: "NCFT詳細",
+    en: "NCFT Details",
     es: "",
     it: "",
     ko: "",
