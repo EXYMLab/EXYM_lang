@@ -12,7 +12,7 @@ export class WalletTabLang {
   };
   static receive: SystemLang = {
     jp: "受 取",
-    en: "Received",
+    en: "Receive",
     es: "",
     it: "",
     ko: "",
@@ -207,24 +207,6 @@ export class MenuTabLang {
 }
 
 export class DataCardComponentLang {
-  static wallet_info_hidden: SystemLang = {
-    jp: "非表示",
-    en: "Hidden",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
-  };
-  static wallet_info_visible: SystemLang = {
-    jp: "表示",
-    en: "Shown",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
-  };
   static copy_address_notification: SystemLang = {
     jp: "コピーしました",
     en: "Copied",
@@ -630,7 +612,7 @@ export class SendByQRModalLang {
   };
   static namespace_non_Legitimate_error_title: SystemLang = {
     jp: "ポイントモザイクエラー",
-    en: "",
+    en: "Point Mosaic Error",
     es: "",
     it: "",
     ko: "",
@@ -639,7 +621,7 @@ export class SendByQRModalLang {
   };
   static namespace_non_Legitimate_error_message: SystemLang = {
     jp: "ポイントモザイクを確認できませんでした。「設定」から接続先ノードを変更してください。",
-    en: "",
+    en: "Could not find point mosaic. Change the connecting node via 'Configuration'.",
     es: "",
     it: "",
     ko: "",
@@ -648,7 +630,7 @@ export class SendByQRModalLang {
   };
   static recipient_name_notmatch: SystemLang = {
     jp: "一致無し",
-    en: "",
+    en: "Not applicable",
     es: "",
     it: "",
     ko: "",
@@ -657,7 +639,7 @@ export class SendByQRModalLang {
   };
   static recipient_address_title: SystemLang = {
     jp: "送信先アドレス(ハイフン不要)",
-    en: "",
+    en: "Destination address (no hyphen required)",
     es: "",
     it: "",
     ko: "",
@@ -666,7 +648,7 @@ export class SendByQRModalLang {
   };
   static recipient_address_placeholder: SystemLang = {
     jp: "相手のアドレスを入力してください",
-    en: "",
+    en: "Enter the destination address",
     es: "",
     it: "",
     ko: "",
@@ -675,7 +657,7 @@ export class SendByQRModalLang {
   };
   static recipient_address_hitname: SystemLang = {
     jp: "連絡帳登録名：",
-    en: "",
+    en: "Contact list name",
     es: "",
     it: "",
     ko: "",
@@ -684,7 +666,7 @@ export class SendByQRModalLang {
   };
   static mosaic: SystemLang = {
     jp: "送信するモザイク",
-    en: "",
+    en: "Mosaic to send",
     es: "",
     it: "",
     ko: "",
@@ -693,7 +675,7 @@ export class SendByQRModalLang {
   };
   static mosaic_name: SystemLang = {
     jp: "モザイク名",
-    en: "",
+    en: "Mosaic name",
     es: "",
     it: "",
     ko: "",
@@ -702,7 +684,7 @@ export class SendByQRModalLang {
   };
   static mosaic_stock: SystemLang = {
     jp: "保有量：",
-    en: "",
+    en: "Holding amount：",
     es: "",
     it: "",
     ko: "",
@@ -711,7 +693,7 @@ export class SendByQRModalLang {
   };
   static mosaic_amount_title: SystemLang = {
     jp: "送信量",
-    en: "",
+    en: "Sending amount",
     es: "",
     it: "",
     ko: "",
@@ -720,7 +702,7 @@ export class SendByQRModalLang {
   };
   static mosaic_amount_placeholder: SystemLang = {
     jp: "送信する数量を入力してください",
-    en: "",
+    en: "Enter the sending amount",
     es: "",
     it: "",
     ko: "",
@@ -729,7 +711,7 @@ export class SendByQRModalLang {
   };
   static message_title: SystemLang = {
     jp: "メッセージ",
-    en: "",
+    en: "Message",
     es: "",
     it: "",
     ko: "",
@@ -738,7 +720,7 @@ export class SendByQRModalLang {
   };
   static message_placeholder: SystemLang = {
     jp: "メッセージを入力してください",
-    en: "",
+    en: "Enter the message",
     es: "",
     it: "",
     ko: "",
@@ -747,7 +729,7 @@ export class SendByQRModalLang {
   };
   static select_commision_title: SystemLang = {
     jp: "手数料を選択",
-    en: "",
+    en: "Select transaction fee",
     es: "",
     it: "",
     ko: "",
@@ -756,7 +738,7 @@ export class SendByQRModalLang {
   };
   static select_commision_average: SystemLang = {
     jp: "平均",
-    en: "",
+    en: "Average",
     es: "",
     it: "",
     ko: "",
@@ -765,7 +747,7 @@ export class SendByQRModalLang {
   };
   static select_commision_slow: SystemLang = {
     jp: "遅い",
-    en: "",
+    en: "Slow",
     es: "",
     it: "",
     ko: "",
@@ -774,7 +756,7 @@ export class SendByQRModalLang {
   };
   static select_commision_fast: SystemLang = {
     jp: "速い",
-    en: "",
+    en: "Fast",
     es: "",
     it: "",
     ko: "",
@@ -792,7 +774,7 @@ export class SendByQRModalLang {
   };
   static commition_remark_2: SystemLang = {
     jp: "表示された手数料を保証するものではありません。",
-    en: "",
+    en: "The fee shown is projections of the maximum fee.",
     es: "",
     it: "",
     ko: "",
@@ -801,7 +783,7 @@ export class SendByQRModalLang {
   };
   static input_submit: SystemLang = {
     jp: "確認する",
-    en: "",
+    en: "Confirm",
     es: "",
     it: "",
     ko: "",
@@ -810,7 +792,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_title: SystemLang = {
     jp: "以下で送信を確定します",
-    en: "",
+    en: "To confirm transaction with the following information.",
     es: "",
     it: "",
     ko: "",
@@ -819,7 +801,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_body: SystemLang = {
     jp: "取り消しは出来ません。よろしいですか？",
-    en: "",
+    en: "It cannot be revoked. Is that OK?",
     es: "",
     it: "",
     ko: "",
@@ -828,7 +810,7 @@ export class SendByQRModalLang {
   };
   static warning_title: SystemLang = {
     jp: "ご確認ください",
-    en: "",
+    en: "Please confirm",
     es: "",
     it: "",
     ko: "",
@@ -837,7 +819,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_waring_message: SystemLang = {
     jp: "送信量が保有資産の80％を超えています。詐欺の可能性を強く疑ってください。本当に送金してもよろしいですか？",
-    en: "",
+    en: "The amount of transaction about to send exceeds 80% of the assets held. You should strongly suspect a possibility of being scammed. Are you sure about sending them?",
     es: "",
     it: "",
     ko: "",
@@ -846,7 +828,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_recipient: SystemLang = {
     jp: "送信先",
-    en: "",
+    en: "Address you send",
     es: "",
     it: "",
     ko: "",
@@ -855,7 +837,7 @@ export class SendByQRModalLang {
   };
   static price: SystemLang = {
     jp: "支払い金額",
-    en: "",
+    en: "Amount of payment",
     es: "",
     it: "",
     ko: "",
@@ -864,7 +846,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_mosaic: SystemLang = {
     jp: "送信するモザイク",
-    en: "",
+    en: "Mosaic to send",
     es: "",
     it: "",
     ko: "",
@@ -873,7 +855,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_amount: SystemLang = {
     jp: "送信量",
-    en: "",
+    en: "Sending amount",
     es: "",
     it: "",
     ko: "",
@@ -882,7 +864,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_crypted: SystemLang = {
     jp: "暗号化",
-    en: "",
+    en: "Encryption",
     es: "",
     it: "",
     ko: "",
@@ -891,7 +873,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_commision: SystemLang = {
     jp: "手数料",
-    en: "",
+    en: "Fee",
     es: "",
     it: "",
     ko: "",
@@ -900,7 +882,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_crypted_do: SystemLang = {
     jp: "する",
-    en: "",
+    en: "Encrypted",
     es: "",
     it: "",
     ko: "",
@@ -909,7 +891,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_crypted_not_do: SystemLang = {
     jp: "しない",
-    en: "",
+    en: "Not encrypted",
     es: "",
     it: "",
     ko: "",
@@ -918,7 +900,7 @@ export class SendByQRModalLang {
   };
   static sendcomfirmmodal_checksendcontent: SystemLang = {
     jp: "送金内容を確認しました。",
-    en: "",
+    en: "Transaction details confirmed.",
     es: "",
     it: "",
     ko: "",
@@ -927,7 +909,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_cancel: SystemLang = {
     jp: "キャンセル",
-    en: "",
+    en: "Cancel",
     es: "",
     it: "",
     ko: "",
@@ -936,7 +918,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_submit: SystemLang = {
     jp: "送信する",
-    en: "",
+    en: "Send",
     es: "",
     it: "",
     ko: "",
@@ -945,7 +927,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_submit_auth: SystemLang = {
     jp: "送信を実行します",
-    en: "",
+    en: "Execute transaction",
     es: "",
     it: "",
     ko: "",
@@ -954,7 +936,7 @@ export class SendByQRModalLang {
   };
   static common_require: SystemLang = {
     jp: "必 須",
-    en: "",
+    en: "Required",
     es: "",
     it: "",
     ko: "",
@@ -963,7 +945,7 @@ export class SendByQRModalLang {
   };
   static common_optional: SystemLang = {
     jp: "任 意",
-    en: "",
+    en: "Optional",
     es: "",
     it: "",
     ko: "",
@@ -972,7 +954,7 @@ export class SendByQRModalLang {
   };
   static update_sendlist: SystemLang = {
     jp: "モザイク一覧を更新しました。",
-    en: "",
+    en: "Updated mosaic list.",
     es: "",
     it: "",
     ko: "",
@@ -981,7 +963,7 @@ export class SendByQRModalLang {
   };
   static exchange_title: SystemLang = {
     jp: "日本円から計算する",
-    en: "",
+    en: "Calculate from Japanese yen",
     es: "",
     it: "",
     ko: "",
@@ -990,7 +972,7 @@ export class SendByQRModalLang {
   };
   static exchange: SystemLang = {
     jp: "レート換算",
-    en: "",
+    en: "Rate conversion",
     es: "",
     it: "",
     ko: "",
@@ -999,7 +981,7 @@ export class SendByQRModalLang {
   };
   static exchange_placeholder: SystemLang = {
     jp: "日本円の金額を入力してください",
-    en: "",
+    en: "Enter the amount in Japanese yen",
     es: "",
     it: "",
     ko: "",
@@ -1008,21 +990,21 @@ export class SendByQRModalLang {
   };
   static currency_mark: SystemLang = {
     jp: "￥",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "$",
+    es: "$",
+    it: "$",
+    ko: "$",
+    pl: "$",
+    ru: "$",
   };
   static currency: SystemLang = {
     jp: "日本円",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "USD",
+    es: "USD",
+    it: "USD",
+    ko: "USD",
+    pl: "USD",
+    ru: "USD",
   };
   static xym: SystemLang = {
     jp: "XYM",
@@ -1035,7 +1017,7 @@ export class SendByQRModalLang {
   }
   static input_password: SystemLang = {
     jp: "パスワード",
-    en: "",
+    en: "Password",
     es: "",
     it: "",
     ko: "",
@@ -1044,7 +1026,7 @@ export class SendByQRModalLang {
   }
   static input_password_placeholder: SystemLang = {
     jp: "パスワードを入力してください",
-    en: "",
+    en: "Enter password",
     es: "",
     it: "",
     ko: "",
@@ -1066,7 +1048,7 @@ export class SendModalLang {
   };
   static network_connection_error_title: SystemLang = {
     jp: "ネットワーク接続エラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -1075,7 +1057,7 @@ export class SendModalLang {
   };
   static network_connection_error_message: SystemLang = {
     jp: "ネットワークへの接続に失敗しました。再度お試しいただくか、時間を開けてお試しください",
-    en: "",
+    en: "Unable to connect to the network. Try again or take a moment.",
     es: "",
     it: "",
     ko: "",
@@ -1084,7 +1066,7 @@ export class SendModalLang {
   };
   static get_privatekey_error_title: SystemLang = {
     jp: "メッセージ暗号化エラー",
-    en: "",
+    en: "Message encryption error",
     es: "",
     it: "",
     ko: "",
@@ -1093,7 +1075,7 @@ export class SendModalLang {
   };
   static get_privatekey_error_message: SystemLang = {
     jp: "メッセージの暗号化を行う為、端末内の秘密鍵の取得を試みましたが失敗しました。再度お試し頂くか、アカウント設定を再度行ってください",
-    en: "",
+    en: "Attempts to retrieve the private key in your device to encrypt messages have failed. Try again or set up your account once more.",
     es: "",
     it: "",
     ko: "",
@@ -1102,7 +1084,7 @@ export class SendModalLang {
   };
   static get_publickey_error_title: SystemLang = {
     jp: "メッセージ暗号化エラー",
-    en: "",
+    en: "Message encryption error",
     es: "",
     it: "",
     ko: "",
@@ -1111,7 +1093,7 @@ export class SendModalLang {
   };
   static get_publickey_error_message: SystemLang = {
     jp: "送信先アドレスの公開鍵がネットワーク上に存在しませんでした。ウォレット生成直後のアドレスには暗号化メッセージは送信出来ません。",
-    en: "",
+    en: "The public key for the destination address does not exist on the network. Encrypted messages cannot be sent to the address immediately after the wallet was generated.",
     es: "",
     it: "",
     ko: "",
@@ -1120,7 +1102,7 @@ export class SendModalLang {
   };
   static create_transaction_error_title: SystemLang = {
     jp: "トランザクション生成エラー",
-    en: "",
+    en: "Transaction error",
     es: "",
     it: "",
     ko: "",
@@ -1129,7 +1111,7 @@ export class SendModalLang {
   };
   static create_transaction_error_message: SystemLang = {
     jp: "手数料の計算中、もしくはトランザクションの生成中に予期せぬエラーが発生しました。再度お試し頂くか、アカウント設定を再度行ってください",
-    en: "",
+    en: "An unexpected error occurred during the fees calculation or transaction process. Try again or set up your account ",
     es: "",
     it: "",
     ko: "",
@@ -1138,7 +1120,7 @@ export class SendModalLang {
   };
   static address_format_error_title: SystemLang = {
     jp: "入力エラー",
-    en: "",
+    en: "Input error",
     es: "",
     it: "",
     ko: "",
@@ -1147,7 +1129,7 @@ export class SendModalLang {
   };
   static address_format_error_message: SystemLang = {
     jp: "入力されたアドレスの形式が正しくありません。",
-    en: "",
+    en: "Incorrect address format",
     es: "",
     it: "",
     ko: "",
@@ -1156,7 +1138,7 @@ export class SendModalLang {
   };
   static minus_balance_error_title: SystemLang = {
     jp: "残高エラー",
-    en: "",
+    en: "Balance error",
     es: "",
     it: "",
     ko: "",
@@ -1165,7 +1147,7 @@ export class SendModalLang {
   };
   static minus_balance_error_message: SystemLang = {
     jp: "保有量を上回っています。送信量を確認してください。",
-    en: "",
+    en: "Insufficient balance. Check transaction volume.",
     es: "",
     it: "",
     ko: "",
@@ -1174,7 +1156,7 @@ export class SendModalLang {
   };
   static mosaic_duplicated_error_title: SystemLang = {
     jp: "モザイク重複エラー",
-    en: "",
+    en: "Error mosaic duplication",
     es: "",
     it: "",
     ko: "",
@@ -1183,7 +1165,7 @@ export class SendModalLang {
   };
   static mosaic_duplicated_error_message: SystemLang = {
     jp: "送信するモザイクが重複しています。モザイク名を確認してください。",
-    en: "",
+    en: "Error mosaic duplication to be sent. Check the name.",
     es: "",
     it: "",
     ko: "",
@@ -1192,7 +1174,7 @@ export class SendModalLang {
   };
   static mosaic_is_null_error_title: SystemLang = {
     jp: "モザイク名入力エラー",
-    en: "",
+    en: "Mosaic name input error",
     es: "",
     it: "",
     ko: "",
@@ -1201,7 +1183,7 @@ export class SendModalLang {
   };
   static mosaic_is_null_error_message: SystemLang = {
     jp: "モザイク名が入力されていません。モザイク名を確認してください。",
-    en: "",
+    en: "The mosaic name has not been input. Check the name.",
     es: "",
     it: "",
     ko: "",
@@ -1210,7 +1192,7 @@ export class SendModalLang {
   };
   static amount_is_null_error_title: SystemLang = {
     jp: "送信量入力エラー",
-    en: "",
+    en: "Transmission amount input error",
     es: "",
     it: "",
     ko: "",
@@ -1219,7 +1201,7 @@ export class SendModalLang {
   };
   static amount_is_null_error_message: SystemLang = {
     jp: "送信量が入力されていません。送信量を確認してください。",
-    en: "",
+    en: "The transmission amount has not been input. Check the amount.",
     es: "",
     it: "",
     ko: "",
@@ -1228,7 +1210,7 @@ export class SendModalLang {
   };
   static qrcode_read_error_title: SystemLang = {
     jp: "QRコード読み取りエラー",
-    en: "",
+    en: "QR code reading error",
     es: "",
     it: "",
     ko: "",
@@ -1237,7 +1219,7 @@ export class SendModalLang {
   };
   static qrcode_read_error_message: SystemLang = {
     jp: "読み込んだQRコードの形式が正しくありません。送信先アドレスQRコードであることを確認してください。",
-    en: "",
+    en: "Scanned QR code is an incorrect format. Check destination address QR code.",
     es: "",
     it: "",
     ko: "",
@@ -1246,7 +1228,7 @@ export class SendModalLang {
   };
   static point_excess_error_title: SystemLang = {
     jp: "ポイント超過エラー",
-    en: "",
+    en: "Excess point error",
     es: "",
     it: "",
     ko: "",
@@ -1255,7 +1237,7 @@ export class SendModalLang {
   };
   static point_excess_error_message: SystemLang = {
     jp: "ポイントモザイクがsymbol.xymの送信量を超過しました。再度入力してください。",
-    en: "",
+    en: "The point mosaic has exceeded the amount of sending symbol.xym. Enter the amount again.",
     es: "",
     it: "",
     ko: "",
@@ -1264,7 +1246,7 @@ export class SendModalLang {
   };
   static total_value_mismatch_error_title: SystemLang = {
     jp: "レート換算エラー",
-    en: "",
+    en: "Rate conversion error",
     es: "",
     it: "",
     ko: "",
@@ -1273,7 +1255,7 @@ export class SendModalLang {
   };
   static total_value_mismatch_error_message: SystemLang = {
     jp: "レート換算したsymbol.xymの数量と一致しません。再度レート換算を実行するか、symbol.xymおよびポイントモザイクの送信量を入力し直してください。",
-    en: "",
+    en: "The converted rate and symbol.xym amount are not matched. Try rate conversion again, or enter the symbol.xym and point mosaics transmission amounts once more.",
     es: "",
     it: "",
     ko: "",
@@ -1282,7 +1264,7 @@ export class SendModalLang {
   };
   static namespace_non_Legitimate_error_title: SystemLang = {
     jp: "ポイントモザイクエラー",
-    en: "",
+    en: "Point Mosaic Error",
     es: "",
     it: "",
     ko: "",
@@ -1291,7 +1273,7 @@ export class SendModalLang {
   };
   static namespace_non_Legitimate_error_message: SystemLang = {
     jp: "ポイントモザイクを確認できませんでした。「設定」から接続先ノードを変更してください。",
-    en: "",
+    en: "Could not find point mosaic. Change the connecting node via 'Configuration.",
     es: "",
     it: "",
     ko: "",
@@ -1300,7 +1282,7 @@ export class SendModalLang {
   };
   static recipient_name_notmatch: SystemLang = {
     jp: "該当なし",
-    en: "",
+    en: "Not applicable",
     es: "",
     it: "",
     ko: "",
@@ -1309,7 +1291,7 @@ export class SendModalLang {
   };
   static recipient_address_title: SystemLang = {
     jp: "送信先アドレス(ハイフン不要)",
-    en: "",
+    en: "Destination address (no hyphen required)",
     es: "",
     it: "",
     ko: "",
@@ -1318,7 +1300,7 @@ export class SendModalLang {
   };
   static recipient_address_placeholder: SystemLang = {
     jp: "相手のアドレスを入力してください",
-    en: "",
+    en: "Enter the destination address",
     es: "",
     it: "",
     ko: "",
@@ -1327,7 +1309,7 @@ export class SendModalLang {
   };
   static recipient_address_hitname: SystemLang = {
     jp: "連絡帳登録名：",
-    en: "",
+    en: "Contact list name",
     es: "",
     it: "",
     ko: "",
@@ -1336,7 +1318,7 @@ export class SendModalLang {
   };
   static mosaic: SystemLang = {
     jp: "送信するモザイク",
-    en: "",
+    en: "Mosaic to send",
     es: "",
     it: "",
     ko: "",
@@ -1345,7 +1327,7 @@ export class SendModalLang {
   };
   static mosaic_name: SystemLang = {
     jp: "モザイク名",
-    en: "",
+    en: "Mosaic name",
     es: "",
     it: "",
     ko: "",
@@ -1354,7 +1336,7 @@ export class SendModalLang {
   };
   static mosaic_stock: SystemLang = {
     jp: "保有量：",
-    en: "",
+    en: "Holding amount",
     es: "",
     it: "",
     ko: "",
@@ -1363,7 +1345,7 @@ export class SendModalLang {
   };
   static mosaic_amount_title: SystemLang = {
     jp: "送信量",
-    en: "",
+    en: "Sending amount",
     es: "",
     it: "",
     ko: "",
@@ -1372,7 +1354,7 @@ export class SendModalLang {
   };
   static mosaic_amount_placeholder: SystemLang = {
     jp: "送信する数量を入力してください",
-    en: "",
+    en: "Enter the sending amount",
     es: "",
     it: "",
     ko: "",
@@ -1381,7 +1363,7 @@ export class SendModalLang {
   };
   static message_title: SystemLang = {
     jp: "メッセージ",
-    en: "",
+    en: "Message",
     es: "",
     it: "",
     ko: "",
@@ -1390,7 +1372,7 @@ export class SendModalLang {
   };
   static message_placeholder: SystemLang = {
     jp: "メッセージを入力してください",
-    en: "",
+    en: "Enter the message",
     es: "",
     it: "",
     ko: "",
@@ -1399,7 +1381,7 @@ export class SendModalLang {
   };
   static select_commision_title: SystemLang = {
     jp: "手数料を選択",
-    en: "",
+    en: "Select transaction fee",
     es: "",
     it: "",
     ko: "",
@@ -1408,7 +1390,7 @@ export class SendModalLang {
   };
   static select_commision_average: SystemLang = {
     jp: "平均",
-    en: "",
+    en: "Average",
     es: "",
     it: "",
     ko: "",
@@ -1417,7 +1399,7 @@ export class SendModalLang {
   };
   static select_commision_slow: SystemLang = {
     jp: "遅い",
-    en: "",
+    en: "Slow",
     es: "",
     it: "",
     ko: "",
@@ -1426,7 +1408,7 @@ export class SendModalLang {
   };
   static select_commision_fast: SystemLang = {
     jp: "速い",
-    en: "",
+    en: "Fast",
     es: "",
     it: "",
     ko: "",
@@ -1435,7 +1417,7 @@ export class SendModalLang {
   };
   static commition_remark_1: SystemLang = {
     jp: "表示されている数字は手数料最大値の予測となります。",
-    en: "",
+    en: "The fee shown is projections of the maximum fee.",
     es: "",
     it: "",
     ko: "",
@@ -1444,7 +1426,7 @@ export class SendModalLang {
   };
   static commition_remark_2: SystemLang = {
     jp: "表示された手数料を保証するものではありません。",
-    en: "",
+    en: "The fee shown is approximate and does not guarantee the transaction fee.",
     es: "",
     it: "",
     ko: "",
@@ -1453,7 +1435,7 @@ export class SendModalLang {
   };
   static input_submit: SystemLang = {
     jp: "確認する",
-    en: "",
+    en: "Confirm",
     es: "",
     it: "",
     ko: "",
@@ -1462,7 +1444,7 @@ export class SendModalLang {
   };
   static submit_check_modal_title: SystemLang = {
     jp: "以下で送信を確定します",
-    en: "",
+    en: "Confirm the transaction below",
     es: "",
     it: "",
     ko: "",
@@ -1471,7 +1453,7 @@ export class SendModalLang {
   };
   static submit_check_modal_body: SystemLang = {
     jp: "取り消しは出来ません。よろしいですか？",
-    en: "",
+    en: "It cannot be revoked. Is that OK?",
     es: "",
     it: "",
     ko: "",
@@ -1480,7 +1462,7 @@ export class SendModalLang {
   };
   static warning_title: SystemLang = {
     jp: "ご確認ください",
-    en: "",
+    en: "Please confirm",
     es: "",
     it: "",
     ko: "",
@@ -1489,7 +1471,7 @@ export class SendModalLang {
   };
   static submit_check_modal_waring_message: SystemLang = {
     jp: "送信量が保有資産の80％を超えています。詐欺の可能性を強く疑ってください。本当に送金してもよろしいですか？",
-    en: "",
+    en: "The amount of transaction about to send exceeds 80% of the assets held. You should strongly suspect a possibility of being scammed. Are you sure about sending them?",
     es: "",
     it: "",
     ko: "",
@@ -1498,7 +1480,7 @@ export class SendModalLang {
   };
   static submit_check_modal_recipient: SystemLang = {
     jp: "送信先",
-    en: "",
+    en: "Address you send",
     es: "",
     it: "",
     ko: "",
@@ -1507,7 +1489,7 @@ export class SendModalLang {
   };
   static price: SystemLang = {
     jp: "支払い金額",
-    en: "",
+    en: "Amount of payment",
     es: "",
     it: "",
     ko: "",
@@ -1516,7 +1498,7 @@ export class SendModalLang {
   };
   static submit_check_modal_mosaic: SystemLang = {
     jp: "送信するモザイク",
-    en: "",
+    en: "Mosaic to send",
     es: "",
     it: "",
     ko: "",
@@ -1525,7 +1507,7 @@ export class SendModalLang {
   };
   static submit_check_modal_amount: SystemLang = {
     jp: "送信量",
-    en: "",
+    en: "Sending amount",
     es: "",
     it: "",
     ko: "",
@@ -1534,7 +1516,7 @@ export class SendModalLang {
   };
   static submit_check_modal_crypted: SystemLang = {
     jp: "暗号化",
-    en: "",
+    en: "Encryption",
     es: "",
     it: "",
     ko: "",
@@ -1543,7 +1525,7 @@ export class SendModalLang {
   };
   static submit_check_modal_commision: SystemLang = {
     jp: "手数料",
-    en: "",
+    en: "Fee",
     es: "",
     it: "",
     ko: "",
@@ -1552,7 +1534,7 @@ export class SendModalLang {
   };
   static submit_check_modal_crypted_do: SystemLang = {
     jp: "する",
-    en: "",
+    en: "Encrypted",
     es: "",
     it: "",
     ko: "",
@@ -1561,7 +1543,7 @@ export class SendModalLang {
   };
   static submit_check_modal_crypted_not_do: SystemLang = {
     jp: "しない",
-    en: "",
+    en: "Not encrypted",
     es: "",
     it: "",
     ko: "",
@@ -1570,7 +1552,7 @@ export class SendModalLang {
   };
   static sendcomfirmmodal_checksendcontent: SystemLang = {
     jp: "送金内容を確認しました。",
-    en: "",
+    en: "Transaction details confirmed.",
     es: "",
     it: "",
     ko: "",
@@ -1579,7 +1561,7 @@ export class SendModalLang {
   };
   static submit_check_modal_cancel: SystemLang = {
     jp: "キャンセル",
-    en: "",
+    en: "Cancel",
     es: "",
     it: "",
     ko: "",
@@ -1588,7 +1570,7 @@ export class SendModalLang {
   };
   static submit_check_modal_submit: SystemLang = {
     jp: "送信する",
-    en: "",
+    en: "Send",
     es: "",
     it: "",
     ko: "",
@@ -1597,7 +1579,7 @@ export class SendModalLang {
   };
   static submit_check_modal_submit_auth: SystemLang = {
     jp: "送信を実行します",
-    en: "",
+    en: "Execute transaction",
     es: "",
     it: "",
     ko: "",
@@ -1606,7 +1588,7 @@ export class SendModalLang {
   };
   static contract_select_modal_wallet_select_title: SystemLang = {
     jp: "送信先のウォレットを選択",
-    en: "",
+    en: "Select the wallet sending to",
     es: "",
     it: "",
     ko: "",
@@ -1615,7 +1597,7 @@ export class SendModalLang {
   };
   static contract_select_modal_wallet_search_placeholder: SystemLang = {
     jp: "検索する",
-    en: "",
+    en: "Search",
     es: "",
     it: "",
     ko: "",
@@ -1624,7 +1606,7 @@ export class SendModalLang {
   };
   static contract_select_modal_wallet_no_data: SystemLang = {
     jp: "登録がありません",
-    en: "",
+    en: "No registration",
     es: "",
     it: "",
     ko: "",
@@ -1633,7 +1615,7 @@ export class SendModalLang {
   };
   static common_require: SystemLang = {
     jp: "必 須",
-    en: "",
+    en: "Required",
     es: "",
     it: "",
     ko: "",
@@ -1642,7 +1624,7 @@ export class SendModalLang {
   };
   static common_optional: SystemLang = {
     jp: "任 意",
-    en: "",
+    en: "Optional",
     es: "",
     it: "",
     ko: "",
@@ -1651,7 +1633,7 @@ export class SendModalLang {
   };
   static update_sendlist: SystemLang = {
     jp: "モザイク一覧を更新しました。",
-    en: "",
+    en: "Updated mosaic list.",
     es: "",
     it: "",
     ko: "",
@@ -1660,7 +1642,7 @@ export class SendModalLang {
   };
   static exchange_title: SystemLang = {
     jp: "日本円から計算する",
-    en: "",
+    en: "Calculate from Japanese yen",
     es: "",
     it: "",
     ko: "",
@@ -1669,7 +1651,7 @@ export class SendModalLang {
   };
   static exchange: SystemLang = {
     jp: "レート換算",
-    en: "",
+    en: "Rate conversion",
     es: "",
     it: "",
     ko: "",
@@ -1678,7 +1660,7 @@ export class SendModalLang {
   };
   static exchange_placeholder: SystemLang = {
     jp: "日本円の金額を入力してください",
-    en: "",
+    en: "Enter the amount in Japanese yen",
     es: "",
     it: "",
     ko: "",
@@ -1687,21 +1669,21 @@ export class SendModalLang {
   };
   static currency_mark: SystemLang = {
     jp: "￥",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "$",
+    es: "$",
+    it: "$",
+    ko: "$",
+    pl: "$",
+    ru: "$",
   };
   static currency: SystemLang = {
     jp: "日本円",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "USD",
+    es: "USD",
+    it: "USD",
+    ko: "USD",
+    pl: "USD",
+    ru: "USD",
   };
   static xym: SystemLang = {
     jp: "XYM",
@@ -1714,7 +1696,7 @@ export class SendModalLang {
   };
   static input_password: SystemLang = {
     jp: "パスワード",
-    en: "",
+    en: "Password",
     es: "",
     it: "",
     ko: "",
@@ -1723,7 +1705,7 @@ export class SendModalLang {
   };
   static input_password_placeholder: SystemLang = {
     jp: "パスワードを入力してください",
-    en: "",
+    en: "Enter password",
     es: "",
     it: "",
     ko: "",
@@ -1744,7 +1726,7 @@ export class ReceiveModalLang {
   };
   static node_connect_title: SystemLang = {
     jp: "通信エラー",
-    en: "",
+    en: "Error",
     es: "",
     it: "",
     ko: "",
@@ -1753,7 +1735,7 @@ export class ReceiveModalLang {
   };
   static node_connect_msg: SystemLang = {
     jp: "ノードへの接続に失敗しました。通信状況を確認するか、接続先ノードを変更して下さい",
-    en: "",
+    en: "Unable to connect to node. Please check your network connection or try again later.",
     es: "",
     it: "",
     ko: "",
@@ -1762,7 +1744,7 @@ export class ReceiveModalLang {
   };
   static input_mosaic_number_title: SystemLang = {
     jp: "受け取るsymbol.xym数量",
-    en: "",
+    en: "Amount of symbols.xym to be received",
     es: "",
     it: "",
     ko: "",
@@ -1771,7 +1753,7 @@ export class ReceiveModalLang {
   };
   static input_mosaic_number_placeholder: SystemLang = {
     jp: "symbol.xym数量を入力してください",
-    en: "",
+    en: "Enter the amount of symbol.xym",
     es: "",
     it: "",
     ko: "",
@@ -1780,7 +1762,7 @@ export class ReceiveModalLang {
   };
   static exchange_title: SystemLang = {
     jp: "日本円から計算する",
-    en: "",
+    en: "Calculate from Japanese yen",
     es: "",
     it: "",
     ko: "",
@@ -1789,7 +1771,7 @@ export class ReceiveModalLang {
   };
   static exchange: SystemLang = {
     jp: "レート換算",
-    en: "",
+    en: "Rate conversion",
     es: "",
     it: "",
     ko: "",
@@ -1798,7 +1780,7 @@ export class ReceiveModalLang {
   };
   static exchange_placeholder: SystemLang = {
     jp: "日本円の金額を入力してください",
-    en: "",
+    en: "Enter the amount in Japanese yen",
     es: "",
     it: "",
     ko: "",
@@ -1807,25 +1789,25 @@ export class ReceiveModalLang {
   };
   static currency_mark: SystemLang = {
     jp: "￥",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "$",
+    es: "$",
+    it: "$",
+    ko: "$",
+    pl: "$",
+    ru: "$",
   };
   static currency: SystemLang = {
     jp: "日本円",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "USD",
+    es: "USD",
+    it: "USD",
+    ko: "USD",
+    pl: "USD",
+    ru: "USD",
   };
   static input_message_title: SystemLang = {
     jp: "メッセージ",
-    en: "",
+    en: "Message",
     es: "",
     it: "",
     ko: "",
@@ -1834,7 +1816,7 @@ export class ReceiveModalLang {
   };
   static input_message_placeholder: SystemLang = {
     jp: "メッセージを記入してください",
-    en: "",
+    en: "Enter the message",
     es: "",
     it: "",
     ko: "",
@@ -1843,7 +1825,7 @@ export class ReceiveModalLang {
   };
   static submit_btn: SystemLang = {
     jp: "QRコードを更新する",
-    en: "",
+    en: "Reload QR code",
     es: "",
     it: "",
     ko: "",
@@ -1852,7 +1834,7 @@ export class ReceiveModalLang {
   };
   static copy_address_notification: SystemLang = {
     jp: "コピーしました",
-    en: "",
+    en: "Copied",
     es: "",
     it: "",
     ko: "",
@@ -1865,7 +1847,7 @@ export class ReceiveModalLang {
 export class PaidModalLang {
   static reception_completed_title: SystemLang = {
     jp: "送信受付完了",
-    en: "",
+    en: "Transaction acceptance complete",
     es: "",
     it: "",
     ko: "",
@@ -1874,7 +1856,7 @@ export class PaidModalLang {
   };
   static reception_completed_message1: SystemLang = {
     jp: "処理が完了すると通知が届きます。",
-    en: "",
+    en: "You will receive a notification when the process is complete.",
     es: "",
     it: "",
     ko: "",
@@ -1883,7 +1865,7 @@ export class PaidModalLang {
   };
   static reception_completed_message2: SystemLang = {
     jp: "履歴からもご確認いただけます。",
-    en: "",
+    en: "You can also check it from history.",
     es: "",
     it: "",
     ko: "",
@@ -1892,7 +1874,7 @@ export class PaidModalLang {
   };
   static destination_title: SystemLang = {
     jp: "宛先",
-    en: "",
+    en: "Destination",
     es: "",
     it: "",
     ko: "",
@@ -1901,7 +1883,7 @@ export class PaidModalLang {
   };
   static back_home_btn: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
@@ -1914,7 +1896,7 @@ export class PaidModalLang {
 export class PaymentMenuLang {
   static payment: SystemLang = {
     jp: "決　済",
-    en: "",
+    en: "Payment",
     es: "",
     it: "",
     ko: "",
@@ -1923,7 +1905,7 @@ export class PaymentMenuLang {
   };
   static sendbyqrmodal: SystemLang = {
     jp: "QRスキャン",
-    en: "",
+    en: "QR scan",
     es: "",
     it: "",
     ko: "",
@@ -1932,7 +1914,7 @@ export class PaymentMenuLang {
   };
   static sendmodal: SystemLang = {
     jp: "送　信",
-    en: "",
+    en: "Send",
     es: "",
     it: "",
     ko: "",
@@ -1941,7 +1923,7 @@ export class PaymentMenuLang {
   };
   static receivemodal: SystemLang = {
     jp: "受　取",
-    en: "",
+    en: "Receive",
     es: "",
     it: "",
     ko: "",
@@ -1959,7 +1941,7 @@ export class PaymentMenuLang {
   };
   static wallet_name: SystemLang = {
     jp: "ウォレット名",
-    en: "",
+    en: "Wallet name",
     es: "",
     it: "",
     ko: "",
