@@ -1789,21 +1789,21 @@ export class ReceiveModalLang {
   };
   static currency_mark: SystemLang = {
     jp: "￥",
-    en: "￥",
-    es: "￥",
-    it: "￥",
-    ko: "￥",
-    pl: "￥",
-    ru: "￥",
+    en: "$",
+    es: "$",
+    it: "$",
+    ko: "$",
+    pl: "$",
+    ru: "$",
   };
   static currency: SystemLang = {
     jp: "日本円",
-    en: "Japanese Yen",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "USD",
+    es: "USD",
+    it: "USD",
+    ko: "USD",
+    pl: "USD",
+    ru: "USD",
   };
   static input_message_title: SystemLang = {
     jp: "メッセージ",
