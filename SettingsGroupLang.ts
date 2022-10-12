@@ -232,7 +232,7 @@ export class WalletChangeModalLang {
   };
   static all_readed: SystemLang = {
     jp: "全て読み込みました",
-    en: "",
+    en: "All loaded",
     es: "",
     it: "",
     ko: "",
@@ -241,7 +241,7 @@ export class WalletChangeModalLang {
   };
   static set_success: SystemLang = {
     jp: "変更を完了しました",
-    en: "",
+    en: "Changes completed",
     es: "",
     it: "",
     ko: "",
@@ -250,7 +250,7 @@ export class WalletChangeModalLang {
   };
   static select_all: SystemLang = {
     jp: "全て表示",
-    en: "",
+    en: "Show all",
     es: "",
     it: "",
     ko: "",
@@ -259,7 +259,7 @@ export class WalletChangeModalLang {
   };
   static mosai_list_editor_message: SystemLang = {
     jp: "一覧に表示したいモザイクタグを選択してください。",
-    en: "",
+    en: "Select the mosaic tag you want to display in the list.",
     es: "",
     it: "",
     ko: "",
@@ -268,7 +268,7 @@ export class WalletChangeModalLang {
   };
   static input_password: SystemLang = {
     jp: "アカウント追加時に設定したパスワードを入力してください。",
-    en: "",
+    en: "Enter the password you set when adding your account.",
     es: "",
     it: "",
     ko: "",
@@ -277,7 +277,7 @@ export class WalletChangeModalLang {
   };
   static input_password_placeholder: SystemLang = {
     jp: "パスワードを入力してください",
-    en: "",
+    en: "Enter password",
     es: "",
     it: "",
     ko: "",
@@ -286,7 +286,7 @@ export class WalletChangeModalLang {
   };
   static submit_check_modal_cancel: SystemLang = {
     jp: "キャンセル",
-    en: "",
+    en: "Cancel",
     es: "",
     it: "",
     ko: "",
@@ -295,7 +295,7 @@ export class WalletChangeModalLang {
   };
   static submit_check_modal_submit: SystemLang = {
     jp: "確認する",
-    en: "",
+    en: "Confirm",
     es: "",
     it: "",
     ko: "",
@@ -304,7 +304,7 @@ export class WalletChangeModalLang {
   };
   static submit_check_modal_submit_auth: SystemLang = {
     jp: "秘密鍵をコピーします",
-    en: "",
+    en: "Copy the private key",
     es: "",
     it: "",
     ko: "",
@@ -326,7 +326,7 @@ export class NetworkSelectModalLang {
   };
   static network_connection_error_title: SystemLang = {
     jp: "ネットワーク接続エラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -335,7 +335,7 @@ export class NetworkSelectModalLang {
   };
   static network_connection_error_message: SystemLang = {
     jp: "接続検証中にエラーが発生しました。時間を置くか、別のノードへの接続をお試しください。",
-    en: "",
+    en: "An error occurred during connection verification. Take a moment or try connecting to another node.",
     es: "",
     it: "",
     ko: "",
@@ -344,7 +344,7 @@ export class NetworkSelectModalLang {
   };
   static node_action_modal_title: SystemLang = {
     jp: "接続先設定",
-    en: "",
+    en: "Connection setup",
     es: "",
     it: "",
     ko: "",
@@ -353,7 +353,7 @@ export class NetworkSelectModalLang {
   };
   static node_action_modal_message: SystemLang = {
     jp: "代替接続先に追加するか、現在の接続先を変更するか選択してください。",
-    en: "",
+    en: "Add an alternative connection or change the connection.",
     es: "",
     it: "",
     ko: "",
@@ -362,7 +362,7 @@ export class NetworkSelectModalLang {
   };
   static node_action_modal_actiontype1: SystemLang = {
     jp: "代替接続先へ追加する",
-    en: "",
+    en: "Add an alternative connection ",
     es: "",
     it: "",
     ko: "",
@@ -371,7 +371,7 @@ export class NetworkSelectModalLang {
   };
   static node_action_modal_actiontype2: SystemLang = {
     jp: "接続先を変更する",
-    en: "",
+    en: "Change the connection",
     es: "",
     it: "",
     ko: "",
@@ -380,7 +380,7 @@ export class NetworkSelectModalLang {
   };
   static node_list_item_transactionfee_error: SystemLang = {
     jp: "取得エラー",
-    en: "",
+    en: "Retrieval error",
     es: "",
     it: "",
     ko: "",
@@ -389,7 +389,7 @@ export class NetworkSelectModalLang {
   };
   static node_list_item_averagefee_title: SystemLang = {
     jp: "平均手数料：",
-    en: "",
+    en: "Average fee",
     es: "",
     it: "",
     ko: "",
@@ -398,7 +398,7 @@ export class NetworkSelectModalLang {
   };
   static connecting_network_title: SystemLang = {
     jp: "接続中のネットワーク",
-    en: "",
+    en: "Network in connection",
     es: "",
     it: "",
     ko: "",
@@ -407,7 +407,7 @@ export class NetworkSelectModalLang {
   };
   static select_item_mainnet: SystemLang = {
     jp: "メインネット",
-    en: "",
+    en: "Mainnet",
     es: "",
     it: "",
     ko: "",
@@ -416,7 +416,7 @@ export class NetworkSelectModalLang {
   };
   static select_item_testnet: SystemLang = {
     jp: "テストネット",
-    en: "",
+    en: "Testnet",
     es: "",
     it: "",
     ko: "",
@@ -425,7 +425,7 @@ export class NetworkSelectModalLang {
   };
   static alternate_node_title: SystemLang = {
     jp: "代替接続ノード",
-    en: "",
+    en: "Alternative connection node",
     es: "",
     it: "",
     ko: "",
@@ -434,7 +434,7 @@ export class NetworkSelectModalLang {
   };
   static alternate_node_message: SystemLang = {
     jp: "接続中のノードが繋がらない時の振替先ノード",
-    en: "",
+    en: "Forwarding node when the node is not connected",
     es: "",
     it: "",
     ko: "",
@@ -443,7 +443,7 @@ export class NetworkSelectModalLang {
   };
   static current_alternate_node_not_selected: SystemLang = {
     jp: "選択されていません",
-    en: "",
+    en: "Not selected",
     es: "",
     it: "",
     ko: "",
@@ -452,7 +452,7 @@ export class NetworkSelectModalLang {
   };
   static current_connecting_node: SystemLang = {
     jp: "接続中のノード",
-    en: "",
+    en: "Node in connection",
     es: "",
     it: "",
     ko: "",
@@ -461,7 +461,7 @@ export class NetworkSelectModalLang {
   };
   static current_connecting_node_not_selected: SystemLang = {
     jp: "選択されていません",
-    en: "",
+    en: "Not selected",
     es: "",
     it: "",
     ko: "",
@@ -470,7 +470,7 @@ export class NetworkSelectModalLang {
   };
   static connecting_node_or_alternate_node_change: SystemLang = {
     jp: "接続先/代替接続ノードを変更",
-    en: "",
+    en: "Change Node connection/Alternative connection node",
     es: "",
     it: "",
     ko: "",
@@ -479,7 +479,7 @@ export class NetworkSelectModalLang {
   };
   static node_select_flat_list_title: SystemLang = {
     jp: "ノードを選択",
-    en: "",
+    en: "Select node",
     es: "",
     it: "",
     ko: "",
@@ -488,7 +488,7 @@ export class NetworkSelectModalLang {
   };
   static all_submit: SystemLang = {
     jp: "変更を確定する",
-    en: "",
+    en: "Confirm changes",
     es: "",
     it: "",
     ko: "",
@@ -500,7 +500,7 @@ export class NetworkSelectModalLang {
 export class WalletInfoChangeLang {
   static wallet_name_title: SystemLang = {
     jp: "ウォレット名",
-    en: "",
+    en: "Wallet name",
     es: "",
     it: "",
     ko: "",
@@ -509,7 +509,7 @@ export class WalletInfoChangeLang {
   };
   static change_method_select_message: SystemLang = {
     jp: "アバター画像",
-    en: "",
+    en: "Avatar image",
     es: "",
     it: "",
     ko: "",
@@ -518,7 +518,7 @@ export class WalletInfoChangeLang {
   };
   static change_method_from_cameraroll_button: SystemLang = {
     jp: "画像",
-    en: "",
+    en: "Image",
     es: "",
     it: "",
     ko: "",
@@ -527,7 +527,7 @@ export class WalletInfoChangeLang {
   };
   static change_method_from_select_from_nft: SystemLang = {
     jp: "NFT(準備中)",
-    en: "",
+    en: "NFT(preparation in progress)",
     es: "",
     it: "",
     ko: "",
@@ -536,34 +536,34 @@ export class WalletInfoChangeLang {
   };
   static change_method_from_select_from_nftdrive: SystemLang = {
     jp: "NFT(NFT-Drive)",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT(NFT-Drive)",
+    es: "NFT(NFT-Drive)",
+    it: "NFT(NFT-Drive)",
+    ko: "NFT(NFT-Drive)",
+    pl: "NFT(NFT-Drive)",
+    ru: "NFT(NFT-Drive)",
   };
   static change_method_from_select_from_comsa: SystemLang = {
     jp: "NFT(COMSA)",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT(COMSA)",
+    es: "NFT(COMSA)",
+    it: "NFT(COMSA)",
+    ko: "NFT(COMSA)",
+    pl: "NFT(COMSA)",
+    ru: "NFT(COMSA)",
   };
   static change_method_from_select_from_comsa_ncft: SystemLang = {
     jp: "NFT(COMSA-NCFT)",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT(COMSA-NCFT)",
+    es: "NFT(COMSA-NCFT)",
+    it: "NFT(COMSA-NCFT)",
+    ko: "NFT(COMSA-NCFT)",
+    pl: "NFT(COMSA-NCFT)",
+    ru: "NFT(COMSA-NCFT)",
   };
   static submit_btn_title: SystemLang = {
     jp: "変更内容を確定する",
-    en: "",
+    en: "Confirm changes",
     es: "",
     it: "",
     ko: "",
@@ -572,7 +572,7 @@ export class WalletInfoChangeLang {
   };
   static back_btn_title: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
@@ -581,7 +581,7 @@ export class WalletInfoChangeLang {
   };
   static change_failterd_title: SystemLang = {
     jp: "失敗",
-    en: "",
+    en: "Failed",
     es: "",
     it: "",
     ko: "",
@@ -599,7 +599,7 @@ export class WalletInfoChangeLang {
   };
   static change_failterd_message: SystemLang = {
     jp: "更新に失敗しました。やり直してください。",
-    en: "",
+    en: "Update failed. Try again.",
     es: "",
     it: "",
     ko: "",
@@ -608,7 +608,7 @@ export class WalletInfoChangeLang {
   };
   static submit_walletinfo: SystemLang = {
     jp: "設定が完了しました",
-    en: "",
+    en: "Complete setups",
     es: "",
     it: "",
     ko: "",
@@ -621,7 +621,7 @@ export class WalletInfoChangeLang {
 export class DefaultColorNameLang {
   static primary: SystemLang = {
     jp: "テーマカラー",
-    en: "",
+    en: "Theme colour",
     es: "",
     it: "",
     ko: "",
@@ -630,7 +630,7 @@ export class DefaultColorNameLang {
   };
   static primaryLight: SystemLang = {
     jp: "テーマ サブカラー1",
-    en: "",
+    en: "Theme sub colour 1",
     es: "",
     it: "",
     ko: "",
@@ -639,7 +639,7 @@ export class DefaultColorNameLang {
   };
   static primaryDark: SystemLang = {
     jp: "テーマ サブカラー2",
-    en: "",
+    en: "Theme sub colour 2",
     es: "",
     it: "",
     ko: "",
@@ -648,7 +648,7 @@ export class DefaultColorNameLang {
   };
   static secondary: SystemLang = {
     jp: "アクセントカラー",
-    en: "",
+    en: "Accent colour",
     es: "",
     it: "",
     ko: "",
@@ -657,7 +657,7 @@ export class DefaultColorNameLang {
   };
   static secondaryLight: SystemLang = {
     jp: "アクセント サブカラー1",
-    en: "",
+    en: "Accent sub colour 1",
     es: "",
     it: "",
     ko: "",
@@ -666,7 +666,7 @@ export class DefaultColorNameLang {
   };
   static secondaryDark: SystemLang = {
     jp: "アクセント サブカラー2",
-    en: "",
+    en: "Accent sub colour 2",
     es: "",
     it: "",
     ko: "",
@@ -675,7 +675,7 @@ export class DefaultColorNameLang {
   };
   static disabled: SystemLang = {
     jp: "無効な項目",
-    en: "",
+    en: "Invalid entry",
     es: "",
     it: "",
     ko: "",
@@ -684,7 +684,7 @@ export class DefaultColorNameLang {
   };
   static plus: SystemLang = {
     jp: "プラス",
-    en: "",
+    en: "Plus",
     es: "",
     it: "",
     ko: "",
@@ -693,7 +693,7 @@ export class DefaultColorNameLang {
   };
   static minus: SystemLang = {
     jp: "マイナス",
-    en: "",
+    en: "Minus",
     es: "",
     it: "",
     ko: "",
@@ -702,7 +702,7 @@ export class DefaultColorNameLang {
   };
   static error: SystemLang = {
     jp: "エラー",
-    en: "",
+    en: "Error",
     es: "",
     it: "",
     ko: "",
@@ -711,7 +711,7 @@ export class DefaultColorNameLang {
   };
   static warning: SystemLang = {
     jp: "注意",
-    en: "",
+    en: "Attention",
     es: "",
     it: "",
     ko: "",
@@ -720,7 +720,7 @@ export class DefaultColorNameLang {
   };
   static grey: SystemLang = {
     jp: "グレー",
-    en: "",
+    en: "Grey",
     es: "",
     it: "",
     ko: "",
@@ -729,7 +729,7 @@ export class DefaultColorNameLang {
   };
   static black: SystemLang = {
     jp: "黒",
-    en: "",
+    en: "Black",
     es: "",
     it: "",
     ko: "",
@@ -738,7 +738,7 @@ export class DefaultColorNameLang {
   };
   static white: SystemLang = {
     jp: "白",
-    en: "",
+    en: "White",
     es: "",
     it: "",
     ko: "",
@@ -747,7 +747,7 @@ export class DefaultColorNameLang {
   };
   static transparent: SystemLang = {
     jp: "透明",
-    en: "",
+    en: "Transparent",
     es: "",
     it: "",
     ko: "",
@@ -760,7 +760,7 @@ export class DefaultColorNameLang {
 export class DefaultFavoriteDesignNameLang {
   static favorite_design1: SystemLang = {
     jp: "お気に入り1",
-    en: "",
+    en: "Favourite 1",
     es: "",
     it: "",
     ko: "",
@@ -769,7 +769,7 @@ export class DefaultFavoriteDesignNameLang {
   };
   static favorite_design2: SystemLang = {
     jp: "お気に入り2",
-    en: "",
+    en: "Favourite 2",
     es: "",
     it: "",
     ko: "",
@@ -778,7 +778,7 @@ export class DefaultFavoriteDesignNameLang {
   };
   static favorite_design3: SystemLang = {
     jp: "お気に入り3",
-    en: "",
+    en: "Favourite 3",
     es: "",
     it: "",
     ko: "",
@@ -791,7 +791,7 @@ export class DefaultFavoriteDesignNameLang {
 export class WalletDesignLang {
   static setting_nft_theme_title: SystemLang = {
     jp: "着せ替えNFTを選択",
-    en: "",
+    en: "Select a favourite changing screen background",
     es: "",
     it: "",
     ko: "",
@@ -800,7 +800,7 @@ export class WalletDesignLang {
   };
   static setting_nft_theme_message: SystemLang = {
     jp: "着せ替えNFTでデザインを一括変更",
-    en: "",
+    en: "Bulk design changes with a favourite changing screen background",
     es: "",
     it: "",
     ko: "",
@@ -809,7 +809,7 @@ export class WalletDesignLang {
   };
   static setting_wallettab_design_title: SystemLang = {
     jp: "自分でデザイン",
-    en: "",
+    en: "Design your own",
     es: "",
     it: "",
     ko: "",
@@ -818,7 +818,7 @@ export class WalletDesignLang {
   };
   static setting_wallettab_design_message: SystemLang = {
     jp: "自分好みのデザインを作成",
-    en: "",
+    en: "Create own design",
     es: "",
     it: "",
     ko: "",
@@ -827,7 +827,7 @@ export class WalletDesignLang {
   };
   static setting_overall_design_title: SystemLang = {
     jp: "カラーパレット編集",
-    en: "",
+    en: "Edit colour palette",
     es: "",
     it: "",
     ko: "",
@@ -836,7 +836,7 @@ export class WalletDesignLang {
   };
   static setting_overall_design_message: SystemLang = {
     jp: "アプリ全体のデザインカラーを設定",
-    en: "",
+    en: "Set the design colours for the entire app",
     es: "",
     it: "",
     ko: "",
@@ -844,7 +844,7 @@ export class WalletDesignLang {
     ru: "",
   };
   static wallettab_size_calc_title: SystemLang = {
-    jp: "サイズ確認",
+    jp: "",
     en: "",
     es: "",
     it: "",
