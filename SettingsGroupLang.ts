@@ -590,7 +590,7 @@ export class WalletInfoChangeLang {
   };
   static avator_change_failterd_message: SystemLang = {
     jp: "更新に失敗しました。やり直してください。",
-    en: "",
+    en: "Update failed. Try again.",
     es: "",
     it: "",
     ko: "",
@@ -844,8 +844,8 @@ export class WalletDesignLang {
     ru: "",
   };
   static wallettab_size_calc_title: SystemLang = {
-    jp: "",
-    en: "",
+    jp: "サイズ確認",
+    en: "Size checking",
     es: "",
     it: "",
     ko: "",
@@ -854,7 +854,7 @@ export class WalletDesignLang {
   };
   static wallettab_size_calc_message: SystemLang = {
     jp: "各画面のサイズを確認",
-    en: "",
+    en: "Check the size of each screen",
     es: "",
     it: "",
     ko: "",
@@ -863,16 +863,16 @@ export class WalletDesignLang {
   };
   static nft_list_from_nftdrive_title: SystemLang = {
     jp: "NFT-Drive",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT-Drive",
+    es: "NFT-Drive",
+    it: "NFT-Drive",
+    ko: "NFT-Drive",
+    pl: "NFT-Drive",
+    ru: "NFT-Drive",
   };
   static nft_list_from_nftdrive_message: SystemLang = {
     jp: "NFT-Driveの保有NFT一覧を表示",
-    en: "",
+    en: "Show the list of NFTs held by NFT-Drive",
     es: "",
     it: "",
     ko: "",
@@ -881,16 +881,16 @@ export class WalletDesignLang {
   };
   static nft_list_from_comsa_title: SystemLang = {
     jp: "COMSA",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "COMSA",
+    es: "COMSA",
+    it: "COMSA",
+    ko: "COMSA",
+    pl: "COMSA",
+    ru: "COMSA",
   };
   static nft_list_from_comsa_message: SystemLang = {
     jp: "COMSAの保有NFT一覧を表示",
-    en: "",
+    en: "Show the list of NFTs held by COMSA",
     es: "",
     it: "",
     ko: "",
@@ -899,16 +899,16 @@ export class WalletDesignLang {
   };
   static ncft_list_from_comsa_title: SystemLang = {
     jp: "COMSA-NCFT",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "COMSA-NCFT",
+    es: "COMSA-NCFT",
+    it: "COMSA-NCFT",
+    ko: "COMSA-NCFT",
+    pl: "COMSA-NCFT",
+    ru: "COMSA-NCFT",
   };
   static ncft_list_from_comsa_message: SystemLang = {
     jp: "COMSAの保有NCFT一覧を表示",
-    en: "",
+    en: "Show the list of NFTs held by COMSA-NCFT",
     es: "",
     it: "",
     ko: "",
@@ -917,7 +917,7 @@ export class WalletDesignLang {
   };
   static favorite_design_title: SystemLang = {
     jp: "お気に入り",
-    en: "",
+    en: "Favourite",
     es: "",
     it: "",
     ko: "",
@@ -926,7 +926,7 @@ export class WalletDesignLang {
   };
   static favorite_design_message: SystemLang = {
     jp: "お気に入りデザインの保存・着せ替え",
-    en: "",
+    en: "Keep a favourite design・Change screen background",
     es: "",
     it: "",
     ko: "",
@@ -935,7 +935,7 @@ export class WalletDesignLang {
   };
   static select_background_type_title: SystemLang = {
     jp: "背景タイプ",
-    en: "",
+    en: "Background type",
     es: "",
     it: "",
     ko: "",
@@ -944,7 +944,7 @@ export class WalletDesignLang {
   };
   static select_backgroundcolor_title: SystemLang = {
     jp: "背景色",
-    en: "",
+    en: "Background colour",
     es: "",
     it: "",
     ko: "",
@@ -953,7 +953,7 @@ export class WalletDesignLang {
   };
   static select_bordertopcolor_title: SystemLang = {
     jp: "上枠線",
-    en: "",
+    en: "Top border line",
     es: "",
     it: "",
     ko: "",
@@ -962,7 +962,7 @@ export class WalletDesignLang {
   };
   static select_bordertopwidth_title: SystemLang = {
     jp: "上枠線の太さ",
-    en: "",
+    en: "Thickness of the top border line",
     es: "",
     it: "",
     ko: "",
@@ -971,7 +971,7 @@ export class WalletDesignLang {
   };
   static select_background_type_single: SystemLang = {
     jp: "単色",
-    en: "",
+    en: "Single colour",
     es: "",
     it: "",
     ko: "",
@@ -980,7 +980,7 @@ export class WalletDesignLang {
   };
   static select_background_type_gradient: SystemLang = {
     jp: "グラデーション",
-    en: "",
+    en: "Gradation",
     es: "",
     it: "",
     ko: "",
@@ -989,7 +989,7 @@ export class WalletDesignLang {
   };
   static select_background_type_image: SystemLang = {
     jp: "画像",
-    en: "",
+    en: "Image",
     es: "",
     it: "",
     ko: "",
@@ -998,34 +998,34 @@ export class WalletDesignLang {
   };
   static select_background_type_nftdrive: SystemLang = {
     jp: "NFT(NFT-Drive)",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT(NFT-Drive)",
+    es: "NFT(NFT-Drive)",
+    it: "NFT(NFT-Drive)",
+    ko: "NFT(NFT-Drive)",
+    pl: "NFT(NFT-Drive)",
+    ru: "NFT(NFT-Drive)",
   };
   static select_background_type_comsa: SystemLang = {
     jp: "NFT(COMSA)",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT(COMSA)",
+    es: "NFT(COMSA)",
+    it: "NFT(COMSA)",
+    ko: "NFT(COMSA)",
+    pl: "NFT(COMSA)",
+    ru: "NFT(COMSA)",
   };
   static select_background_type_comsa_ncft: SystemLang = {
     jp: "NFT(COMSA-NCFT)",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT(COMSA-NCFT)",
+    es: "NFT(COMSA-NCFT)",
+    it: "NFT(COMSA-NCFT)",
+    ko: "NFT(COMSA-NCFT)",
+    pl: "NFT(COMSA-NCFT)",
+    ru: "NFT(COMSA-NCFT)",
   };
   static select_nft: SystemLang = {
     jp: "NFT選択",
-    en: "",
+    en: "Select NFT",
     es: "",
     it: "",
     ko: "",
@@ -1034,7 +1034,7 @@ export class WalletDesignLang {
   };
   static select_background_type_transparent: SystemLang = {
     jp: "透明化",
-    en: "",
+    en: "Transparentizing",
     es: "",
     it: "",
     ko: "",
@@ -1043,7 +1043,7 @@ export class WalletDesignLang {
   };
   static select_textcolor_title: SystemLang = {
     jp: "文字",
-    en: "",
+    en: "Letters",
     es: "",
     it: "",
     ko: "",
@@ -1052,7 +1052,7 @@ export class WalletDesignLang {
   };
   static select_activetextcolor_title: SystemLang = {
     jp: "文字(選択中)",
-    en: "",
+    en: "Letters (selected)",
     es: "",
     it: "",
     ko: "",
@@ -1061,7 +1061,7 @@ export class WalletDesignLang {
   };
   static select_iconcolor_title: SystemLang = {
     jp: "アイコン",
-    en: "",
+    en: "Icon",
     es: "",
     it: "",
     ko: "",
