@@ -3,7 +3,7 @@ import { SystemLang } from "../models/SystemStructure";
 export class CommunityModalLang {
   static get_failed: SystemLang = {
     jp: "取得に失敗しました。",
-    en: "Failed to get",
+    en: "Information could not be retrieved.",
     es: "",
     it: "",
     ko: "",
