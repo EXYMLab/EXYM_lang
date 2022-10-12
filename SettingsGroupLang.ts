@@ -4,7 +4,7 @@ export class SettingsTabLang {
 
   static changewallet_title: SystemLang = {
     jp: "ウォレット切替",
-    en: "",
+    en: "Wallet switching",
     es: "",
     it: "",
     ko: "",
@@ -13,7 +13,7 @@ export class SettingsTabLang {
   };
   static changewallet_subTitle: SystemLang = {
     jp: "表示するウォレットを変更",
-    en: "",
+    en: "Change the wallet to display",
     es: "",
     it: "",
     ko: "",
@@ -22,7 +22,7 @@ export class SettingsTabLang {
   };
   static addwallet_title: SystemLang = {
     jp: "ウォレット追加",
-    en: "",
+    en: "Add Wallet",
     es: "",
     it: "",
     ko: "",
@@ -31,7 +31,7 @@ export class SettingsTabLang {
   };
   static addwallet_subTitle: SystemLang = {
     jp: "アプリにウォレットを追加",
-    en: "",
+    en: "Add wallet to app",
     es: "",
     it: "",
     ko: "",
@@ -40,7 +40,7 @@ export class SettingsTabLang {
   };
   static connectingnode_title: SystemLang = {
     jp: "接続先ノード",
-    en: "",
+    en: "Select the network \n to connect with",
     es: "",
     it: "",
     ko: "",
@@ -49,7 +49,7 @@ export class SettingsTabLang {
   };
   static connectingnode_subTitle: SystemLang = {
     jp: "ネットワーク情報を更新",
-    en: "",
+    en: "Update network information",
     es: "",
     it: "",
     ko: "",
@@ -58,7 +58,7 @@ export class SettingsTabLang {
   };
   static langselect_title: SystemLang = {
     jp: "表示言語",
-    en: "",
+    en: "Display language",
     es: "",
     it: "",
     ko: "",
@@ -67,7 +67,7 @@ export class SettingsTabLang {
   };
   static langselect_subTitle: SystemLang = {
     jp: "アプリの表示言語を変更",
-    en: "",
+    en: "Change the display language of the App",
     es: "",
     it: "",
     ko: "",
@@ -76,7 +76,7 @@ export class SettingsTabLang {
   };
   static about_exym_title: SystemLang = {
     jp: "EXYMについて",
-    en: "",
+    en: "About EXYM",
     es: "",
     it: "",
     ko: "",
@@ -85,7 +85,7 @@ export class SettingsTabLang {
   };
   static about_exym_subTitle: SystemLang = {
     jp: "開発者情報やお問い合わせはこちら",
-    en: "",
+    en: "Contact and developer Info",
     es: "",
     it: "",
     ko: "",
@@ -94,7 +94,7 @@ export class SettingsTabLang {
   };
   static avatorselect_title: SystemLang = {
     jp: "アバター",
-    en: "",
+    en: "Avatars",
     es: "",
     it: "",
     ko: "",
@@ -103,7 +103,7 @@ export class SettingsTabLang {
   };
   static avatorselect_subTitle: SystemLang = {
     jp: "アバター画像を変更",
-    en: "",
+    en: "Change avatar image",
     es: "",
     it: "",
     ko: "",
@@ -112,7 +112,7 @@ export class SettingsTabLang {
   };
   static walletdesign_title: SystemLang = {
     jp: "着せ替え",
-    en: "",
+    en: "Change screen background",
     es: "",
     it: "",
     ko: "",
@@ -121,7 +121,7 @@ export class SettingsTabLang {
   };
   static walletdesign_subTitle: SystemLang = {
     jp: "ウォレットのデザインを変更",
-    en: "",
+    en: "Redesign of Wallet",
     es: "",
     it: "",
     ko: "",
@@ -133,7 +133,7 @@ export class SettingsTabLang {
 export class WalletChangeModalLang {
   static tab_title_accountlist: SystemLang = {
     jp: "アカウント一覧",
-    en: "",
+    en: "Account list",
     es: "",
     it: "",
     ko: "",
@@ -142,7 +142,7 @@ export class WalletChangeModalLang {
   };
   static tab_title_mosaiclist: SystemLang = {
     jp: "モザイク一覧",
-    en: "",
+    en: "Mosaic list",
     es: "",
     it: "",
     ko: "",
@@ -151,7 +151,7 @@ export class WalletChangeModalLang {
   };
   static tab_title_menu: SystemLang = {
     jp: "メニュー",
-    en: "",
+    en: "Menu",
     es: "",
     it: "",
     ko: "",
@@ -160,7 +160,7 @@ export class WalletChangeModalLang {
   };
   static update_mosaicInfo: SystemLang = {
     jp: "モザイク情報を更新する",
-    en: "",
+    en: "Update mosaic information",
     es: "",
     it: "",
     ko: "",
@@ -169,7 +169,7 @@ export class WalletChangeModalLang {
   };
   static edit_profile: SystemLang = {
     jp: "プロフィール編集",
-    en: "",
+    en: "Edit profile",
     es: "",
     it: "",
     ko: "",
@@ -178,7 +178,7 @@ export class WalletChangeModalLang {
   };
   static display_settings_for_mosaic_list: SystemLang = {
     jp: "モザイク一覧の表示設定",
-    en: "",
+    en: "Display settings for the mosaic list",
     es: "",
     it: "",
     ko: "",
@@ -187,7 +187,7 @@ export class WalletChangeModalLang {
   };
   static copy_privatekey: SystemLang = {
     jp: "秘密鍵のコピー",
-    en: "",
+    en: "Copy of private key",
     es: "",
     it: "",
     ko: "",
@@ -196,7 +196,7 @@ export class WalletChangeModalLang {
   };
   static copy_privatekey_auth: SystemLang = {
     jp: "秘密鍵をコピーします",
-    en: "",
+    en: "Copy the private key",
     es: "",
     it: "",
     ko: "",
@@ -205,7 +205,7 @@ export class WalletChangeModalLang {
   };
   static copy_privatekey_success: SystemLang = {
     jp: "秘密鍵をコピーしました",
-    en: "",
+    en: "Copied private key",
     es: "",
     it: "",
     ko: "",
@@ -214,7 +214,7 @@ export class WalletChangeModalLang {
   };
   static delete_this_wallet: SystemLang = {
     jp: "このウォレットを削除（準備中）",
-    en: "",
+    en: "Remove this wallet (preparation in progress)",
     es: "",
     it: "",
     ko: "",
@@ -223,7 +223,7 @@ export class WalletChangeModalLang {
   };
   static get_failed: SystemLang = {
     jp: "取得に失敗しました",
-    en: "",
+    en: "Information could not be retrieved.",
     es: "",
     it: "",
     ko: "",
