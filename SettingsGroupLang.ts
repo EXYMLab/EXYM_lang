@@ -608,7 +608,7 @@ export class WalletInfoChangeLang {
   };
   static submit_walletinfo: SystemLang = {
     jp: "設定が完了しました",
-    en: "Complete setups",
+    en: "Setup is complete",
     es: "",
     it: "",
     ko: "",
