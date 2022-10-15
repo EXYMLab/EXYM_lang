@@ -389,7 +389,7 @@ export class NetworkSelectModalLang {
   };
   static node_list_item_averagefee_title: SystemLang = {
     jp: "平均手数料：",
-    en: "Average fee",
+    en: "Average fee：",
     es: "",
     it: "",
     ko: "",
@@ -1070,7 +1070,7 @@ export class WalletDesignLang {
   };
   static select_borderradius_title: SystemLang = {
     jp: "角の丸さ",
-    en: "",
+    en: "Rounded corners",
     es: "",
     it: "",
     ko: "",
@@ -1079,7 +1079,7 @@ export class WalletDesignLang {
   };
   static select_borderradius_round: SystemLang = {
     jp: "角丸",
-    en: "",
+    en: "Rounded corners",
     es: "",
     it: "",
     ko: "",
@@ -1088,7 +1088,7 @@ export class WalletDesignLang {
   };
   static select_borderradius_square: SystemLang = {
     jp: "四角",
-    en: "",
+    en: "Square",
     es: "",
     it: "",
     ko: "",
@@ -1097,7 +1097,7 @@ export class WalletDesignLang {
   };
   static select_bordercolor_title: SystemLang = {
     jp: "枠線",
-    en: "",
+    en: "Frame",
     es: "",
     it: "",
     ko: "",
@@ -1106,7 +1106,7 @@ export class WalletDesignLang {
   };
   static select_borderwidth_title: SystemLang = {
     jp: "枠線の太さ",
-    en: "",
+    en: "Border thickness",
     es: "",
     it: "",
     ko: "",
@@ -1115,7 +1115,7 @@ export class WalletDesignLang {
   };
   static select_borderwidth_none: SystemLang = {
     jp: "なし",
-    en: "",
+    en: "None",
     es: "",
     it: "",
     ko: "",
@@ -1124,7 +1124,7 @@ export class WalletDesignLang {
   };
   static select_borderwidth_thin: SystemLang = {
     jp: "細い",
-    en: "",
+    en: "Thin",
     es: "",
     it: "",
     ko: "",
@@ -1133,7 +1133,7 @@ export class WalletDesignLang {
   };
   static select_borderwidth_thick: SystemLang = {
     jp: "太い",
-    en: "",
+    en: "Thick",
     es: "",
     it: "",
     ko: "",
@@ -1142,7 +1142,7 @@ export class WalletDesignLang {
   };
   static select_position_title: SystemLang = {
     jp: "配置",
-    en: "",
+    en: "Layout",
     es: "",
     it: "",
     ko: "",
@@ -1151,7 +1151,7 @@ export class WalletDesignLang {
   };
   static select_position_upper: SystemLang = {
     jp: "上",
-    en: "",
+    en: "Top",
     es: "",
     it: "",
     ko: "",
@@ -1160,7 +1160,7 @@ export class WalletDesignLang {
   };
   static select_position_lower: SystemLang = {
     jp: "下",
-    en: "",
+    en: "Under",
     es: "",
     it: "",
     ko: "",
@@ -1169,7 +1169,7 @@ export class WalletDesignLang {
   };
   static select_resize_mode_title: SystemLang = {
     jp: "拡大/縮小",
-    en: "",
+    en: "Enlargement/Contraction",
     es: "",
     it: "",
     ko: "",
@@ -1178,7 +1178,7 @@ export class WalletDesignLang {
   };
   static select_resize_mode_cover: SystemLang = {
     jp: "画面いっぱいに拡大する",
-    en: "",
+    en: "Full screen enlargement",
     es: "",
     it: "",
     ko: "",
@@ -1187,7 +1187,7 @@ export class WalletDesignLang {
   };
   static select_resize_mode_contain: SystemLang = {
     jp: "縮小して全体を表示する",
-    en: "",
+    en: "Scale down to fit an image in the screen",
     es: "",
     it: "",
     ko: "",
@@ -1196,7 +1196,7 @@ export class WalletDesignLang {
   };
   static border_type_note: SystemLang = {
     jp: "※画像/NFT選択時は枠の設定ができません。",
-    en: "",
+    en: "*When image/NFT is selected, frame cannot be set.",
     es: "",
     it: "",
     ko: "",
@@ -1205,7 +1205,7 @@ export class WalletDesignLang {
   };
   static select_single_color_title: SystemLang = {
     jp: "カラー",
-    en: "",
+    en: "Colour",
     es: "",
     it: "",
     ko: "",
@@ -1214,7 +1214,7 @@ export class WalletDesignLang {
   };
   static select_gradient_color1_title: SystemLang = {
     jp: "カラー1",
-    en: "",
+    en: "Colour 1",
     es: "",
     it: "",
     ko: "",
@@ -1223,7 +1223,7 @@ export class WalletDesignLang {
   };
   static select_gradient_color2_title: SystemLang = {
     jp: "カラー2",
-    en: "",
+    en: "Colour 2",
     es: "",
     it: "",
     ko: "",
@@ -1232,7 +1232,7 @@ export class WalletDesignLang {
   };
   static edit_wallettab: SystemLang = {
     jp: "編集する",
-    en: "",
+    en: "Edit",
     es: "",
     it: "",
     ko: "",
@@ -1241,7 +1241,7 @@ export class WalletDesignLang {
   };
   static close_tab: SystemLang = {
     jp: "閉じる",
-    en: "",
+    en: "Close",
     es: "",
     it: "",
     ko: "",
@@ -1250,7 +1250,7 @@ export class WalletDesignLang {
   };
   static change_preview: SystemLang = {
     jp: "プレビュー",
-    en: "",
+    en: "Preview",
     es: "",
     it: "",
     ko: "",
@@ -1259,7 +1259,7 @@ export class WalletDesignLang {
   };
   static confirm_changes: SystemLang = {
     jp: "変更内容を確定する",
-    en: "",
+    en: "Confirm changes",
     es: "",
     it: "",
     ko: "",
@@ -1268,7 +1268,7 @@ export class WalletDesignLang {
   };
   static set_default: SystemLang = {
     jp: "デフォルトに戻す",
-    en: "",
+    en: "Reset to default",
     es: "",
     it: "",
     ko: "",
@@ -1277,7 +1277,7 @@ export class WalletDesignLang {
   };
   static set_default_notification_title: SystemLang = {
     jp: "デフォルトに戻しますか？",
-    en: "",
+    en: "Reset to default?",
     es: "",
     it: "",
     ko: "",
@@ -1286,7 +1286,7 @@ export class WalletDesignLang {
   };
   static set_default_notification_message: SystemLang = {
     jp: "OKを押すと編集内容が削除されます。この操作はやり直しできません。",
-    en: "",
+    en: "Pressing OK, deletes the edits. This cannot be redone.",
     es: "",
     it: "",
     ko: "",
@@ -1295,7 +1295,7 @@ export class WalletDesignLang {
   };
   static change_design_notification_title: SystemLang = {
     jp: "デザインを変更しますか？",
-    en: "",
+    en: "Want to change the design?",
     es: "",
     it: "",
     ko: "",
@@ -1304,7 +1304,7 @@ export class WalletDesignLang {
   };
   static change_design_notification_message: SystemLang = {
     jp: "現在適用中の着せ替えNFTからデフォルトのデザインへ変更します。よろしいですか？",
-    en: "",
+    en: "Do you change from applied favourite changing screen background to the default design?",
     es: "",
     it: "",
     ko: "",
@@ -1313,7 +1313,7 @@ export class WalletDesignLang {
   };
   static edit_opacity_title: SystemLang = {
     jp: "不透明度",
-    en: "",
+    en: "Opacity",
     es: "",
     it: "",
     ko: "",
@@ -1322,7 +1322,7 @@ export class WalletDesignLang {
   };
   static set_editcolor: SystemLang = {
     jp: "設定する",
-    en: "",
+    en: "Setup",
     es: "",
     it: "",
     ko: "",
@@ -1331,7 +1331,7 @@ export class WalletDesignLang {
   };
   static submit_notification: SystemLang = {
     jp: "設定が完了しました",
-    en: "",
+    en: "Setup is complete",
     es: "",
     it: "",
     ko: "",
@@ -1353,7 +1353,7 @@ export class AddWalletScreenLang {
   };
   static account_create_error_title: SystemLang = {
     jp: "エラー",
-    en: "",
+    en: "Error",
     es: "",
     it: "",
     ko: "",
@@ -1362,7 +1362,7 @@ export class AddWalletScreenLang {
   };
   static account_create_error_message: SystemLang = {
     jp: "ウォレットの生成に失敗しました。操作をやり直してください。",
-    en: "",
+    en: "Wallet creation failed. Try again.",
     es: "",
     it: "",
     ko: "",
@@ -1372,7 +1372,7 @@ export class AddWalletScreenLang {
 
   static qrcode_filed_load_error_title: SystemLang = {
     jp: "QRコードの読取失敗",
-    en: "",
+    en: "QR code reading failure",
     es: "",
     it: "",
     ko: "",
@@ -1380,8 +1380,8 @@ export class AddWalletScreenLang {
     ru: "",
   };
   static qrcode_filed_load_error_message: SystemLang = {
-    jp: "QRコードの読取に失敗しました。再度読み込みをお試し頂くか、読み込んだQRコードの形式が正しいかご確認ください。",
-    en: "",
+    jp: "QRコードの読取に失敗しました。再度読み込みをお試し頂くか、読み込んだQRコードの形式が正しいことをご確認ください。",
+    en: "Failed to read the QR code. Try again or check the scanned QR code is in correct format.",
     es: "",
     it: "",
     ko: "",
@@ -1391,7 +1391,7 @@ export class AddWalletScreenLang {
 
   static network_defferenct_type_error_title: SystemLang = {
     jp: "ネットワーク種別相違エラー",
-    en: "",
+    en: "Network type error",
     es: "",
     it: "",
     ko: "",
@@ -1399,8 +1399,8 @@ export class AddWalletScreenLang {
     ru: "",
   };
   static network_defferenct_type_error_message: SystemLang = {
-    jp: "取込んだウォレットのネットワーク種別と選択されたネットワーク種別が異なります。読み込んだQRコードの形式が正しいかご確認ください。",
-    en: "",
+    jp: "取込んだウォレットのネットワーク種別と選択されたネットワーク種別が異なります。読み込んだQRコードの形式が正しいことをご確認ください。",
+    en: "The network type of the imported wallet and the selected network type are different. Check the scanned QR code is in correct format.",
     es: "",
     it: "",
     ko: "",
@@ -1410,7 +1410,7 @@ export class AddWalletScreenLang {
 
   static cureate_wallet_success_title: SystemLang = {
     jp: "作成成功",
-    en: "",
+    en: "Successfully created",
     es: "",
     it: "",
     ko: "",
@@ -1419,7 +1419,7 @@ export class AddWalletScreenLang {
   };
   static cureate_wallet_success_message: SystemLang = {
     jp: "ウォレットの生成に成功しました",
-    en: "",
+    en: "Wallet has been successfully generated",
     es: "",
     it: "",
     ko: "",
@@ -1429,7 +1429,7 @@ export class AddWalletScreenLang {
 
   static account_already_exists_error_title: SystemLang = {
     jp: "アカウント読込エラー",
-    en: "",
+    en: "Account read error",
     es: "",
     it: "",
     ko: "",
@@ -1438,7 +1438,7 @@ export class AddWalletScreenLang {
   };
   static account_already_exists_error_message: SystemLang = {
     jp: "読み込んだアカウントは既に端末内に存在します。別のQRコードを読み取ってください。",
-    en: "",
+    en: "The account you have read already exists in the device. Scan another QR code.",
     es: "",
     it: "",
     ko: "",
@@ -1447,7 +1447,7 @@ export class AddWalletScreenLang {
   };
   static wallet_name_title: SystemLang = {
     jp: "ウォレット名",
-    en: "",
+    en: "Wallet name",
     es: "",
     it: "",
     ko: "",
@@ -1456,7 +1456,7 @@ export class AddWalletScreenLang {
   };
   static wallet_name_placeholder: SystemLang = {
     jp: "表示名を入力してください",
-    en: "",
+    en: "Enter display name",
     es: "",
     it: "",
     ko: "",
@@ -1465,7 +1465,7 @@ export class AddWalletScreenLang {
   };
   static mnemonic_title: SystemLang = {
     jp: "ニーモニック",
-    en: "",
+    en: "Mnemonic",
     es: "",
     it: "",
     ko: "",
@@ -1474,7 +1474,7 @@ export class AddWalletScreenLang {
   };
   static mnemonic_placeholder: SystemLang = {
     jp: "ハイフンは不要です",
-    en: "",
+    en: "No hyphen required",
     es: "",
     it: "",
     ko: "",
@@ -1483,7 +1483,7 @@ export class AddWalletScreenLang {
   };
   static privatekey_title: SystemLang = {
     jp: "秘密鍵",
-    en: "",
+    en: "Secret key",
     es: "",
     it: "",
     ko: "",
