@@ -1492,7 +1492,7 @@ export class AddWalletScreenLang {
   };
   static privatekey_placeholder: SystemLang = {
     jp: "ハイフンは不要です",
-    en: "",
+    en: "No hyphen required",
     es: "",
     it: "",
     ko: "",
@@ -1501,7 +1501,7 @@ export class AddWalletScreenLang {
   };
   static walletpath_title: SystemLang = {
     jp: "ウォレットパス",
-    en: "",
+    en: "Wallet pass",
     es: "",
     it: "",
     ko: "",
@@ -1510,7 +1510,7 @@ export class AddWalletScreenLang {
   };
   static walletpath_message: SystemLang = {
     jp: "原則は既に表示されている数値を変更しないでください",
-    en: "",
+    en: "In principle, do not change the values which displayed",
     es: "",
     it: "",
     ko: "",
@@ -1519,7 +1519,7 @@ export class AddWalletScreenLang {
   };
   static input_password_title: SystemLang = {
     jp: "パスワード",
-    en: "",
+    en: "Password",
     es: "",
     it: "",
     ko: "",
@@ -1528,7 +1528,7 @@ export class AddWalletScreenLang {
   };
   static input_mnemonic_password_message: SystemLang = {
     jp: "EXYM内でニーモニックを暗号化するパスワードを設定してください。",
-    en: "",
+    en: "Set a password to encrypt the mnemonic within EXYM.",
     es: "",
     it: "",
     ko: "",
@@ -1537,7 +1537,7 @@ export class AddWalletScreenLang {
   };
   static input_privatekey_password_message: SystemLang = {
     jp: "EXYM内で秘密鍵を暗号化するパスワードを設定してください。",
-    en: "",
+    en: "Set a password to encrypt the secret key within EXYM.",
     es: "",
     it: "",
     ko: "",
@@ -1546,7 +1546,7 @@ export class AddWalletScreenLang {
   };
   static input_password_message: SystemLang = {
     jp: "ニーモニックを登録した際のパスワードを入力してください。",
-    en: "",
+    en: "Enter the password with which you registered your mnemonic.",
     es: "",
     it: "",
     ko: "",
@@ -1555,7 +1555,7 @@ export class AddWalletScreenLang {
   };
   static submit: SystemLang = {
     jp: "確 定",
-    en: "",
+    en: "Confirmation",
     es: "",
     it: "",
     ko: "",
@@ -1564,7 +1564,7 @@ export class AddWalletScreenLang {
   };
   static register_privatekey: SystemLang = {
     jp: "秘密鍵登録",
-    en: "",
+    en: "Secret key registration",
     es: "",
     it: "",
     ko: "",
@@ -1573,7 +1573,7 @@ export class AddWalletScreenLang {
   };
   static register_mnemonic: SystemLang = {
     jp: "ニーモニック登録",
-    en: "",
+    en: "Mnemonic registration",
     es: "",
     it: "",
     ko: "",
@@ -1582,7 +1582,7 @@ export class AddWalletScreenLang {
   };
   static add_childwallet: SystemLang = {
     jp: "子ウォレット追加",
-    en: "",
+    en: "Add a child wallet",
     es: "",
     it: "",
     ko: "",
@@ -1595,7 +1595,7 @@ export class AddWalletScreenLang {
 export class LangSelectModalLang {
   static current_lang: SystemLang = {
     jp: "現在の言語",
-    en: "",
+    en: "Current selected language",
     es: "",
     it: "",
     ko: "",
@@ -1604,7 +1604,7 @@ export class LangSelectModalLang {
   };
   static lang: SystemLang = {
     jp: "日本語",
-    en: "",
+    en: "Japanese ",
     es: "",
     it: "",
     ko: "",
@@ -1617,7 +1617,7 @@ export class LangSelectModalLang {
 export class FavoriteDesignScreenLang {
   static change_this_theme: SystemLang = {
     jp: "このテーマに着せ替える",
-    en: "",
+    en: "Change a theme to this screen background ",
     es: "",
     it: "",
     ko: "",
@@ -1626,7 +1626,7 @@ export class FavoriteDesignScreenLang {
   };
   static change_this_theme_alert_title: SystemLang = {
     jp: "着せ替えますか？",
-    en: "",
+    en: "Do you change a theme?",
     es: "",
     it: "",
     ko: "",
