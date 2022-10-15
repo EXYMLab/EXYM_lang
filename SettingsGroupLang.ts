@@ -1890,7 +1890,7 @@ export class MosaicTagEditorLang {
   };
   static network_connection_error_title: SystemLang = {
     jp: "ネットワーク接続エラー",
-    en: "",
+    en: "Network error",
     es: "",
     it: "",
     ko: "",
@@ -1899,7 +1899,7 @@ export class MosaicTagEditorLang {
   };
   static network_connection_error_message: SystemLang = {
     jp: "ネットワークへの接続に失敗しました。再度お試しいただくか、時間を開けてお試しください",
-    en: "",
+    en: "Unable to connect to the network. Try again or take a moment.",
     es: "",
     it: "",
     ko: "",
@@ -1908,7 +1908,7 @@ export class MosaicTagEditorLang {
   };
   static mosaic_detail_settings: SystemLang = {
     jp: "モザイク詳細設定",
-    en: "",
+    en: "Mosaic detail settings",
     es: "",
     it: "",
     ko: "",
@@ -1917,7 +1917,7 @@ export class MosaicTagEditorLang {
   };
   static mosaic_name: SystemLang = {
     jp: "モザイク名",
-    en: "",
+    en: "Mosaic name",
     es: "",
     it: "",
     ko: "",
@@ -1926,7 +1926,7 @@ export class MosaicTagEditorLang {
   };
   static mosaic_id: SystemLang = {
     jp: "モザイクID",
-    en: "",
+    en: "Mosaic ID",
     es: "",
     it: "",
     ko: "",
@@ -1935,7 +1935,7 @@ export class MosaicTagEditorLang {
   };
   static amount: SystemLang = {
     jp: "保有量",
-    en: "",
+    en: "Holding amount：",
     es: "",
     it: "",
     ko: "",
@@ -1944,7 +1944,7 @@ export class MosaicTagEditorLang {
   };
   static memo: SystemLang = {
     jp: "メモ",
-    en: "",
+    en: "Memo",
     es: "",
     it: "",
     ko: "",
@@ -1953,7 +1953,7 @@ export class MosaicTagEditorLang {
   };
   static favorite: SystemLang = {
     jp: "お気に入り",
-    en: "",
+    en: "Favourite",
     es: "",
     it: "",
     ko: "",
@@ -1962,7 +1962,7 @@ export class MosaicTagEditorLang {
   };
   static tag: SystemLang = {
     jp: "タグ",
-    en: "",
+    en: "Tag",
     es: "",
     it: "",
     ko: "",
@@ -1971,7 +1971,7 @@ export class MosaicTagEditorLang {
   };
   static send: SystemLang = {
     jp: "送信用",
-    en: "",
+    en: "For sending",
     es: "",
     it: "",
     ko: "",
@@ -1980,7 +1980,7 @@ export class MosaicTagEditorLang {
   };
   static nftTheme: SystemLang = {
     jp: "着せ替えNFT",
-    en: "",
+    en: "A favourite changing screen background theme",
     es: "",
     it: "",
     ko: "",
@@ -1989,25 +1989,25 @@ export class MosaicTagEditorLang {
   };
   static nftdrive: SystemLang = {
     jp: "NFT-Drive",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "NFT-Drive",
+    es: "NFT-Drive",
+    it: "NFT-Drive",
+    ko: "NFT-Drive",
+    pl: "NFT-Drive",
+    ru: "NFT-Drive",
   };
   static comsa: SystemLang = {
     jp: "COMSA",
-    en: "",
-    es: "",
-    it: "",
-    ko: "",
-    pl: "",
-    ru: "",
+    en: "COMSA",
+    es: "COMSA",
+    it: "COMSA",
+    ko: "COMSA",
+    pl: "COMSA",
+    ru: "COMSA",
   };
   static default_custom1: SystemLang = {
     jp: "カスタム1",
-    en: "",
+    en: "Custom 1",
     es: "",
     it: "",
     ko: "",
@@ -2016,7 +2016,7 @@ export class MosaicTagEditorLang {
   };
   static default_custom2: SystemLang = {
     jp: "カスタム2",
-    en: "",
+    en: "Custom 2",
     es: "",
     it: "",
     ko: "",
@@ -2025,7 +2025,7 @@ export class MosaicTagEditorLang {
   };
   static default_custom3: SystemLang = {
     jp: "カスタム3",
-    en: "",
+    en: "Custom 3",
     es: "",
     it: "",
     ko: "",
@@ -2034,7 +2034,7 @@ export class MosaicTagEditorLang {
   };
   static update: SystemLang = {
     jp: "更新する",
-    en: "",
+    en: "Update",
     es: "",
     it: "",
     ko: "",
@@ -2043,7 +2043,7 @@ export class MosaicTagEditorLang {
   };
   static goback: SystemLang = {
     jp: "戻る",
-    en: "",
+    en: "Back",
     es: "",
     it: "",
     ko: "",
@@ -2056,7 +2056,7 @@ export class MosaicTagEditorLang {
 export class AboutExymModalLang {
   static official_msg: SystemLang = {
     jp: "公式サイト、Twitterは後日公開予定です。",
-    en: "",
+    en: "The official website and Twitter will be available later.",
     es: "",
     it: "",
     ko: "",
@@ -2065,7 +2065,7 @@ export class AboutExymModalLang {
   };
   static developer: SystemLang = {
     jp: "開発者",
-    en: "",
+    en: "Developer",
     es: "",
     it: "",
     ko: "",
@@ -2074,7 +2074,7 @@ export class AboutExymModalLang {
   };
   static developer_msg: SystemLang = {
     jp: "自分を含む誰かの生活をほんのり豊かにするモノづくりが好きです。",
-    en: "",
+    en: "I like making things that make someone's life, including my own, enrich slightly more.",
     es: "",
     it: "",
     ko: "",
@@ -2083,7 +2083,7 @@ export class AboutExymModalLang {
   };
   static contact_title: SystemLang = {
     jp: "お問い合わせ",
-    en: "",
+    en: "Contact",
     es: "",
     it: "",
     ko: "",
@@ -2092,7 +2092,7 @@ export class AboutExymModalLang {
   };
   static contact_msg: SystemLang = {
     jp: "EXYM Discord「question｜質問」チャンネル、または開発者Twitterへお気軽にお問い合わせください。",
-    en: "",
+    en: "Feel free to contact us on the EXYM Discord "question | Questions" channel or on the developer's Twitter.",
     es: "",
     it: "",
     ko: "",
@@ -2114,7 +2114,7 @@ export class WalletTabSizeCalcModalLang {
   };
   static datacard_size: SystemLang = {
     jp: "【残高エリアのサイズ】",
-    en: "",
+    en: "【Size of balance area】",
     es: "",
     it: "",
     ko: "",
@@ -2123,8 +2123,8 @@ export class WalletTabSizeCalcModalLang {
   };
   static screen1_size: SystemLang = {
     jp: "【画面上部のサイズ】",
-    en: "",
-    es: "",
+    en: "Size at top of screen",
+    es: "【Size at top of screen】",
     it: "",
     ko: "",
     pl: "",
@@ -2132,7 +2132,7 @@ export class WalletTabSizeCalcModalLang {
   };
   static screen2_size: SystemLang = {
     jp: "【画面下部のサイズ】",
-    en: "",
+    en: "Size of lower part of screen",
     es: "",
     it: "",
     ko: "",
@@ -2141,7 +2141,7 @@ export class WalletTabSizeCalcModalLang {
   };
   static menubar_size: SystemLang = {
     jp: "【メニューバーのサイズ】",
-    en: "",
+    en: "Menu bar size",
     es: "",
     it: "",
     ko: "",
@@ -2150,7 +2150,7 @@ export class WalletTabSizeCalcModalLang {
   };
   static screen2_minus_menubar_size: SystemLang = {
     jp: "メニューバーを引いた縦幅",
-    en: "",
+    en: "Vertical width minus menu bar.",
     es: "",
     it: "",
     ko: "",
