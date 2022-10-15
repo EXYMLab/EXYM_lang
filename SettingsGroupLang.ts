@@ -1635,7 +1635,7 @@ export class FavoriteDesignScreenLang {
   };
   static change_this_theme_alert_message: SystemLang = {
     jp: "現在適用中のデザインからこのテーマに着せ替えます。よろしいですか？",
-    en: "",
+    en: "Is it ok that the design currently applied will be replaced with this theme?",
     es: "",
     it: "",
     ko: "",
@@ -1644,7 +1644,7 @@ export class FavoriteDesignScreenLang {
   };
   static overwrite_with_current_theme: SystemLang = {
     jp: "現在のテーマで上書きする",
-    en: "",
+    en: "Overwrite with current theme",
     es: "",
     it: "",
     ko: "",
@@ -1653,7 +1653,7 @@ export class FavoriteDesignScreenLang {
   };
   static overwrite_with_current_theme_alert_title: SystemLang = {
     jp: "上書きしますか？",
-    en: "",
+    en: "Do you want to overwrite?",
     es: "",
     it: "",
     ko: "",
@@ -1662,7 +1662,7 @@ export class FavoriteDesignScreenLang {
   };
   static overwrite_with_current_theme_alert_message: SystemLang = {
     jp: "上書きすると保存されているこのデータは削除されます。上書きしてもよろしいですか？",
-    en: "",
+    en: "Overwriting will delete stored data. Are you sure you want to overwrite?",
     es: "",
     it: "",
     ko: "",
@@ -1671,7 +1671,7 @@ export class FavoriteDesignScreenLang {
   };
   static create_theme_set: SystemLang = {
     jp: "着せ替えセットとして書き出す",
-    en: "",
+    en: "Export as a screen background set",
     es: "",
     it: "",
     ko: "",
@@ -1680,7 +1680,7 @@ export class FavoriteDesignScreenLang {
   };
   static theme_name: SystemLang = {
     jp: "テーマ名",
-    en: "",
+    en: "Theme name",
     es: "",
     it: "",
     ko: "",
@@ -1689,7 +1689,7 @@ export class FavoriteDesignScreenLang {
   };
   static memo: SystemLang = {
     jp: "メモ",
-    en: "",
+    en: "Memo",
     es: "",
     it: "",
     ko: "",
@@ -1720,7 +1720,7 @@ export class DesignWalletTabModalLang {
   };
   static screen1: SystemLang = {
     jp: "画面上部",
-    en: "",
+    en: "Top of screen",
     es: "",
     it: "",
     ko: "",
@@ -1729,7 +1729,7 @@ export class DesignWalletTabModalLang {
   };
   static screen2: SystemLang = {
     jp: "画面下部",
-    en: "",
+    en: "Bottom of screen",
     es: "",
     it: "",
     ko: "",
@@ -1738,7 +1738,7 @@ export class DesignWalletTabModalLang {
   };
   static dataCard: SystemLang = {
     jp: "残高エリア",
-    en: "",
+    en: "Balance area",
     es: "",
     it: "",
     ko: "",
@@ -1747,7 +1747,7 @@ export class DesignWalletTabModalLang {
   };
   static homeHeader: SystemLang = {
     jp: "ヘッダー",
-    en: "",
+    en: "Header",
     es: "",
     it: "",
     ko: "",
@@ -1756,7 +1756,7 @@ export class DesignWalletTabModalLang {
   };
   static paymentMenu: SystemLang = {
     jp: "決済メニュー",
-    en: "",
+    en: "Payment menu",
     es: "",
     it: "",
     ko: "",
@@ -1765,7 +1765,7 @@ export class DesignWalletTabModalLang {
   };
   static menuBar: SystemLang = {
     jp: "メニューバー",
-    en: "",
+    en: "Menu bar",
     es: "",
     it: "",
     ko: "",
@@ -1783,7 +1783,7 @@ export class DesignWalletTabModalLang {
   };
   static wallet_name: SystemLang = {
     jp: "ウォレット名",
-    en: "",
+    en: "Wallet name",
     es: "",
     it: "",
     ko: "",
@@ -1805,7 +1805,7 @@ export class NftThemeModalLang {
   };
   static cancel: SystemLang = {
     jp: "キャンセル",
-    en: "",
+    en: "Cancel",
     es: "",
     it: "",
     ko: "",
@@ -1814,7 +1814,7 @@ export class NftThemeModalLang {
   };
   static creater_address: SystemLang = {
     jp: "作成者アドレス",
-    en: "",
+    en: "Creator's address",
     es: "",
     it: "",
     ko: "",
@@ -1823,7 +1823,7 @@ export class NftThemeModalLang {
   };
   static mosaic_id: SystemLang = {
     jp: "モザイクID",
-    en: "",
+    en: "Mosaic ID",
     es: "",
     it: "",
     ko: "",
@@ -1832,7 +1832,7 @@ export class NftThemeModalLang {
   };
   static edit_mosaic_tag_btn: SystemLang = {
     jp: "モザイクタグを編集する",
-    en: "",
+    en: "Edit mosaic tag",
     es: "",
     it: "",
     ko: "",
@@ -1841,7 +1841,7 @@ export class NftThemeModalLang {
   };
   static change_this_theme: SystemLang = {
     jp: "このテーマに着せ替える",
-    en: "",
+    en: "Change a theme to this screen background ",
     es: "",
     it: "",
     ko: "",
@@ -1850,7 +1850,7 @@ export class NftThemeModalLang {
   };
   static change_this_theme_alert_title: SystemLang = {
     jp: "着せ替えますか？",
-    en: "",
+    en: "Do you change a theme?",
     es: "",
     it: "",
     ko: "",
@@ -1859,7 +1859,7 @@ export class NftThemeModalLang {
   };
   static change_this_theme_alert_message: SystemLang = {
     jp: "現在適用中のデザインからこのテーマに着せ替えます。よろしいですか？",
-    en: "",
+    en: "Is it ok that the design currently applied will be replaced with this theme?",
     es: "",
     it: "",
     ko: "",
@@ -1868,7 +1868,7 @@ export class NftThemeModalLang {
   };
   static submit_notification: SystemLang = {
     jp: "設定が完了しました",
-    en: "",
+    en: "Setup is complete",
     es: "",
     it: "",
     ko: "",
