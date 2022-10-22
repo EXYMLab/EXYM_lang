@@ -48,7 +48,7 @@ export class CommonNftListLang {
   };
   static get_size_error_message: SystemLang = {
     jp: "画像サイズの取得に失敗しました。トリミングを行わず、デザイン設定を行います。",
-    en: "",
+    en: "Failed to get image size. Settings without cropping will be done.",
     es: "",
     it: "",
     ko: "",

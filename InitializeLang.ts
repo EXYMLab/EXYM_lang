@@ -151,7 +151,7 @@ export class SetNetworkTypeLang {
 export class SelectCreateModeLang {
   static description: SystemLang = {
     jp: "既にウォレットをお持ちの方は復元を、それ以外の方は新規を選択ください",
-    en: "If you already have a wallet, recover it with secret keys, otherwise select create wallet.",
+    en: "If you already have a wallet, recover it with secret key, otherwise select create wallet.",
     es: "",
     it: "",
     ko: "",
@@ -160,7 +160,7 @@ export class SelectCreateModeLang {
   };
   static import_privatekey: SystemLang = {
     jp: "秘密鍵から復元",
-    en: "Recover with secret keys",
+    en: "Recover with secret key",
     es: "",
     it: "",
     ko: "",
