@@ -544,22 +544,22 @@ export class WalletInfoChangeLang {
     ru: "NFT(NFT-Drive)",
   };
   static change_method_from_select_from_comsa: SystemLang = {
-    jp: "NFT(COMSA)",
-    en: "NFT(COMSA)",
-    es: "NFT(COMSA)",
-    it: "NFT(COMSA)",
-    ko: "NFT(COMSA)",
-    pl: "NFT(COMSA)",
-    ru: "NFT(COMSA)",
+    jp: "NFT(COMSA UNIQUE)",
+    en: "NFT(COMSA UNIQUE)",
+    es: "NFT(COMSA UNIQUE)",
+    it: "NFT(COMSA UNIQUE)",
+    ko: "NFT(COMSA UNIQUE)",
+    pl: "NFT(COMSA UNIQUE)",
+    ru: "NFT(COMSA UNIQUE)",
   };
   static change_method_from_select_from_comsa_ncft: SystemLang = {
-    jp: "NFT(COMSA-NCFT)",
-    en: "NFT(COMSA-NCFT)",
-    es: "NFT(COMSA-NCFT)",
-    it: "NFT(COMSA-NCFT)",
-    ko: "NFT(COMSA-NCFT)",
-    pl: "NFT(COMSA-NCFT)",
-    ru: "NFT(COMSA-NCFT)",
+    jp: "NFT(COMSA BUNDLE)",
+    en: "NFT(COMSA BUNDLE)",
+    es: "NFT(COMSA BUNDLE)",
+    it: "NFT(COMSA BUNDLE)",
+    ko: "NFT(COMSA BUNDLE)",
+    pl: "NFT(COMSA BUNDLE)",
+    ru: "NFT(COMSA BUNDLE)",
   };
   static submit_btn_title: SystemLang = {
     jp: "変更内容を確定する",
@@ -880,13 +880,13 @@ export class WalletDesignLang {
     ru: "",
   };
   static nft_list_from_comsa_title: SystemLang = {
-    jp: "COMSA",
-    en: "COMSA",
-    es: "COMSA",
-    it: "COMSA",
-    ko: "COMSA",
-    pl: "COMSA",
-    ru: "COMSA",
+    jp: "COMSA UNIQUE",
+    en: "COMSA UNIQUE",
+    es: "COMSA UNIQUE",
+    it: "COMSA UNIQUE",
+    ko: "COMSA UNIQUE",
+    pl: "COMSA UNIQUE",
+    ru: "COMSA UNIQUE",
   };
   static nft_list_from_comsa_message: SystemLang = {
     jp: "COMSAの保有NFT一覧を表示",
@@ -898,13 +898,13 @@ export class WalletDesignLang {
     ru: "",
   };
   static ncft_list_from_comsa_title: SystemLang = {
-    jp: "COMSA-NCFT",
-    en: "COMSA-NCFT",
-    es: "COMSA-NCFT",
-    it: "COMSA-NCFT",
-    ko: "COMSA-NCFT",
-    pl: "COMSA-NCFT",
-    ru: "COMSA-NCFT",
+    jp: "COMSA BUNDLE",
+    en: "COMSA BUNDLE",
+    es: "COMSA BUNDLE",
+    it: "COMSA BUNDLE",
+    ko: "COMSA BUNDLE",
+    pl: "COMSA BUNDLE",
+    ru: "COMSA BUNDLE",
   };
   static ncft_list_from_comsa_message: SystemLang = {
     jp: "COMSAの保有NCFT一覧を表示",
@@ -1006,22 +1006,22 @@ export class WalletDesignLang {
     ru: "NFT(NFT-Drive)",
   };
   static select_background_type_comsa: SystemLang = {
-    jp: "NFT(COMSA)",
-    en: "NFT(COMSA)",
-    es: "NFT(COMSA)",
-    it: "NFT(COMSA)",
-    ko: "NFT(COMSA)",
-    pl: "NFT(COMSA)",
-    ru: "NFT(COMSA)",
+    jp: "NFT(COMSA UNIQUE)",
+    en: "NFT(COMSA UNIQUE)",
+    es: "NFT(COMSA UNIQUE)",
+    it: "NFT(COMSA UNIQUE)",
+    ko: "NFT(COMSA UNIQUE)",
+    pl: "NFT(COMSA UNIQUE)",
+    ru: "NFT(COMSA UNIQUE)",
   };
   static select_background_type_comsa_ncft: SystemLang = {
-    jp: "NFT(COMSA-NCFT)",
-    en: "NFT(COMSA-NCFT)",
-    es: "NFT(COMSA-NCFT)",
-    it: "NFT(COMSA-NCFT)",
-    ko: "NFT(COMSA-NCFT)",
-    pl: "NFT(COMSA-NCFT)",
-    ru: "NFT(COMSA-NCFT)",
+    jp: "NFT(COMSA BUNDLE)",
+    en: "NFT(COMSA BUNDLE)",
+    es: "NFT(COMSA BUNDLE)",
+    it: "NFT(COMSA BUNDLE)",
+    ko: "NFT(COMSA BUNDLE)",
+    pl: "NFT(COMSA BUNDLE)",
+    ru: "NFT(COMSA BUNDLE)",
   };
   static select_nft: SystemLang = {
     jp: "NFT選択",
