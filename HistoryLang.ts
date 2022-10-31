@@ -93,7 +93,7 @@ class HistoryLang {
   };
   static tx_type_ADDRESS_ALIAS: SystemLang = {
     jp: "ネームスペースに紐づくアドレスを編集",
-    en: "Link namespace to an address",
+    en: "Link a namespace to an address",
     es: "",
     it: "",
     ko: "",
@@ -102,7 +102,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_ALIAS: SystemLang = {
     jp: "ネームスペースに紐づくモザイクを編集",
-    en: "Linking a namespace to mosaic",
+    en: "Link a namespace to mosaic",
     es: "",
     it: "",
     ko: "",
@@ -138,7 +138,7 @@ class HistoryLang {
   };
   static tx_type_MULTISIG_ACCOUNT_MODIFICATION: SystemLang = {
     jp: "マルチシグアカウントの変更",
-    en: "Modifying a multisig account",
+    en: "Modify a multisig account",
     es: "",
     it: "",
     ko: "",
@@ -183,7 +183,7 @@ class HistoryLang {
   };
   static tx_type_SECRET_PROOF: SystemLang = {
     jp: "シークレットロックトランザクションのロックを解除",
-    en: "Unlock secret lock transaction",
+    en: "Unlock a secret lock transaction",
     es: "",
     it: "",
     ko: "",
@@ -201,7 +201,7 @@ class HistoryLang {
   };
   static tx_type_ACCOUNT_MOSAIC_RESTRICTION: SystemLang = {
     jp: "送受信するモザイクの制限設定",
-    en: "Mosaics restriction",
+    en: "Mosaic restriction",
     es: "",
     it: "",
     ko: "",
@@ -219,7 +219,7 @@ class HistoryLang {
   };
   static tx_type_ACCOUNT_KEY_LINK: SystemLang = {
     jp: "アカウントの重要度をリモートアカウントにリンク(ハーベスト用)",
-    en: "Link importance to remote account (for harvesting)",
+    en: "Link importance to a remote account (for harvesting)",
     es: "",
     it: "",
     ko: "",
@@ -228,7 +228,7 @@ class HistoryLang {
   };
   static tx_type_VRF_KEY_LINK: SystemLang = {
     jp: "アカウントをVRFアカウントにリンク(ハーベスト用)",
-    en: "Link account to VRF account (for harvesting)",
+    en: "Link account to a VRF account (for harvesting)",
     es: "",
     it: "",
     ko: "",
@@ -237,7 +237,7 @@ class HistoryLang {
   };
   static tx_type_VOTING_KEY_LINK: SystemLang = {
     jp: "投票キーをアカウントにリンク(ハーベスト用)",
-    en: "Link voting key to account (for harvesting)",
+    en: "Link a voting key to an account (for harvesting)",
     es: "",
     it: "",
     ko: "",
@@ -246,7 +246,7 @@ class HistoryLang {
   };
   static tx_type_NODE_KEY_LINK: SystemLang = {
     jp: "アカウントを委任先ノードにリンク(ハーベスト用)",
-    en: "Link account to delegating Node (for harvesting)",
+    en: "Link an account to delegate harvesting to a node",
     es: "",
     it: "",
     ko: "",
@@ -255,7 +255,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_ADDRESS_RESTRICTION: SystemLang = {
     jp: "モザイクのアドレス制限設定",
-    en: "Settings for mosaics address restriction",
+    en: "Settings for mosaic address restriction",
     es: "",
     it: "",
     ko: "",
@@ -264,7 +264,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_GLOBAL_RESTRICTION: SystemLang = {
     jp: "モザイクのグローバル制限設定",
-    en: "Settings for mosaics global restriction",
+    en: "Settings for mosaic global restriction",
     es: "",
     it: "",
     ko: "",
@@ -273,7 +273,7 @@ class HistoryLang {
   };
   static tx_type_ACCOUNT_METADATA: SystemLang = {
     jp: "アカウントへメタデータを付与",
-    en: "Attach metadata to account",
+    en: "Attach metadata to an account",
     es: "",
     it: "",
     ko: "",
@@ -282,7 +282,7 @@ class HistoryLang {
   };
   static tx_type_MOSAIC_METADATA: SystemLang = {
     jp: "モザイクへメタデータを付与",
-    en: "Attach metadata to mosaic",
+    en: "Attach metadata to a mosaic",
     es: "",
     it: "",
     ko: "",
@@ -291,7 +291,7 @@ class HistoryLang {
   };
   static tx_type_NAMESPACE_METADATA: SystemLang = {
     jp: "ネームスペースへメタデータを付与",
-    en: "Attach metadata to namespace",
+    en: "Attach metadata to a namespace",
     es: "",
     it: "",
     ko: "",

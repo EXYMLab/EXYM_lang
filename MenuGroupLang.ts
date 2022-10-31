@@ -12,13 +12,13 @@ export class CommunityModalLang {
   };
   static all_readed: SystemLang = {
     jp: "全て読み込みました。",
-    en: "All loaded",
+    en: "Successfully loaded",
     es: "",
     it: "",
     ko: "",
     pl: "",
     ru: "",
-  };
+  }; 
   static dc_exymlab_title: SystemLang = {
     jp: "EXYM Lab",
     en: "EXYM Lab",
@@ -84,7 +84,7 @@ export class CommunityModalLang {
   };
   static dc_symbol_nem_mkt_description: SystemLang = {
     jp: "NEM & Symbolについての議論、雑談、愚痴吐き",
-    en: "Visit Discord nem japan users groupe grumble channel",
+    en: "Visit Discord NEM Japan user group grumble channel",
     es: "",
     it: "",
     ko: "",
@@ -102,7 +102,7 @@ export class CommunityModalLang {
   };
   static cluster_ss_description: SystemLang = {
     jp: "トークライブ「週刊しんぼる」\nメタバースプラットフォーム Cluster にて定期開催中！",
-    en: "Talk live 'Weekly Symbol'regularly held on the meta-verse platform Cluster!",
+    en: "Talk live 'Weekly Symbol' regularly held on the metaverse platform Cluster!",
     es: "",
     it: "",
     ko: "",

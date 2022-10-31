@@ -30,7 +30,7 @@ export class NavigationLang {
   };
   static wallet_change_modal_title: SystemLang = {
     jp: "ウォレット切替",
-    en: "Wallet switching",
+    en: "Switch wallet",
     es: "",
     it: "",
     ko: "",
@@ -129,7 +129,7 @@ export class NavigationLang {
   };
   static wallettab_design_modal_title: SystemLang = {
     jp: "自分でデザイン",
-    en: "Design your own",
+    en: "Design your own wallet",
     es: "",
     it: "",
     ko: "",
@@ -156,7 +156,7 @@ export class NavigationLang {
   };
   static nft_theme_modal_title: SystemLang = {
     jp: "着せ替えNFT",
-    en: "Change screen background NFT",
+    en: "Change background NFT",
     es: "",
     it: "",
     ko: "",

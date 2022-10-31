@@ -32,7 +32,7 @@ class AlertLang {
   };
   static message_unknown_error: SystemLang = {
     jp: "予期しないエラーが発生しました。アプリを再起動してください。",
-    en: "An unexpected error has occurred. Reboot your app.",
+    en: "An unexpected error has occurred. Restart your app.",
     es: "",
     it: "",
     ko: "",

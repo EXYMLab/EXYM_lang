@@ -12,7 +12,7 @@ export class CommonNftListLang {
   };
   static loading_message: SystemLang = {
     jp: "※保有数によって読み込みに時間がかかる場合があります。",
-    en: "*It may take time to load depending on the number of holdings.",
+    en: "*It may take time to load depending on the number of mosaics held.",
     es: "",
     it: "",
     ko: "",
@@ -21,7 +21,7 @@ export class CommonNftListLang {
   };
   static zero_target_title: SystemLang = {
     jp: "対象モザイクが存在しませんでした。",
-    en: "The target mosaic did not exist.",
+    en: "The target mosaic does not exist.",
     es: "",
     it: "",
     ko: "",
@@ -30,7 +30,7 @@ export class CommonNftListLang {
   };
   static zero_target_message: SystemLang = {
     jp: "・接続先ノードの変更はお試しいただけましたか？",
-    en: "Have you tried changing the node to connect?",
+    en: "Have you tried changing the node to connect to?",
     es: "",
     it: "",
     ko: "",
@@ -39,7 +39,7 @@ export class CommonNftListLang {
   };
   static get_size_error_title: SystemLang = {
     jp: "読み込みエラー",
-    en: "Reading error",
+    en: "Read error",
     es: "",
     it: "",
     ko: "",
@@ -48,7 +48,7 @@ export class CommonNftListLang {
   };
   static get_size_error_message: SystemLang = {
     jp: "画像サイズの取得に失敗しました。トリミングを行わず、デザイン設定を行います。",
-    en: "Failed to get image size. Settings without cropping will be done.",
+    en: "Failed to get image size. No cropping will be performed.",
     es: "",
     it: "",
     ko: "",
