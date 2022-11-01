@@ -25,7 +25,7 @@ export class StartPageLang {
   };
   static startpage_startbutton: SystemLang = {
     jp: "ウォレットを作成",
-    en: "Create wallet",
+    en: "Create a wallet",
     es: "",
     it: "",
     ko: "",
@@ -94,7 +94,7 @@ export class SetAccountNameLang {
 export class SetNetworkTypeLang {
   static top_message1: SystemLang = {
     "jp": "接続するネットワークを\n選択しましょう",
-    en: "Select the network \n to connect with",
+    en: "Select the network \n to connect to",
     es: "",
     it: "",
     ko: "",
@@ -121,7 +121,7 @@ export class SetNetworkTypeLang {
   };
   static description: SystemLang = {
     jp: "通常はメインネットを選択",
-    en: "Usually select mainnet",
+    en: "Select mainnet unless using for testing purposes",
     es: "",
     it: "",
     ko: "",
@@ -217,7 +217,7 @@ export class SignUpIssueAccountLang {
   };
   static top_message: SystemLang = {
     jp: "ニーモニックフレーズを保存しましょう。",
-    en: "Save mnemonic phrases safely.",
+    en: "Save mnemonic phrases securely.",
     es: "",
     it: "",
     ko: "",
@@ -244,7 +244,7 @@ export class SignUpIssueAccountLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "Numbers and letters more than 8 characters",
+    en: "Numbers and letters with more than 8 characters",
     es: "",
     it: "",
     ko: "",
@@ -400,7 +400,7 @@ export class SignInSetPrivateKeyLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "Numbers and letters more than 8 characters",
+    en: "Use a combination of numbers and letters with a minimum length of 8 characters",
     es: "",
     it: "",
     ko: "",
@@ -565,7 +565,7 @@ export class SignInSetMnemonicLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "Numbers and letters more than 8 characters",
+    en: "Use a combination of numbers and letters with a minimum length of 8 characters",
     es: "",
     it: "",
     ko: "",

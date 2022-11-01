@@ -30,7 +30,7 @@ export class CommonNftListLang {
   };
   static zero_target_message: SystemLang = {
     jp: "・接続先ノードの変更はお試しいただけましたか？",
-    en: "Have you tried changing the node to connect to?",
+    en: "Have you tried changing to a different node?",
     es: "",
     it: "",
     ko: "",
@@ -48,7 +48,7 @@ export class CommonNftListLang {
   };
   static get_size_error_message: SystemLang = {
     jp: "画像サイズの取得に失敗しました。トリミングを行わず、デザイン設定を行います。",
-    en: "Failed to get image size. No cropping will be performed.",
+    en: "Failed to get the image size. No cropping will be performed.",
     es: "",
     it: "",
     ko: "",

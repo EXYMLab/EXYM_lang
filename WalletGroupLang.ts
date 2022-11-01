@@ -120,7 +120,7 @@ export class HomeBottomTabNavigationLang {
   };
   static current_account_null_error_message: SystemLang = {
     jp: "現在接続中のネットワークタイプで登録されているウォレットがありません。ウォレットを追加してください。",
-    en: "No registered wallets for the network type being connected to. Please add a wallet.",
+    en: "No registered wallets found for the network type being connected to. Please add a wallet.",
     es: "",
     it: "",
     ko: "",
@@ -161,7 +161,7 @@ export class MenuTabLang {
   };
   static paymentservice_subTitle: SystemLang = {
     jp: "Symbolが使えるサービスを表示",
-    en: "See symbol payment accepted service",
+    en: "See symbol payment service",
     es: "",
     it: "",
     ko: "",
@@ -249,7 +249,7 @@ export class ContractsModalLang {
   };
   static notmatch_qr_networktype_error_message: SystemLang = {
     jp: "現在の接続中のネットワーク種別と読み込んだQRコードに登録されたウォレットのネットワーク種別が異なる為、登録できません。",
-    en: "Cannot register due to the network type being connected to. Network type of the wallet registered in the read QR code are different.",
+    en: "Cannot register due to network type mismatch. Network type of the wallet registered in the read QR code is different.",
     es: "",
     it: "",
     ko: "",
@@ -423,7 +423,7 @@ export class SendByQRModalLang {
   };
   static get_privatekey_error_message: SystemLang = {
     jp: "メッセージの暗号化を行う為、端末内の秘密鍵の取得を試みましたが失敗しました。再度お試し頂くか、アカウント設定を再度行ってください。",
-    en: "Attempts to retrieve the private key in your device to encrypt messages have failed. Try again or set up your account again.",
+    en: "Attempts to retrieve the private key in your device to encrypt messages have failed. Try again or reset your account.",
     es: "",
     it: "",
     ko: "",
@@ -459,7 +459,7 @@ export class SendByQRModalLang {
   };
   static create_transaction_error_message: SystemLang = {
     jp: "手数料の計算中、もしくはトランザクションの生成中に予期せぬエラーが発生しました。再度お試し頂くか、アカウント設定を再度行ってください",
-    en: "An unexpected error occurred during the fee calculation or transaction process. Try again or set up your account again.",
+    en: "An unexpected error occurred during the fee calculation or transaction process. Try again or reset your account.",
     es: "",
     it: "",
     ko: "",
@@ -531,7 +531,7 @@ export class SendByQRModalLang {
   };
   static mosaic_is_null_error_message: SystemLang = {
     jp: "モザイク名が入力されていません。モザイク名を確認してください。",
-    en: "The mosaic name has not been provided. Check the name.",
+    en: "The mosaic name has not been provided. Please check the name.",
     es: "",
     it: "",
     ko: "",
@@ -549,7 +549,7 @@ export class SendByQRModalLang {
   };
   static amount_is_null_error_message: SystemLang = {
     jp: "送信量が入力されていません。送信量を確認してください。",
-    en: "The transmission amount has not been entered. Check the amount.",
+    en: "The transmission amount has not been entered. Please check the amount.",
     es: "",
     it: "",
     ko: "",
@@ -567,7 +567,7 @@ export class SendByQRModalLang {
   };
   static qrcode_read_error_message: SystemLang = {
     jp: "読み込んだQRコードの形式が正しくありません。送信先アドレスQRコードであることを確認してください。",
-    en: "Scanned QR code is an incorrect format. Check destination address QR code.",
+    en: "The QR code scanned is in an incorrect format. Check the destination address QR code.",
     es: "",
     it: "",
     ko: "",
@@ -585,7 +585,7 @@ export class SendByQRModalLang {
   };
   static point_excess_error_message: SystemLang = {
     jp: "ポイントモザイクがsymbol.xymの送信量を超過しました。再度入力し直してください。",
-    en: "The point mosaic has exceeded the amount of sending symbol.xym. Enter the amount again.",
+    en: "The point mosaic has exceeded the amount of symbol.xym being sent. Enter the amount again.",
     es: "",
     it: "",
     ko: "",
@@ -702,7 +702,7 @@ export class SendByQRModalLang {
   };
   static mosaic_amount_placeholder: SystemLang = {
     jp: "送信する数量を入力してください",
-    en: "Enter the sending amount",
+    en: "Enter the amount to send",
     es: "",
     it: "",
     ko: "",
@@ -765,7 +765,7 @@ export class SendByQRModalLang {
   };
   static commition_remark_1: SystemLang = {
     jp: "表示されている数字は手数料最大値の予測となります。",
-    en: "",
+    en: "The fee shown is an estimate of the maximum fee.",
     es: "",
     it: "",
     ko: "",
@@ -774,7 +774,7 @@ export class SendByQRModalLang {
   };
   static commition_remark_2: SystemLang = {
     jp: "表示された手数料を保証するものではありません。",
-    en: "The fee shown is an estimate of the maximum fee.",
+    en: "The fee shown is approximate and does not guarantee the transaction fee.",
     es: "",
     it: "",
     ko: "",
@@ -801,7 +801,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_body: SystemLang = {
     jp: "取り消しは出来ません。よろしいですか？",
-    en: "It cannot be revoked. Proceed?",
+    en: "This action cannot be revoked, do you want to proceed?",
     es: "",
     it: "",
     ko: "",
@@ -819,7 +819,7 @@ export class SendByQRModalLang {
   };
   static submit_check_modal_waring_message: SystemLang = {
     jp: "送信量が保有資産の80％を超えています。詐欺の可能性を強く疑ってください。本当に送金してもよろしいですか？",
-    en: "The amount of funds about to send exceeds 80% of the assets you hold. Please be vigilant of scams. Are you sure that you want to proceed?",
+    en: "The amount of funds you are about to send exceeds 80% of the assets you hold. Please be vigilant of scams. Are you sure that you want to proceed?",
     es: "",
     it: "",
     ko: "",
@@ -1075,7 +1075,7 @@ export class SendModalLang {
   };
   static get_privatekey_error_message: SystemLang = {
     jp: "メッセージの暗号化を行う為、端末内の秘密鍵の取得を試みましたが失敗しました。再度お試し頂くか、アカウント設定を再度行ってください",
-    en: "Attempts to retrieve the private key in your device to encrypt messages have failed. Try again or set up your account again.",
+    en: "Attempts to retrieve the private key in your device to encrypt messages have failed. Try again or reset your account.",
     es: "",
     it: "",
     ko: "",
@@ -1183,7 +1183,7 @@ export class SendModalLang {
   };
   static mosaic_is_null_error_message: SystemLang = {
     jp: "モザイク名が入力されていません。モザイク名を確認してください。",
-    en: "The mosaic name has not been entered. Check the name.",
+    en: "The mosaic name has not been entered. Please check the name.",
     es: "",
     it: "",
     ko: "",
@@ -1201,7 +1201,7 @@ export class SendModalLang {
   };
   static amount_is_null_error_message: SystemLang = {
     jp: "送信量が入力されていません。送信量を確認してください。",
-    en: "The transmission amount has not been entered. Check the amount.",
+    en: "The transmission amount has not been entered. Please check the amount.",
     es: "",
     it: "",
     ko: "",
@@ -1237,7 +1237,7 @@ export class SendModalLang {
   };
   static point_excess_error_message: SystemLang = {
     jp: "ポイントモザイクがsymbol.xymの送信量を超過しました。再度入力してください。",
-    en: "The point mosaic has exceeded the amount of sending symbol.xym. Enter the amount again.",
+    en: "The point mosaic has exceeded the amount of symbol.xym. Enter the amount again.",
     es: "",
     it: "",
     ko: "",
@@ -1255,7 +1255,7 @@ export class SendModalLang {
   };
   static total_value_mismatch_error_message: SystemLang = {
     jp: "レート換算したsymbol.xymの数量と一致しません。再度レート換算を実行するか、symbol.xymおよびポイントモザイクの送信量を入力し直してください。",
-    en: "The converted rate and symbol.xym amount are not matched. Try rate conversion again, or enter the symbol.xym and point mosaic transmission amounts once more.",
+    en: "The converted rate and symbol.xym amount do not match. Try rate conversion again, or enter the symbol.xym and point mosaic transmission amounts once more.",
     es: "",
     it: "",
     ko: "",
@@ -1471,7 +1471,7 @@ export class SendModalLang {
   };
   static submit_check_modal_waring_message: SystemLang = {
     jp: "送信量が保有資産の80％を超えています。詐欺の可能性を強く疑ってください。本当に送金してもよろしいですか？",
-    en: "The amount of funds about to send exceeds 80% of the assets you hold. Please be vigilant of scams. Are you sure that you want to proceed?",
+    en: "The amount of funds you are about to send exceeds 80% of the assets you hold. Please be vigilant of scams. Are you sure that you want to proceed?",
     es: "",
     it: "",
     ko: "",

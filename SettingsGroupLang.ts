@@ -40,7 +40,7 @@ export class SettingsTabLang {
   };
   static connectingnode_title: SystemLang = {
     jp: "接続先ノード",
-    en: "Select the network \n to connect with",
+    en: "Select the network \n to connect to",
     es: "",
     it: "",
     ko: "",
@@ -85,7 +85,7 @@ export class SettingsTabLang {
   };
   static about_exym_subTitle: SystemLang = {
     jp: "開発者情報やお問い合わせはこちら",
-    en: "Contact and developer info",
+    en: "Contact and developer information",
     es: "",
     it: "",
     ko: "",
@@ -214,7 +214,7 @@ export class WalletChangeModalLang {
   };
   static delete_this_wallet: SystemLang = {
     jp: "このウォレットを削除（準備中）",
-    en: "Remove this wallet (preparation in progress)",
+    en: "Remove this wallet",
     es: "",
     it: "",
     ko: "",
@@ -232,7 +232,7 @@ export class WalletChangeModalLang {
   };
   static all_readed: SystemLang = {
     jp: "全て読み込みました",
-    en: "All loaded",
+    en: "Successfully loaded",
     es: "",
     it: "",
     ko: "",
@@ -335,7 +335,7 @@ export class NetworkSelectModalLang {
   };
   static network_connection_error_message: SystemLang = {
     jp: "接続検証中にエラーが発生しました。時間を置くか、別のノードへの接続をお試しください。",
-    en: "An error occurred during connection verification. Try again shortly or try connecting to another node.",
+    en: "An error occurred during connection verification. Try again later or connect to another node.",
     es: "",
     it: "",
     ko: "",
@@ -362,7 +362,7 @@ export class NetworkSelectModalLang {
   };
   static node_action_modal_actiontype1: SystemLang = {
     jp: "代替接続先へ追加する",
-    en: "Add an alternative connection ",
+    en: "Add an alternative connection",
     es: "",
     it: "",
     ko: "",
@@ -470,7 +470,7 @@ export class NetworkSelectModalLang {
   };
   static connecting_node_or_alternate_node_change: SystemLang = {
     jp: "接続先/代替接続ノードを変更",
-    en: "Change Node connection/ add alternative node",
+    en: "Change node connection/add alternative node",
     es: "",
     it: "",
     ko: "",
@@ -818,7 +818,7 @@ export class WalletDesignLang {
   };
   static setting_wallettab_design_message: SystemLang = {
     jp: "自分好みのデザインを作成",
-    en: "Create own design",
+    en: "Create your own design",
     es: "",
     it: "",
     ko: "",
@@ -1196,7 +1196,7 @@ export class WalletDesignLang {
   };
   static border_type_note: SystemLang = {
     jp: "※画像/NFT選択時は枠の設定ができません。",
-    en: "*When an image/NFT is selected, frame cannot be set.",
+    en: "*When an image/NFT is selected, the frame cannot be set.",
     es: "",
     it: "",
     ko: "",
@@ -1286,7 +1286,7 @@ export class WalletDesignLang {
   };
   static set_default_notification_message: SystemLang = {
     jp: "OKを押すと編集内容が削除されます。この操作はやり直しできません。",
-    en: "Pressing OK, deletes changes. This cannot be redone.",
+    en: "Pressing OK, deletes changes. This cannot be undone.",
     es: "",
     it: "",
     ko: "",
@@ -1295,7 +1295,7 @@ export class WalletDesignLang {
   };
   static change_design_notification_title: SystemLang = {
     jp: "デザインを変更しますか？",
-    en: "Want to change the design?",
+    en: "Do you want to change the design?",
     es: "",
     it: "",
     ko: "",
@@ -1438,7 +1438,7 @@ export class AddWalletScreenLang {
   };
   static account_already_exists_error_message: SystemLang = {
     jp: "読み込んだアカウントは既に端末内に存在します。別のQRコードを読み取ってください。",
-    en: "The account you have imported already exists in the device. Scan another QR code.",
+    en: "The account you have imported already exists on the device. Scan another QR code.",
     es: "",
     it: "",
     ko: "",
@@ -1510,7 +1510,7 @@ export class AddWalletScreenLang {
   };
   static walletpath_message: SystemLang = {
     jp: "原則は既に表示されている数値を変更しないでください",
-    en: "In principle, do not change the values which displayed",
+    en: "Warning, we advise not to change these values",
     es: "",
     it: "",
     ko: "",
@@ -1617,7 +1617,7 @@ export class LangSelectModalLang {
 export class FavoriteDesignScreenLang {
   static change_this_theme: SystemLang = {
     jp: "このテーマに着せ替える",
-    en: "Change a theme to this screen background ",
+    en: "Change a theme to this screen background",
     es: "",
     it: "",
     ko: "",
@@ -1899,7 +1899,7 @@ export class MosaicTagEditorLang {
   };
   static network_connection_error_message: SystemLang = {
     jp: "ネットワークへの接続に失敗しました。再度お試しいただくか、時間を開けてお試しください",
-    en: "Unable to connect to the network. Try again in a moment.",
+    en: "Unable to connect to the network. Please try again in a moment.",
     es: "",
     it: "",
     ko: "",
@@ -1935,7 +1935,7 @@ export class MosaicTagEditorLang {
   };
   static amount: SystemLang = {
     jp: "保有量",
-    en: "Holding amount：",
+    en: "Balance：",
     es: "",
     it: "",
     ko: "",
@@ -2056,7 +2056,7 @@ export class MosaicTagEditorLang {
 export class AboutExymModalLang {
   static official_msg: SystemLang = {
     jp: "公式サイト、Twitterは後日公開予定です。",
-    en: "The official website and Twitter will be available later.",
+    en: "The official website and Twitter links will be available later.",
     es: "",
     it: "",
     ko: "",
@@ -2074,7 +2074,7 @@ export class AboutExymModalLang {
   };
   static developer_msg: SystemLang = {
     jp: "自分を含む誰かの生活をほんのり豊かにするモノづくりが好きです。",
-    en: "I like making things that make someone's life, including my own, enrich slightly more.",
+    en: "I like making things that enrich people's lives.",
     es: "",
     it: "",
     ko: "",
@@ -2092,7 +2092,7 @@ export class AboutExymModalLang {
   };
   static contact_msg: SystemLang = {
     jp: "EXYM Discord「question｜質問」チャンネル、または開発者Twitterへお気軽にお問い合わせください。",
-    en: "Feel free to contact us on the EXYM Discord "question | Questions" channel or on the developer's Twitter.",
+    en: "Feel free to contact us on the EXYM Discord \"questions\" channel or on the developer's Twitter.",
     es: "",
     it: "",
     ko: "",

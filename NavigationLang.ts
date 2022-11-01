@@ -12,7 +12,7 @@ export class NavigationLang {
   };
   static payment_service_modal_title: SystemLang = {
     jp: "Symbol支払対応サービス",
-    en: "Symbol payment accepted service",
+    en: "Symbol payment service",
     es: "",
     it: "",
     ko: "",
