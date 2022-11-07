@@ -12,13 +12,13 @@ export class CommunityModalLang {
   };
   static all_readed: SystemLang = {
     jp: "全て読み込みました。",
-    en: "All loaded",
+    en: "Successfully loaded",
     es: "",
     it: "",
     ko: "",
     pl: "",
     ru: "",
-  };
+  }; 
   static dc_exymlab_title: SystemLang = {
     jp: "EXYM Lab",
     en: "EXYM Lab",
@@ -30,7 +30,7 @@ export class CommunityModalLang {
   };
   static dc_exymlab_description: SystemLang = {
     jp: "自分の作品を紹介しよう！参加者限定のお得な情報もお届け",
-    en: "Show your works! Special offers for participants are available as well.",
+    en: "Show off your work! Special offers are available for participants.",
     es: "",
     it: "",
     ko: "",
@@ -66,7 +66,7 @@ export class CommunityModalLang {
   };
   static dc_njug_description: SystemLang = {
     jp: "分からない事が出たときに質問ができます",
-    en: "Visit Discord nem japan users groupe",
+    en: "Visit Discord nem japan users group",
     es: "",
     it: "",
     ko: "",
@@ -84,7 +84,7 @@ export class CommunityModalLang {
   };
   static dc_symbol_nem_mkt_description: SystemLang = {
     jp: "NEM & Symbolについての議論、雑談、愚痴吐き",
-    en: "Visit Discord nem japan users groupe grumble channel",
+    en: "Visit the NEM Japan user group chat channel on Discord",
     es: "",
     it: "",
     ko: "",
@@ -102,7 +102,7 @@ export class CommunityModalLang {
   };
   static cluster_ss_description: SystemLang = {
     jp: "トークライブ「週刊しんぼる」\nメタバースプラットフォーム Cluster にて定期開催中！",
-    en: "Talk live 'Weekly Symbol'regularly held on the meta-verse platform Cluster!",
+    en: "Talk live 'Weekly Symbol' regularly held on the metaverse platform Cluster!",
     es: "",
     it: "",
     ko: "",
@@ -120,7 +120,7 @@ export class CommunityModalLang {
   };
   static line_oc_description: SystemLang = {
     jp: "新規の方歓迎！質問雑談◎",
-    en: "Newcomers welcome! Questions and chats◎",
+    en: "Chat and ask questions. Newcomers welcome!",
     es: "",
     it: "",
     ko: "",
@@ -173,7 +173,7 @@ export class PaymentServiceModalLang {
 
   static all_readed: SystemLang = {
     jp: "全て読み込みました。",
-    en: "All loaded",
+    en: "Loading complete",
     es: "",
     it: "",
     ko: "",

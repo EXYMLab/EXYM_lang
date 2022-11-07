@@ -25,7 +25,7 @@ export class StartPageLang {
   };
   static startpage_startbutton: SystemLang = {
     jp: "ウォレットを作成",
-    en: "Create wallet",
+    en: "Create a wallet",
     es: "",
     it: "",
     ko: "",
@@ -94,7 +94,7 @@ export class SetAccountNameLang {
 export class SetNetworkTypeLang {
   static top_message1: SystemLang = {
     "jp": "接続するネットワークを\n選択しましょう",
-    en: "Select the network \n to connect with",
+    en: "Select the network \n to connect to",
     es: "",
     it: "",
     ko: "",
@@ -121,7 +121,7 @@ export class SetNetworkTypeLang {
   };
   static description: SystemLang = {
     jp: "通常はメインネットを選択",
-    en: "Usually select mainnet",
+    en: "Select mainnet unless using for testing purposes",
     es: "",
     it: "",
     ko: "",
@@ -151,7 +151,7 @@ export class SetNetworkTypeLang {
 export class SelectCreateModeLang {
   static description: SystemLang = {
     jp: "既にウォレットをお持ちの方は復元を、それ以外の方は新規を選択ください",
-    en: "If you already have a wallet, recover it with secret key, otherwise select create wallet.",
+    en: "If you already have a wallet, recover it with your secret key, otherwise select create wallet.",
     es: "",
     it: "",
     ko: "",
@@ -160,7 +160,7 @@ export class SelectCreateModeLang {
   };
   static import_privatekey: SystemLang = {
     jp: "秘密鍵から復元",
-    en: "Recover with secret key",
+    en: "Recover with your secret key",
     es: "",
     it: "",
     ko: "",
@@ -169,7 +169,7 @@ export class SelectCreateModeLang {
   };
   static import_mnemonic: SystemLang = {
     jp: "ニーモニックから復元",
-    en: "Recover with mnemonic",
+    en: "Recover with a mnemonic",
     es: "",
     it: "",
     ko: "",
@@ -217,7 +217,7 @@ export class SignUpIssueAccountLang {
   };
   static top_message: SystemLang = {
     jp: "ニーモニックフレーズを保存しましょう。",
-    en: "Save mnemonic phrases safely.",
+    en: "Save mnemonic phrases securely.",
     es: "",
     it: "",
     ko: "",
@@ -244,7 +244,7 @@ export class SignUpIssueAccountLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "Numbers and letters more than 8 characters",
+    en: "Numbers and letters with more than 8 characters",
     es: "",
     it: "",
     ko: "",
@@ -271,7 +271,7 @@ export class SignUpIssueAccountLang {
   };
   static precautions: SystemLang = {
     jp: "・この情報は絶対に秘密にしてください。他人に教えた場合、資産が失われる可能性があります。\n・必ず別の場所に保存してください。端末の機種変更やアプリの再インストール等、アカウントを復元する際に必要となります。",
-    en: "・This information must be saved completely confidential. \n If you share this information with others, you would possibly lose your assets \n・Be sure to keep it in a separate safety location. \n This information is required when recovering your account, \n e.g. when changing the device or reinstalling the EXYM app.",
+    en: "・This information must be stored confidentially. \n If you share this information with others, you may lose your assets \n・Be sure to keep it in a separate secure location. \n This information is required when recovering your account, \n e.g. when changing the device or reinstalling the EXYM app.",
     es: "",
     it: "",
     ko: "",
@@ -316,7 +316,7 @@ export class SignUpIssueAccountLang {
   };
   static network_connect_error_message: SystemLang = {
     jp: "ネットワークへの接続設定が正しく行われませんでした。ネットワーク種別選択画面に戻り、やり直してください。",
-    en: "The connection to the network failed. Back to the network type selection and try again.",
+    en: "The connection to the network failed. Return to the network type selection and try again.",
     es: "",
     it: "",
     ko: "",
@@ -334,7 +334,7 @@ export class SignUpIssueAccountLang {
   };
   static wallet_create_error_message: SystemLang = {
     jp: "ウォレットの作成に失敗しました。アプリを再起動しやり直してください。",
-    en: "Wallet creation failed. Reboot the app and try again.",
+    en: "Wallet creation failed. Restart the app and try again.",
     es: "",
     it: "",
     ko: "",
@@ -352,7 +352,7 @@ export class SignUpIssueAccountLang {
   };
   static warning_title: SystemLang = {
     jp: "必ずお読みください",
-    en: "Please read carefully",
+    en: "Please read this carefully",
     es: "",
     it: "",
     ko: "",
@@ -382,7 +382,7 @@ export class SignInSetPrivateKeyLang {
   };
   static input_privatekey_placeholder: SystemLang = {
     jp: "秘密鍵を入力",
-    en: "Enter the private key",
+    en: "Enter your private key",
     es: "",
     it: "",
     ko: "",
@@ -400,7 +400,7 @@ export class SignInSetPrivateKeyLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "Numbers and letters more than 8 characters",
+    en: "Use a combination of numbers and letters with a minimum length of 8 characters",
     es: "",
     it: "",
     ko: "",
@@ -463,7 +463,7 @@ export class SignInSetPrivateKeyLang {
   };
   static account_already_exists_error_message: SystemLang = {
     jp: "読み込んだアカウントは既に端末内に存在します。別のQRコードを読み取ってください。",
-    en: "The account you have read already exists in the device. Scan another QR code.",
+    en: "The account you have imported already exists on the device. Scan another QR code.",
     es: "",
     it: "",
     ko: "",
@@ -481,7 +481,7 @@ export class SignInSetPrivateKeyLang {
   };
   static qrcode_filed_load_error_message: SystemLang = {
     jp: "QRコードの読取に失敗しました。再度読み込みをお試し頂くか、読み込んだQRコードの形式が正しいことをご確認ください。",
-    en: "Failed to read the QR code. Try again or check the scanned QR code is in correct format.",
+    en: "Failed to read the QR code. Try again or check that the scanned QR code is in the correct format.",
     es: "",
     it: "",
     ko: "",
@@ -565,7 +565,7 @@ export class SignInSetMnemonicLang {
   };
   static input_password_caution: SystemLang = {
     jp: "※半角英数字8文字以上",
-    en: "Numbers and letters more than 8 characters",
+    en: "Use a combination of numbers and letters with a minimum length of 8 characters",
     es: "",
     it: "",
     ko: "",
@@ -628,7 +628,7 @@ export class SignInSetMnemonicLang {
   };
   static account_already_exists_error_message: SystemLang = {
     jp: "読み込んだアカウントは既に端末内に存在します。別のQRコードを読み取ってください。",
-    en: "The account you have read already exists in the device. Scan another QR code.",
+    en: "The account you have imported already exists on the device. Scan another QR code.",
     es: "",
     it: "",
     ko: "",
@@ -646,7 +646,7 @@ export class SignInSetMnemonicLang {
   };
   static qrcode_filed_load_error_message: SystemLang = {
     jp: "QRコードの読取に失敗しました。再度読み込みをお試し頂くか、読み込んだQRコードの形式が正しいことをご確認ください。",
-    en: "Failed to read the QR code. Try again or check the scanned QR code is in correct format.",
+    en: "Failed to read the QR code. Try again or check that the scanned QR code is in the correct format.",
     es: "",
     it: "",
     ko: "",
